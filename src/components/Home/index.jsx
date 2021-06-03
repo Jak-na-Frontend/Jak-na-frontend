@@ -7,8 +7,8 @@ const Home = () => {
       <div className="introduction__picture-wrapper">
         <img
           className="introduction__picture"
-          src="./assets/FD-C.svg"
-          alt="learn coding lady"
+          src="assets/FD-C.svg"
+          alt="learning lady"
         />
       </div>
       <p className="introduction__text">
