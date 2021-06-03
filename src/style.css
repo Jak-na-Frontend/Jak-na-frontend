@@ -1,0 +1,27 @@
+:root {
+  --spacer: 20px;
+  --font: 'Montserrat', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --color-font: black;
+  --color-font-light: white;
+  --color-accent: #163a4d;
+  --color-bg-primary: #ebedf5;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 100%;
+  color: var(--color-font);
+  line-height: 1.5;
+  margin: 0;
+  background-color: var(--color-bg-primary);
+}

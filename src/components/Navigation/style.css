@@ -1,0 +1,80 @@
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--color-font);
+  background-color: var(--color-bg-primary);
+  min-height: 3rem;
+}
+
+.menu__btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  margin-top: 0.7rem;
+  margin-right: 0.5rem;
+  color: var(--color-accent);
+  background-color: transparent;
+  background-image: url('./img/hamburger.svg');
+  background-size: contain;
+  cursor: pointer;
+}
+
+.menu__links {
+  background-color: var(--color-bg-primary);
+  color: var(--color-font);
+  padding: var(--spacer);
+  position: relative;
+  display: none;
+  min-width: 90%;
+}
+
+.menu--opened {
+  display: block;
+}
+
+.menu__item {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-font);
+}
+
+.menu__item:hover,
+.menu__item:focus,
+.menu__item:active {
+  background-color: var(--color-bg-primary);
+  color: var(--color-font);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__btn {
+    display: none;
+  }
+
+  .menu__links {
+    flex-basis: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: var(--color-bg-primary);
+  }
+
+  .menu__item {
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    color: var(--color-font);
+    width: 135px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .menu__item {
+    font-size: 1.125rem;
+    padding: 1rem;
+    width: 175px;
+  }
+}
