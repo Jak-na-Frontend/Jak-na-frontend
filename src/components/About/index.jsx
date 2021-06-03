@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const About = () => {
+const About = () => (
   <>
     <header class="heading">
       <h1 class="heading__text">O projektu</h1>
@@ -22,7 +22,7 @@ const About = () => {
       </p>
       <p className="text"></p>
     </section>
-  </>;
-};
+  </>
+);
 
 export default About;

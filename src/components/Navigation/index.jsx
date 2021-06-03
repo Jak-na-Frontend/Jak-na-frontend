@@ -18,8 +18,8 @@ const Navigation = () => {
           Domů
         </NavLink>
 
-        <NavLink to="/road-mapa-weoboveho-vyvoje" className="menu__item">
-          Road mapa webového vývoje
+        <NavLink to="/road-mapa-weboveho-vyvoje" className="menu__item">
+          Road mapa
         </NavLink>
 
         <NavLink to="/testy" className="menu__item">

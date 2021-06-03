@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
 
-const Home = () => {
+const Home = () => (
   <main>
     <section className="introduction">
       <div className="introduction__picture-wrapper">
         <img
           className="introduction__picture"
-          src="assets/FD-C.svg"
+          src="assets/FD_C.svg"
           alt="learning lady"
         />
       </div>
@@ -16,7 +16,7 @@ const Home = () => {
         pro začínající frontend vývojáře/ky
       </p>
     </section>
-  </main>;
-};
+  </main>
+);
 
 export default Home;
