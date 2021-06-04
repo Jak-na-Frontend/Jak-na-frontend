@@ -82,7 +82,7 @@
 }
 
 .quiz {
-  margin: calc(var(--spacer) * 2) auto;
+  margin: calc(var(--spacer) * 4) auto;
   padding-left: var(--spacer);
 }
 
@@ -124,5 +124,48 @@
 
   .quiz__picture {
     width: 160px;
+  }
+}
+
+.education {
+  margin: var(--spacer) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+  max-width: 600px;
+}
+
+.education__picture {
+  display: block;
+  width: 100%;
+}
+
+.education__text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: var(--spacer) 0;
+}
+
+@media screen and (min-width: 768px) {
+  .education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: var(--spacer) auto;
+  }
+
+  .education__picture-wrapper {
+    flex: 1 1 70%;
+  }
+
+  .education__text {
+    flex: 1 1 30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .education__text {
+    font-size: 1.5rem;
   }
 }

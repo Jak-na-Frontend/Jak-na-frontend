@@ -34,6 +34,16 @@ const Home = () => (
         <p className="quiz__text"></p>
       </div>
     </section>
+    <section className="education">
+      <div className="education__picture-wrapper">
+        <img
+          className="education__picture"
+          src="assets/Learn.svg"
+          alt="learning lady"
+        />
+      </div>
+      <p className="introduction__text">Kde se vzdělávat</p>
+    </section>
   </main>
 );
 
