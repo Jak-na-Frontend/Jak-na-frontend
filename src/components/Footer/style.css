@@ -4,16 +4,13 @@
   margin-top: calc(var(--spacer) * 2);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
   .footer__link {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
 }
-/* @media screen and (min-width: 990px) {
- 
-} */
 
 .footer__text {
   text-align: center;
