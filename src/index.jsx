@@ -9,6 +9,7 @@ import Home from './components/Home';
 import RoadMap from './components/RoadMap';
 import TestPage from './components/TestPage';
 import Education from './components/Education';
+import About from './components/About';
 
 const App = () => (
   <Router>
@@ -29,6 +30,10 @@ const App = () => (
 
       <Route path="/vzdelavani">
         <Education />
+      </Route>
+
+      <Route path="/About">
+        <About />
       </Route>
     </Switch>
 
