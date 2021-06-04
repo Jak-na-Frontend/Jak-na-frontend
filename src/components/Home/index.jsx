@@ -13,8 +13,8 @@ const Home = () => (
         />
       </div>
       <p className="introduction__text">
-        Roadmapa | Testy | Vzdělávání <br />
-        pro začínající frontend vývojáře/ky
+        Co je to webový vývoj
+        <br />
         <Link to="/road-mapa-weboveho-vyvoje" className="introduction__link">
           <p className="introduction__button">Zjistit víc</p>
         </Link>

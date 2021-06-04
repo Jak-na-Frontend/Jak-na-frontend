@@ -43,7 +43,6 @@
 .introduction__text {
   font-size: 1.1rem;
   text-align: center;
-  margin: calc(var(--spacer) * 4) auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,11 +56,11 @@
   }
 
   .introduction__picture-wrapper {
-    flex: 1 1 60%;
+    flex: 1 1 70%;
   }
 
   .introduction__text {
-    flex: 1 1 40%;
+    flex: 1 1 30%;
   }
 }
 
