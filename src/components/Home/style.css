@@ -97,6 +97,10 @@
   width: 100px;
 }
 
+.quiz__text {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .quiz__picture-wrapper {
     display: flex;
@@ -166,6 +170,33 @@
 
 @media screen and (min-width: 990px) {
   .education__text {
+    font-size: 1.5rem;
+  }
+}
+.education__link,
+.quiz__link,
+.introduction__link {
+  text-decoration: none;
+}
+
+.education__button,
+.quiz__button,
+.introduction__button {
+  display: inline-block;
+  font-family: var(--font);
+  font-size: 1.1rem;
+  text-align: center;
+  border: 3px solid var(--color-button);
+  border-radius: 10px;
+  background-color: var(--color-button);
+  padding: calc(var(--spacer) / 2);
+  color: var(--color-font-light);
+}
+
+@media screen and (min-width: 990px) {
+  .education__button,
+  .quiz__button,
+  .introduction__button {
     font-size: 1.5rem;
   }
 }
