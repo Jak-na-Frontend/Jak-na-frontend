@@ -3,10 +3,10 @@ import './style.css';
 
 const About = () => (
   <>
-    <header class="heading">
-      <h1 class="heading__text">O projektu</h1>
+    <header className="heading">
+      <h1 className="heading__text">O projektu</h1>
     </header>
-    <section class="text">
+    <section className="text">
       <p className="text">
         Náš projekt zatím bez názvu, je průvodce
         <strong> roadmapa pro začínající frontend vývojáře/ky</strong>, kteří

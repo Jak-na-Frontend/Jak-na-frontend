@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const Footer = () => (
   <footer className="footer">
     <div className="footer__link">
-      <Link exact to="/" className="footer__home">
-        <p className="footer__link">Domů</p>
+      <Link to="/" className="footer__home footer__link">
+        Domů
       </Link>
-      <Link to="/About" className="footer__about">
-        <p className="footer__link">O projektu & kontakt</p>
+      <Link to="/About" className="footer__about footer__link">
+        O projektu &amp; kontakt
       </Link>
     </div>
     <p className="footer__text">Digitální akademie WEB - Czechitas 2021</p>

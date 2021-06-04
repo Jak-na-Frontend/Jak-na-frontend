@@ -12,13 +12,13 @@ const Home = () => (
           alt="learning lady"
         />
       </div>
-      <p className="introduction__text">
+      <div className="introduction__text">
         Co je to webový vývoj
         <br />
         <Link to="/road-mapa-weboveho-vyvoje" className="introduction__link">
           <p className="introduction__button">Zjistit víc</p>
         </Link>
-      </p>
+      </div>
     </section>
     <section className="quiz">
       <div className="quiz__picture-wrapper">
@@ -36,11 +36,11 @@ const Home = () => (
           alt="test z Javascriptu"
         />
       </div>
-      <p className="quiz__text">
+      <div className="quiz__text">
         <Link to="/testy" className="quiz__link">
           <p className="quiz__button">Otestuj se</p>
         </Link>
-      </p>
+      </div>
     </section>
     <section className="education">
       <div className="education__picture-wrapper">
