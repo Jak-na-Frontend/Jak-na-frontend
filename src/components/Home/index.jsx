@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
   <main>
@@ -14,6 +15,9 @@ const Home = () => (
       <p className="introduction__text">
         Roadmapa | Testy | Vzdělávání <br />
         pro začínající frontend vývojáře/ky
+        <Link to="/road-mapa-weboveho-vyvoje" className="introduction__link">
+          <p className="introduction__button">Zjistit víc</p>
+        </Link>
       </p>
     </section>
     <section className="quiz">
@@ -31,8 +35,12 @@ const Home = () => (
           src="assets/javascript.svg"
           alt="test z Javascriptu"
         />
-        <p className="quiz__text"></p>
       </div>
+      <p className="quiz__text">
+        <Link to="/testy" className="quiz__link">
+          <p className="quiz__button">Otestuj se</p>
+        </Link>
+      </p>
     </section>
     <section className="education">
       <div className="education__picture-wrapper">
@@ -42,7 +50,12 @@ const Home = () => (
           alt="learning lady"
         />
       </div>
-      <p className="introduction__text">Kde se vzdělávat</p>
+      <div className="education__text">
+        Kde se vzdělávat
+        <Link to="/vzdelavani" className="education__link">
+          <p className="education__button">Pojď se učit</p>
+        </Link>
+      </div>
     </section>
   </main>
 );
