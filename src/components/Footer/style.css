@@ -1,11 +1,11 @@
 .footer {
   background-color: var(--color-bg-primary);
-  padding: var(--spacer);
+  padding: calc(var(--spacer) / 2);
   margin-top: calc(var(--spacer) * 2);
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .footer__link {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,17 +23,20 @@
   margin: 0;
 }
 
-.footer__link {
-  text-align: center;
+.footer__home,
+.footer__about {
   color: var(--color-font);
   font-family: var(--font);
   font-size: 1rem;
   text-decoration: none;
 }
 
-.footer__link:hover,
-.footer__link:active,
-.footer__link:focus {
+.footer__home:hover,
+.footer__home:active,
+.footer__home:focus,
+.footer__about:hover,
+.footer__about:active,
+.footer__about:focus {
   text-decoration: underline;
   text-underline-offset: 3px;
 }

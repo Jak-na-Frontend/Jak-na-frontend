@@ -16,6 +16,24 @@ const Home = () => (
         pro začínající frontend vývojáře/ky
       </p>
     </section>
+    <section className="quiz">
+      <div className="quiz__picture-wrapper">
+        <img
+          className="quiz__picture"
+          src="assets/html.svg"
+          alt="test z HTML"
+        />
+        <p className="quiz__text"></p>
+        <img className="quiz__picture" src="assets/css.svg" alt="test z CSS" />
+        <p className="quiz__text"></p>
+        <img
+          className="quiz__picture"
+          src="assets/javascript.svg"
+          alt="test z Javascriptu"
+        />
+        <p className="quiz__text"></p>
+      </div>
+    </section>
   </main>
 );
 
