@@ -4,10 +4,36 @@
   margin-top: calc(var(--spacer) * 2);
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/* @media screen and (min-width: 990px) {
+ 
+} */
+
 .footer__text {
   text-align: center;
   color: var(--color-font);
   font-family: var(--font);
   font-size: 1rem;
   margin: 0;
+}
+
+.footer__link {
+  text-align: center;
+  color: var(--color-font);
+  font-family: var(--font);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer__link:hover,
+.footer__link:active,
+.footer__link:focus {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
