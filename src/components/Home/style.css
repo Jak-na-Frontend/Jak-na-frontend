@@ -29,7 +29,7 @@
   }
 }
 .introduction {
-  margin: var(--spacer) auto;
+  margin: calc(var(--spacer) * 4) auto;
   padding-left: var(--spacer);
   padding-right: var(--spacer);
   max-width: 600px;
@@ -43,7 +43,7 @@
 .introduction__text {
   font-size: 1.1rem;
   text-align: center;
-  margin: var(--spacer) 0;
+  margin: calc(var(--spacer) * 4) auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -84,6 +84,7 @@
 .quiz {
   margin: calc(var(--spacer) * 4) auto;
   padding-left: var(--spacer);
+  padding-right: var(--spacer);
 }
 
 .quiz__picture-wrapper {
@@ -132,7 +133,7 @@
 }
 
 .education {
-  margin: var(--spacer) auto;
+  margin: calc(var(--spacer) * 4) auto;
   padding-left: var(--spacer);
   padding-right: var(--spacer);
   max-width: 600px;
@@ -156,7 +157,6 @@
     align-items: center;
 
     max-width: 1200px;
-    margin: var(--spacer) auto;
   }
 
   .education__picture-wrapper {
@@ -182,7 +182,7 @@
 .education__button,
 .quiz__button,
 .introduction__button {
-  display: inline-block;
+  display: block;
   font-family: var(--font);
   font-size: 1.1rem;
   text-align: center;
@@ -191,6 +191,13 @@
   background-color: var(--color-button);
   padding: calc(var(--spacer) / 2);
   color: var(--color-font-light);
+}
+@media screen and (min-width: 768px) {
+  .education__button,
+  .quiz__button,
+  .introduction__button {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 990px) {
