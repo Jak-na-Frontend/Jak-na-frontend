@@ -52,7 +52,7 @@
     align-items: center;
 
     max-width: 1200px;
-    margin: var(--spacer) auto;
+    margin: calc(var(--spacer) * 4) auto;
   }
 
   .introduction__picture-wrapper {
