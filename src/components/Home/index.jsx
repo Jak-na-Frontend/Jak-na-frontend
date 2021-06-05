@@ -20,8 +20,8 @@ const Home = () => (
         </Link>
       </div>
     </section>
-    <section className="quiz">
-      <div className="quiz__picture-wrapper">
+    <section className="quiz--home">
+      <div className="quiz__picture-wrapper--home">
         <img
           className="quiz__picture"
           src="assets/html.svg"

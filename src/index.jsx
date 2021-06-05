@@ -11,6 +11,7 @@ import TestPage from './components/TestPage';
 import Education from './components/Education';
 import About from './components/About';
 import Quiz from './components/Quiz';
+import Result from './components/Result';
 
 const App = () => (
   <Router>
@@ -23,6 +24,10 @@ const App = () => (
 
       <Route path="/road-mapa-weboveho-vyvoje">
         <RoadMap />
+      </Route>
+
+      <Route path="/testy/result">
+        <Result />
       </Route>
 
       <Route path="/testy/:name">

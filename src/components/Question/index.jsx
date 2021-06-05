@@ -28,9 +28,9 @@ const Question = ({ id, heading, answers, link, index, onSelect }) => {
         <a className="question__link" href={link}>
           Více infomací najdeš zde
         </a>
-        <button className="question__button" type="submit" value="Submit">
+        {/* <button className="question__button" type="submit" value="Submit">
           Další otázka
-        </button>
+        </button> */}
       </div>
     </div>
   );

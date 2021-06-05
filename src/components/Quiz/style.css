@@ -1,5 +1,10 @@
+.quiz__footer {
+  margin: calc(var(--spacer) * 4) var(--spacer);
+
+  text-align: center;
+}
+
 .set__button {
-  display: block;
   font-family: var(--font);
   font-size: 1.1rem;
   text-align: center;
