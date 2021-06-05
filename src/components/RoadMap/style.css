@@ -44,9 +44,77 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: calc(var(--spacer) * 4) auto;
     justify-content: space-around;
+  }
+}
+
+.quizRoadMap {
+  margin: calc(var(--spacer) * 4) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+  max-width: 600px;
+}
+
+.quizRoadMap__picture {
+  display: block;
+  width: 100%;
+}
+
+.quizRoadMap__text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: var(--spacer) 0;
+}
+
+@media screen and (min-width: 768px) {
+  .quizRoadMap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 1200px;
+  }
+
+  .quizRoadMap__picture-wrapper {
+    flex: 1 1 70%;
+  }
+
+  .quizRoadMap__text {
+    flex: 1 1 30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .equizRoadMap__text {
+    font-size: 1.5rem;
+  }
+}
+.quizRoadMap__link {
+  text-decoration: none;
+}
+
+.quizRoadMap__button {
+  display: block;
+  font-family: var(--font);
+  font-size: 1.1rem;
+  text-align: center;
+  border: 3px solid var(--color-button);
+  border-radius: 10px;
+  background-color: var(--color-button);
+  padding: calc(var(--spacer) / 2);
+  color: var(--color-font-light);
+}
+@media screen and (min-width: 768px) {
+  .quizRoadMap__button {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .quizRoadMap__button {
+    font-size: 1.5rem;
   }
 }
