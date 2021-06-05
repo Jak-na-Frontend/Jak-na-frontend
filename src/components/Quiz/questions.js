@@ -739,5 +739,389 @@ export default {
       link: '',
     },
   ],
+
+  Angličtina: [
+    {
+      id: '1',
+      text: 'Can I park here?',
+      source: [
+        { text: 'Sorry, I did that. ' },
+        { text: 'It is the same place.' },
+        { text: 'Only for half an hour.' },
+      ],
+      ok: 2,
+      link: 'https://www.helpforenglish.cz/article/2006061201-modalni-slovesa',
+    },
+    {
+      id: '2',
+      text: 'What colour will you paint the office?',
+      source: [
+        { text: 'I hope it was right. ' },
+        { text: 'We can´t decide. ' },
+        { text: 'It wasn´t very difficult. ' },
+      ],
+      ok: 1,
+      link: 'http://www.englishpage.com/conditional/conditionalintro.html',
+    },
+    {
+      id: '3',
+      text: 'I can´t understand this email.',
+      source: [
+        { text: 'Would you like some help?  ' },
+        { text: 'Don´t you know? ' },
+        { text: 'I suppose you can.  ' },
+      ],
+      ok: 0,
+      link: 'http://www.englishpage.com/conditional/conditionalintro.html',
+    },
+    {
+      id: '4',
+      text: 'I´d like two tickets for tomorrow night.',
+      source: [
+        { text: 'How much did you pay?' },
+        { text: 'Afternoon and evening. ' },
+        { text: 'I´ll just check for you.' },
+      ],
+      ok: 2,
+      link: 'http://www.englishpage.com/verbpage/verbtenseintro.html',
+    },
+    {
+      id: '5',
+      text: 'Shall we go to the gym now?',
+      source: [
+        { text: 'I´m too tired. ' },
+        { text: 'It´s very good. ' },
+        { text: 'Not at all.' },
+      ],
+      ok: 0,
+      link: 'http://www.englishpage.com/verbpage/simplefuture.html',
+    },
+    {
+      id: '6',
+      text: 'His eyes were ...... bad that he couldn´t read the number plate of the car in front.',
+      source: [
+        { text: 'such' },
+        { text: 'too' },
+        { text: 'so' },
+        { text: 'very' },
+    
+      ],
+      ok: 2,
+      link: 'https://www.helpforenglish.cz/article/2006051201-pleteme-si-so-such',
+    },
+    {
+      id: '7',
+      text: 'The company needs to decide ...... and for all what its position is on this point.',
+      source: [
+        { text: 'here' },
+        { text: 'once' },
+        { text: 'first' },
+        { text: 'finally' },
+    
+      ],
+      ok: 1,
+      link: 'https://www.dictionary.com/browse/once--and--for--all',
+    },
+    {
+      id: '8',
+      text: 'Don´t put your cup on the ...... of the table – someone will knock it off.',
+      source: [
+        { text: 'outside' },
+        { text: 'edge' },
+        { text: 'boundary' },
+        { text: 'border' },
+    
+      ],
+      ok: 1,
+      link: 'http://www.englishpage.com/prepositions/prepositions.html',
+    },
+    {
+      id: '9',
+      text: 'I´m sorry - I didn´t ...... to disturb you.',
+      source: [
+        { text: 'hope' },
+        { text: 'think' },
+        { text: 'mean' },
+        { text: 'suppose' },
+    
+      ],
+      ok: 2,
+      link: 'http://www.englishpage.com/verbpage/verbtenseintro.html',
+    },
+    {
+      id: '10',
+      text: 'The singer ended the concert ...... her most popular song.',
+      source: [
+        { text: 'by' },
+        { text: 'with' },
+        { text: 'in' },
+        { text: 'as' },
+    
+      ],
+      ok: 1,
+      link: 'http://www.englishpage.com/verbpage/verbtenseintro.htmlhttps://www.macmillandictionary.com/dictionary/british/end-with',
+    },
+    {
+      id: '11',
+      text: 'Would you mind ...... these plates a wipe before putting them in the cupboard?',
+      source: [
+        { text: 'making' },
+        { text: 'doing' },
+        { text: 'getting' },
+        { text: 'giving' },
+    
+      ],
+      ok: 3,
+      link: 'https://english.stackexchange.com/questions/421985/mind-action-ing-is-it-correct-for-ask-anything-to-someone/421986',
+    },
+    {
+      id: '12',
+      text: 'I was looking forward ...... at the new restaurant, but it was closed.',
+      source: [
+        { text: 'to eat' },
+        { text: 'to have eaten' },
+        { text: 'to eating' },
+        { text: 'eating' },
+    
+      ],
+      ok: 2,
+      link: 'https://dictionary.cambridge.org/dictionary/english/look-forward-to-sth',
+    },
+    {
+      id: '13',
+      text: '...... tired Melissa is when she gets home from work, she always makes time to say goodnight to the children.',
+      source: [
+        { text: 'Whatever' },
+        { text: 'No matter how' },
+        { text: 'However much' },
+        { text: 'Although' },
+    
+      ],
+      ok: 1,
+      link: 'https://www.wordreference.com/encz/no%20matter%20how',
+    },
+    {
+      id: '14',
+      text: 'It was only ten days ago ...... she started her new job.',
+      source: [
+        { text: 'then' },
+        { text: 'since' },
+        { text: 'after' },
+        { text: 'that' },
+    
+      ],
+      ok: 3,
+      link: 'http://www.englishpage.com/verbpage/simplepast.html',
+    },
+    {
+      id: '15',
+      text: 'The shop didn´t have the shoes I wanted, but they´ve ...... a pair specially for me.',
+      source: [
+        { text: 'booked' },
+        { text: 'ordered' },
+        { text: 'commanded' },
+        { text: 'asked' },
+    
+      ],
+      ok: 1,
+      link: 'http://www.englishpage.com/verbpage/presentperfect.html',
+    },
+    {
+      id: '16',
+      text: 'Have you got time to discuss your work now or are you ...... to leave?',
+      source: [
+        { text: 'thinking' },
+        { text: 'round' },
+        { text: 'planned' },
+        { text: 'about' },
+    
+      ],
+      ok: 3,
+      link: 'https://englishhacker.cz/anglicke-gramaticke-casy-25-vazba-to-be-about-to/',
+    },
+    {
+      id: '17',
+      text: 'She came to live here ...... a month ago.',
+      source: [
+        { text: 'quite' },
+        { text: 'beyond' },
+        { text: 'already' },
+        { text: 'almost' },
+    
+      ],
+      ok: 3,
+      link: 'https://www.merriam-webster.com/dictionary/almost',
+    },
+    {
+      id: '18',
+      text: 'Once the plane is in the air, you can ...... your seat belts if you wish.',
+      source: [
+        { text: 'undress' },
+        { text: 'unfasten' },
+        { text: 'unlocky' },
+        { text: 'untie' },
+    
+      ],
+      ok: 1,
+      link: 'https://www.italki.com/post/question-450204',
+    },
+    {
+      id: '19',
+      text: 'I left my last job because I had no ...... to travel.',
+      source: [
+        { text: 'place' },
+        { text: 'position' },
+        { text: 'opportunity' },
+        { text: 'possibility' },
+    
+      ],
+      ok: 2,
+      link: 'https://grammar.collinsdictionary.com/english-usage/what-is-the-difference-between-possibility-and-opportunity',
+    },
+    {
+      id: '20',
+      text: 'It wasn´t a bad crash and ...... damage was done to my car.',
+      source: [
+        { text: 'little' },
+        { text: 'small' },
+        { text: 'light' },
+        { text: 'mere' },
+    
+      ],
+      ok: 0,
+      link: 'https://www.helpforenglish.cz/forum/thread/523-small-vs-little',
+    },
+    {
+      id: '21',
+      text: 'I´d rather you ...... to her why we can´t go.',
+      source: [
+        { text: 'would explain' },
+        { text: 'explained' },
+        { text: 'to explain' },
+        { text: 'will explain' },
+    
+      ],
+      ok: 1,
+      link: 'https://www.learn-english-today.com/lessons/lesson_contents/grammar/rather.html',
+    },
+    {
+      id: '22',
+      text: 'Before making a decision, the leader considered all ...... of the argument.',
+      source: [
+        { text: 'sides' },
+        { text: 'features' },
+        { text: 'perspectives' },
+        { text: 'shades' },
+    
+      ],
+      ok: 0,
+      link: 'https://comparewords.com/perspective/side',
+    },
+    {
+      id: '23',
+      text: 'This new printer is recommended as being ...... reliable.',
+      source: [
+        { text: 'greatly' },
+        { text: 'highly' },
+        { text: 'strongly' },
+        { text: 'readily' },
+    
+      ],
+      ok: 1,
+      link: 'https://comparewords.com/highly/strongly',
+    },
+    {
+      id: '24',
+      text: 'When I realised I had dropped my pen, I decided to ...... my steps.',
+      source: [
+        { text: 'retrace' },
+        { text: 'regress' },
+        { text: 'resume' },
+        { text: 'return' },
+    
+      ],
+      ok: 0,
+      link: 'https://comparewords.com/retrace/return',
+    },
+    {
+      id: '25',
+      text: 'Anne´s house is somewhere in the ...... of the railway station',
+      source: [
+        { text: 'region' },
+        { text: 'quarter' },
+        { text: 'vicinity' },
+        { text: 'district' },
+    
+      ],
+      ok: 2,
+      link: 'https://comparewords.com/quarter/vicinity',
+    },
+    {
+      id: '26',
+      text: 'Why is the HR department sending this email? To: All staff From: HR Department. Please remember that your manager must agree any holiday dates before you complete a form.',
+      source: [
+        { text: 'to ask staff for some information' },
+        { text: 'to explain how something is done' },
+        { text: 'to tell managers about a problem' },
+    
+      ],
+      ok: 1,
+      link: 'https://learnenglishteens.britishcouncil.org/skills/reading/beginner-a1-reading/thank-you-email',
+    },
+    {
+      id: '27',
+      text: 'I hope I haven´t ...... you any trouble by changing the arrangements.',
+      source: [
+        { text: 'put' },
+        { text: 'caused' },
+        { text: 'made' },
+        { text: 'done' },
+    
+      ],
+      ok: 1,
+      link: 'http://www.englishpage.com/verbpage/presentperfect.html',
+    },
+    {
+      id: '28',
+      text: 'When you come to the meeting, ...... your laptop with you.',
+      source: [
+        { text: 'take' },
+        { text: 'show' },
+        { text: 'fetch' },
+        { text: 'bring' },
+    
+      ],
+      ok: 3,
+      link: 'https://comparewords.com/bring/take',
+    },
+    {
+      id: '29',
+      text: 'I would ...... to stay at home and relax for a change.',
+      source: [
+        { text: 'rather' },
+        { text: 'better' },
+        { text: 'prefer' },
+        { text: 'enjoy' },
+    
+      ],
+      ok: 2,
+      link: 'https://speakspeak.com/resources/english-grammar-rules/various-grammar-rules/would-rather-versus-would-prefer-and-prefer',
+    },
+    {
+      id: '30',
+      text: '...... the step when you go in.',
+      source: [
+        { text: 'Consider' },
+        { text: 'Mind' },
+        { text: 'Mind' },
+        { text: 'Look' },
+    
+      ],
+      ok: 1,
+      link: 'https://www.macmillandictionary.com/dictionary/british/watch-mind-your-step',
+    },
+  
+  ],
+  
 };
 
