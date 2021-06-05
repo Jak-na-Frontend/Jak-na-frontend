@@ -38,13 +38,17 @@
 
 @media screen and (min-width: 768px) {
   .question {
-    margin: calc(var(--spacer) * 4) auto;
+    margin: calc(var(--spacer) * 2) auto;
   }
 }
 
 @media screen and (min-width: 990px) {
   .question__title {
     font-size: 1.5rem;
+  }
+
+  .question {
+    max-width: 1200px;
   }
 }
 
@@ -61,7 +65,16 @@
 }
 
 .question__action {
-  text-align: right;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.question__link {
+  color: var(--color-font);
+  font-family: var(--font);
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .question__text {
   margin-left: var(--spacer);
@@ -75,7 +88,8 @@
 
 @media screen and (min-width: 990px) {
   .question__button,
-  .question__text {
+  .question__text,
+  .question__link {
     font-size: 1.5rem;
   }
 }
