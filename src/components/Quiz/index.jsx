@@ -18,9 +18,16 @@ const Quiz = () => {
 
   const handleSubmit = () => {
     setIsSubmitted(true);
+    window.scrollTo({ top: 0 });
   };
   if (isSubmitted) {
-    return <Result name={name} />;
+    return (
+      <Result
+        name={name}
+        selectedAnswers={selectedAnswers}
+        questions={questionForQuiz}
+      />
+    );
   }
 
   return (

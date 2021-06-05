@@ -1,24 +1,51 @@
 import React from 'react';
 import './style.css';
 
-const Question = ({ id, heading, answers, link, index, onSelect }) => {
+const Question = ({
+  id,
+  heading,
+  answers,
+  link,
+  index,
+  onSelect,
+  isResult,
+  correctAnswer,
+  userAnswer,
+}) => {
+  const calcStyle = (index) => {
+    if (isResult) {
+      if (correctAnswer !== userAnswer && userAnswer === index) {
+        return 'question__text question__text--false';
+      }
+      if (correctAnswer === index) {
+        return 'question__text question__text--correct';
+      }
+    }
+
+    return 'question__text';
+  };
+
   return (
     <div className="question">
       <h4 className="question__title">
         Otázka č. {index} {heading}
       </h4>
+      {isResult && !userAnswer && <h3>Nezodpovězeno</h3>}
       {answers.map((item, index) => (
         <div key={index}>
           <input
             name={`answer-${id}`}
             className="question__checkbox"
+            disabled={!onSelect}
             type="radio"
             id={`answer-${id}-${index}`}
             onChange={() => {
-              onSelect(id, index);
+              if (onSelect) {
+                onSelect(id, index);
+              }
             }}
           ></input>
-          <label className="question__text" htmlFor={`answer-${id}-${index}`}>
+          <label className={calcStyle(index)} htmlFor={`answer-${id}-${index}`}>
             {item.text}
           </label>
         </div>
