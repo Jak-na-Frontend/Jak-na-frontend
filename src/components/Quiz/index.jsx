@@ -6,10 +6,12 @@ import questions from './questions';
 
 const Quiz = () => {
   const { name } = useParams();
-  const questionForQuiz = questions[name];
+  const questionForQuiz = questions[name].slice(0, 10);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const onSelect = (questionId, answerIndex) => {
     console.log(questionId, answerIndex);
+    setSelectedAnswers({ ...selectedAnswers, [questionId]: answerIndex });
+    console.log(selectedAnswers);
   };
 
   return (
@@ -28,6 +30,9 @@ const Quiz = () => {
           onSelect={onSelect}
         />
       ))}
+      <button className="set__button" type="submit" value="Submit">
+        Vyhodnotit test
+      </button>
     </>
   );
 };
