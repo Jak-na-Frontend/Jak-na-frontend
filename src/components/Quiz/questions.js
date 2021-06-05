@@ -117,7 +117,7 @@ export default {
         { text: '<-- OBSAH ZAČÍNÁ ZDE --!>' },
         { text: '<!-- OBSAH ZAČÍNÁ ZDE -->' },
       ],
-      ok: '',
+      ok: 3,
       link: '',
     },
     {
@@ -129,7 +129,7 @@ export default {
         { text: 'do sekce <head>' },
         { text: 'nikam, metadata se vkládají do externího CSS souboru' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -140,7 +140,7 @@ export default {
         { text: '<input type="textfield">' },
         { text: '<textfield>' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -152,14 +152,14 @@ export default {
         { text: '<table><td><tr>' },
         { text: '<table><head><tfoot>' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
       id: '15',
       text: 'Je možné vložit do obrázku odkaz?',
       source: [{ text: 'ano' }, { text: 'ne' }],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -171,14 +171,14 @@ export default {
         { text: 'je zastaralý, na formátování textu se používá CSS' },
         { text: 'se používá pouze v XHTML' },
       ],
-      ok: '',
+      ok: 2,
       link: 'https://www.w3schools.com/tags/tag_font.asp',
     },
     {
       id: '17',
       text: 'Počet úrovní nadpisů v HTML je?',
       source: [{ text: '3' }, { text: '4' }, { text: '5' }, { text: '6' }],
-      ok: '',
+      ok: 3,
       link: 'https://www.w3schools.com/html/html_headings.asp',
     },
     {
@@ -193,7 +193,7 @@ export default {
           text: 'Určuje jazyk a místní podobu jazyka použitou pro odstavce - v tomto případě britskou angličtinu. Určuje jazyk odstavce - v tomto případě angličtinu.',
         },
       ],
-      ok: '',
+      ok: 2,
       link: 'https://stackoverflow.com/questions/11318961/what-is-the-difference-between-html-lang-en-and-html-lang-en-us',
     },
     {
@@ -205,7 +205,7 @@ export default {
         { text: 'prakticky neomezeně' },
         { text: '1× na stránce' },
       ],
-      ok: '',
+      ok: 3,
       link: 'http://htmlguru.cz/css-selektor-id.html',
     },
     {
@@ -217,7 +217,7 @@ export default {
         { text: 'prakticky neomezeně' },
         { text: '1× na stránce' },
       ],
-      ok: '',
+      ok: 2,
       link: 'http://htmlguru.cz/css-selektor-trida.html',
     },
     {
@@ -233,7 +233,7 @@ export default {
           text: 'Při propojování souborů se styly, externích adres URL a faviconů',
         },
       ],
-      ok: '',
+      ok: 2,
       link: 'https://www.w3schools.com/tags/tag_link.asp',
     },
     {
@@ -245,21 +245,21 @@ export default {
         { text: '<input><option><textarea>' },
         { text: '<li><input><option>' },
       ],
-      ok: '',
+      ok: 3,
       link: 'https://www.w3schools.com/tags/att_input_value.asp',
     },
-    {
-      id: '23',
-      text: 'K jakým značkám se pojí atribut value?',
-      source: [
-        { text: '<button><input><form>' },
-        { text: '<input><label><meter>' },
-        { text: '<input><option><textarea>' },
-        { text: '<li><input><option>' },
-      ],
-      ok: '',
-      link: 'https://www.w3schools.com/tags/att_input_value.asp',
-    },
+    // {
+    //   id: '23',
+    //   text: 'K jakým značkám se pojí atribut value?',
+    //   source: [
+    //     { text: '<button><input><form>' },
+    //     { text: '<input><label><meter>' },
+    //     { text: '<input><option><textarea>' },
+    //     { text: '<li><input><option>' },
+    //   ],
+    //   ok: 3,
+    //   link: 'https://www.w3schools.com/tags/att_input_value.asp',
+    // },
     // {
     //   id: '24',
     //   text: 'Doplňte do mezer
@@ -275,7 +275,7 @@ export default {
     //     { text: 'itemscope itemref="http://schema.org/PostalAddress"' },
     //     { text: 'itemid="address" itemtype="http://schema.org/PostalAddress"' },
     //   ],
-    //   ok: '',
+    //   ok: 0,
     //   link: 'https://www.tutorialspoint.com/html5/html5_microdata.htm',
     // },
     {
@@ -289,7 +289,7 @@ export default {
         { text: 'pro cokoli v závorkách' },
         { text: 'pro cokoli v sidebaru' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://www.w3schools.com/tags/tag_aside.asp',
     },
     {
@@ -303,7 +303,7 @@ export default {
         },
         { text: '<audio> and <video>' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://www.w3schools.com/tags/tag_source.asp',
     },
     {
@@ -315,7 +315,7 @@ export default {
         { text: '<input type = "week">' },
         { text: '<input type = "num">' },
       ],
-      ok: '',
+      ok: 3,
       link: 'https://www.w3schools.com/tags/tag_input.asp',
     },
     {
@@ -327,7 +327,7 @@ export default {
         { text: '<a href="tel">802-555-1212</a>' },
         { text: '<a href="phone: 802-555-1212">Call me</a>' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://developers.google.com/web/fundamentals/native-hardware/click-to-call',
     },
     {
@@ -339,7 +339,7 @@ export default {
         { text: 'Spouští skript jakmile je to možné' },
         { text: 'Při spuštění skriptu pozastavuje analýzu HTML („parsování“)' },
       ],
-      ok: '',
+      ok: 1,
       link: 'https://www.w3schools.com/tags/att_script_defer.asp',
     },
     {
@@ -351,7 +351,7 @@ export default {
         { text: '<root>' },
         { text: '<body>' },
       ],
-      ok: '',
+      ok: 1,
       link: 'https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html',
     },
     {
@@ -363,7 +363,7 @@ export default {
         { text: '<blockquote>' },
         { text: '<notation>' },
       ],
-      ok: '',
+      ok: 1,
       link: 'https://www.w3schools.com/html/html_quotation_elements.asp',
     },
     {
@@ -375,7 +375,7 @@ export default {
         { text: '<! komentář ->' },
         { text: '<!-- komentář -->' },
       ],
-      ok: '',
+      ok: 3,
       link: 'https://www.w3schools.com/html/html_comments.asp',
     },
     {
@@ -387,7 +387,7 @@ export default {
         { text: '<style src="style.css"></style>' },
         { text: '<link style="style.css">' },
       ],
-      ok: '',
+      ok: 1,
       link: 'https://www.w3schools.com/tags/att_link_rel.asp',
     },
     {
@@ -399,12 +399,12 @@ export default {
         { text: 'TIF, BMP, GIF' },
         { text: 'PNG, GIF, JPG' },
       ],
-      ok: '',
+      ok: 3,
       link: 'https://www.vzhurudolu.cz/prirucka/obrazky-formaty',
     },
     {
       id: '35',
-      text: 'Které formáty obrázků zobrazuje většina webJaký je správný kód odkazu, který po kliknutí odešle e-mail na e-mail@example.com s předmětem „Dobrý den“?',
+      text: 'Jaký je správný kód odkazu, který po kliknutí odešle e-mail na e-mail@example.com s předmětem „Dobrý den“?',
       source: [
         {
           text: '<a href="mailto:email@example.com&subject=Hello">Click me</a>',
@@ -417,7 +417,7 @@ export default {
           text: '<a href="mailto:email@example.com?&subject=Hello">Click me</a>',
         },
       ],
-      ok: '',
+      ok: 2,
       link: 'https://www.w3schools.com/tags/tag_address.asp',
     },
     {
@@ -429,7 +429,7 @@ export default {
         { text: 'keyboard' },
         { text: 'access' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://www.w3schools.com/tags/att_global_accesskey.asp',
     },
     {
@@ -441,7 +441,7 @@ export default {
         { text: '<p>Zmáčkněte <samp>Enter</samp> a pokračujte.</p>' },
         { text: '<p>K pokračování zmáčkněte Enter.</p>' },
       ],
-      ok: '',
+      ok: 1,
       link: 'https://www.w3schools.com/tags/tag_kbd.asp',
     },
     {
@@ -453,7 +453,7 @@ export default {
         { text: 'device' },
         { text: 'media' },
       ],
-      ok: '',
+      ok: 3,
       link: 'https://www.w3schools.com/tags/att_link_media.asp',
     },
     {
@@ -465,21 +465,25 @@ export default {
         { text: '_new' },
         { text: '_parent' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp',
     },
     {
       id: '40',
-      text: 'Chceme-li, aby se odkaz otevřel v novém okně, použijeme atribut:',
+      text: 'Co má na starosti tento kód <audio controls src="sound.mp3" type="audio/mpeg">When does this text display?</audio>?',
       source: [
-        { text: '_blank' },
-        { text: '_self' },
-        { text: '_new' },
-        { text: '_parent' },
+        {
+          text: 'Text se zobrazí nad ovládacími prvky zvuku, pokud ho pomocí CSS neumístíme jinam.',
+        },
+        { text: 'Text se zobrazí pod ovládacími prvky zvuku.' },
+        { text: 'Text se zobrazí, pokud prohlížeč nedokáže přehrát zvuk.' },
+        { text: 'Text se nikdy nezobrazí.' },
       ],
-      ok: '',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp',
+      ok: 2,
+      link: 'https://www.w3schools.com/html/html5_audio.asp',
     },
+  
+
     {
       id: '41',
       text: 'Které tři značky byly v HTML4 zastaralé, ale začal se zmovu používat v HTML5?',
@@ -489,7 +493,7 @@ export default {
         { text: '<hgroup> <q> <wbr>' },
         { text: '<b> <i> <u>' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp',
     },
     {
@@ -501,7 +505,7 @@ export default {
         { text: 'es-es' },
         { text: 'spanish' },
       ],
-      ok: '',
+      ok: 2,
       link: 'https://www.w3schools.com/tags/ref_language_codes.asp',
     },
     {
@@ -513,7 +517,7 @@ export default {
         { text: 'type' },
         { text: 'rel' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://www.w3schools.com/tags/ref_language_codes.asp',
     },
     // {
@@ -531,19 +535,19 @@ export default {
     //     { text: 'itemid="aggregateRating" itemtype="http://schema.org/AggregateRating"' },
     //     { text: 'itemid="aggregateRating" itemref="http://schema.org/AggregateRating"' },
     //   ],
-    //   ok: '',
+    //   ok: 1,
     //   link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype',
     // },
     {
       id: '45',
-      text: 'Který name atribut se nepoužívá uvnitř zančky <meta>?',
+      text: 'Který name atribut se nepoužívá uvnitř značky <meta>?',
       source: [
         { text: 'charset' },
         { text: 'viewport' },
         { text: 'generator' },
         { text: 'author' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://www.w3schools.com/html/html_charset.asp',
     },
     {
@@ -555,23 +559,10 @@ export default {
         { text: 'http://www.linkedin.com/page.html' },
         { text: 'dir/page.html' },
       ],
-      ok: '',
+      ok: 0,
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL',
     },
-    {
-      id: '47',
-      text: 'Co má na starosti tento kód <audio controls src="sound.mp3" type="audio/mpeg">When does this text display?</audio>?',
-      source: [
-        {
-          text: 'Text se zobrazí nad ovládacími prvky zvuku, pokud ho pomocí CSS neumístíme jinam.',
-        },
-        { text: 'Text se zobrazí pod ovládacími prvky zvuku.' },
-        { text: 'Text se zobrazí, pokud prohlížeč nedokáže přehrát zvuk.' },
-        { text: 'Text se nikdy nezobrazí.' },
-      ],
-      ok: '',
-      link: 'https://www.w3schools.com/html/html5_audio.asp',
-    },
+   
   ],
 
   CSS: [
@@ -584,7 +575,7 @@ export default {
         { text: 'Colorful Style Sheets' },
         { text: 'Cascading Sheets Style' },
       ],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
@@ -596,7 +587,7 @@ export default {
         { text: '<div>' },
         { text: '<style>' },
       ],
-      ok: '',
+      ok: 3,
       link: '',
     },
     {
@@ -609,7 +600,7 @@ export default {
         },
         { text: '<stylesheet>externi-soubor.css</stylesheet>' },
       ],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
@@ -621,7 +612,7 @@ export default {
         { text: 'Na konci dokumentu' },
         { text: 'V sekci <head>' },
       ],
-      ok: '',
+      ok: 3,
       link: '',
     },
     {
@@ -633,7 +624,7 @@ export default {
         { text: 'body {color: blue;} ' },
         { text: '{body;color:blue}' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -644,7 +635,7 @@ export default {
         { text: 'backcolor:' },
         { text: 'color:' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -656,7 +647,7 @@ export default {
         { text: 'h1 {color:red}' },
         { text: '#h1 {color:red}' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -668,7 +659,7 @@ export default {
         { text: 'font-size' },
         { text: 'font-style' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -680,7 +671,7 @@ export default {
         { text: 'style:bold' },
         { text: 'font-style:bold' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -691,7 +682,7 @@ export default {
         { text: 'decoration:underline' },
         { text: 'ext-decoration:underline' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -702,7 +693,7 @@ export default {
         { text: '#jméno-třídy { atribut: hodnota; }' },
         { text: '(jméno-třídy) { atribut: hodnota; }' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -710,7 +701,7 @@ export default {
       text: 'Který atribut slouží pro určení šířky?',
       source: [{ text: 'height' }, { text: 'size' }, { text: 'width' }],
       ok: '',
-      link: '',
+      link: 2,
     },
     {
       id: '13',
@@ -720,7 +711,7 @@ export default {
         { text: 'list-type:' },
         { text: 'style:' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -732,7 +723,7 @@ export default {
         { text: 'text-transform:lowercase:' },
         { text: 'nelze' },
       ],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
@@ -744,8 +735,9 @@ export default {
         { text: 'ano, ale pouze horní a dolní stranu' },
         { text: 'nelze' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
   ],
 };
+
