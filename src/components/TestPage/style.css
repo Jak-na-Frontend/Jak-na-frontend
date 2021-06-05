@@ -28,3 +28,148 @@
     font-size: 3.5rem;
   }
 }
+
+.text {
+  max-width: 600px;
+  margin: calc(var(--spacer) * 2) auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  font-family: var(--font);
+  font-size: 1.1rem;
+}
+
+.quiz {
+  margin: calc(var(--spacer) * 4) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+}
+
+.quiz__picture-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--spacer) auto;
+}
+
+.quiz__picture {
+  width: 120px;
+  flex-grow: 0;
+}
+
+.quiz__text {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .quiz {
+    display: flex;
+
+    align-items: flex-end;
+  }
+
+  .quiz__picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .quiz__picture {
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .quiz {
+    display: flex;
+    max-width: 1200px;
+  }
+  .quiz__picture-wrapper {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+  }
+
+  .quiz__picture {
+    width: 160px;
+  }
+}
+
+.education {
+  margin: calc(var(--spacer) * 4) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+  max-width: 600px;
+}
+
+.education__picture {
+  display: block;
+  width: 100%;
+}
+
+.education__text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: var(--spacer) 0;
+}
+
+@media screen and (min-width: 768px) {
+  .education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 1200px;
+  }
+
+  .education__picture-wrapper {
+    flex: 1 1 70%;
+  }
+
+  .education__text {
+    flex: 1 1 30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .education__text {
+    font-size: 1.5rem;
+  }
+}
+.education__link,
+.quiz__link,
+.introduction__link {
+  text-decoration: none;
+}
+
+.education__button,
+.quiz__button,
+.introduction__button {
+  display: block;
+  font-family: var(--font);
+  font-size: 1.1rem;
+  text-align: center;
+  border: 3px solid var(--color-button);
+  border-radius: 10px;
+  background-color: var(--color-button);
+  padding: calc(var(--spacer) / 2);
+  color: var(--color-font-light);
+}
+@media screen and (min-width: 768px) {
+  .education__button,
+  .quiz__button,
+  .introduction__button {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .education__button,
+  .quiz__button,
+  .introduction__button {
+    font-size: 1.5rem;
+  }
+}
