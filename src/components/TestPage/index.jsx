@@ -31,7 +31,7 @@ const TestPage = () => (
           src="assets/javascript.svg"
           alt="test z Javascriptu"
         />
-        <Link to="/testy" className="quiz__text quiz__link">
+        <Link to="/testy/Javascript" className="quiz__text quiz__link">
           <p className="quiz__button">Test z JS</p>
         </Link>
       </div>

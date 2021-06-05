@@ -802,7 +802,6 @@ export default {
         { text: 'too' },
         { text: 'so' },
         { text: 'very' },
-    
       ],
       ok: 2,
       link: 'https://www.helpforenglish.cz/article/2006051201-pleteme-si-so-such',
@@ -815,7 +814,6 @@ export default {
         { text: 'once' },
         { text: 'first' },
         { text: 'finally' },
-    
       ],
       ok: 1,
       link: 'https://www.dictionary.com/browse/once--and--for--all',
@@ -828,7 +826,6 @@ export default {
         { text: 'edge' },
         { text: 'boundary' },
         { text: 'border' },
-    
       ],
       ok: 1,
       link: 'http://www.englishpage.com/prepositions/prepositions.html',
@@ -841,7 +838,6 @@ export default {
         { text: 'think' },
         { text: 'mean' },
         { text: 'suppose' },
-    
       ],
       ok: 2,
       link: 'http://www.englishpage.com/verbpage/verbtenseintro.html',
@@ -854,7 +850,6 @@ export default {
         { text: 'with' },
         { text: 'in' },
         { text: 'as' },
-    
       ],
       ok: 1,
       link: 'http://www.englishpage.com/verbpage/verbtenseintro.htmlhttps://www.macmillandictionary.com/dictionary/british/end-with',
@@ -867,7 +862,6 @@ export default {
         { text: 'doing' },
         { text: 'getting' },
         { text: 'giving' },
-    
       ],
       ok: 3,
       link: 'https://english.stackexchange.com/questions/421985/mind-action-ing-is-it-correct-for-ask-anything-to-someone/421986',
@@ -880,7 +874,6 @@ export default {
         { text: 'to have eaten' },
         { text: 'to eating' },
         { text: 'eating' },
-    
       ],
       ok: 2,
       link: 'https://dictionary.cambridge.org/dictionary/english/look-forward-to-sth',
@@ -893,7 +886,6 @@ export default {
         { text: 'No matter how' },
         { text: 'However much' },
         { text: 'Although' },
-    
       ],
       ok: 1,
       link: 'https://www.wordreference.com/encz/no%20matter%20how',
@@ -906,7 +898,6 @@ export default {
         { text: 'since' },
         { text: 'after' },
         { text: 'that' },
-    
       ],
       ok: 3,
       link: 'http://www.englishpage.com/verbpage/simplepast.html',
@@ -919,7 +910,6 @@ export default {
         { text: 'ordered' },
         { text: 'commanded' },
         { text: 'asked' },
-    
       ],
       ok: 1,
       link: 'http://www.englishpage.com/verbpage/presentperfect.html',
@@ -932,7 +922,6 @@ export default {
         { text: 'round' },
         { text: 'planned' },
         { text: 'about' },
-    
       ],
       ok: 3,
       link: 'https://englishhacker.cz/anglicke-gramaticke-casy-25-vazba-to-be-about-to/',
@@ -945,7 +934,6 @@ export default {
         { text: 'beyond' },
         { text: 'already' },
         { text: 'almost' },
-    
       ],
       ok: 3,
       link: 'https://www.merriam-webster.com/dictionary/almost',
@@ -958,7 +946,6 @@ export default {
         { text: 'unfasten' },
         { text: 'unlocky' },
         { text: 'untie' },
-    
       ],
       ok: 1,
       link: 'https://www.italki.com/post/question-450204',
@@ -971,7 +958,6 @@ export default {
         { text: 'position' },
         { text: 'opportunity' },
         { text: 'possibility' },
-    
       ],
       ok: 2,
       link: 'https://grammar.collinsdictionary.com/english-usage/what-is-the-difference-between-possibility-and-opportunity',
@@ -984,7 +970,6 @@ export default {
         { text: 'small' },
         { text: 'light' },
         { text: 'mere' },
-    
       ],
       ok: 0,
       link: 'https://www.helpforenglish.cz/forum/thread/523-small-vs-little',
@@ -997,7 +982,6 @@ export default {
         { text: 'explained' },
         { text: 'to explain' },
         { text: 'will explain' },
-    
       ],
       ok: 1,
       link: 'https://www.learn-english-today.com/lessons/lesson_contents/grammar/rather.html',
@@ -1010,7 +994,6 @@ export default {
         { text: 'features' },
         { text: 'perspectives' },
         { text: 'shades' },
-    
       ],
       ok: 0,
       link: 'https://comparewords.com/perspective/side',
@@ -1023,7 +1006,6 @@ export default {
         { text: 'highly' },
         { text: 'strongly' },
         { text: 'readily' },
-    
       ],
       ok: 1,
       link: 'https://comparewords.com/highly/strongly',
@@ -1036,7 +1018,6 @@ export default {
         { text: 'regress' },
         { text: 'resume' },
         { text: 'return' },
-    
       ],
       ok: 0,
       link: 'https://comparewords.com/retrace/return',
@@ -1049,7 +1030,6 @@ export default {
         { text: 'quarter' },
         { text: 'vicinity' },
         { text: 'district' },
-    
       ],
       ok: 2,
       link: 'https://comparewords.com/quarter/vicinity',
@@ -1061,7 +1041,6 @@ export default {
         { text: 'to ask staff for some information' },
         { text: 'to explain how something is done' },
         { text: 'to tell managers about a problem' },
-    
       ],
       ok: 1,
       link: 'https://learnenglishteens.britishcouncil.org/skills/reading/beginner-a1-reading/thank-you-email',
@@ -1074,7 +1053,6 @@ export default {
         { text: 'caused' },
         { text: 'made' },
         { text: 'done' },
-    
       ],
       ok: 1,
       link: 'http://www.englishpage.com/verbpage/presentperfect.html',
@@ -1087,7 +1065,6 @@ export default {
         { text: 'show' },
         { text: 'fetch' },
         { text: 'bring' },
-    
       ],
       ok: 3,
       link: 'https://comparewords.com/bring/take',
@@ -1100,7 +1077,6 @@ export default {
         { text: 'better' },
         { text: 'prefer' },
         { text: 'enjoy' },
-    
       ],
       ok: 2,
       link: 'https://speakspeak.com/resources/english-grammar-rules/various-grammar-rules/would-rather-versus-would-prefer-and-prefer',
@@ -1113,15 +1089,13 @@ export default {
         { text: 'Mind' },
         { text: 'Mind' },
         { text: 'Look' },
-    
       ],
       ok: 1,
       link: 'https://www.macmillandictionary.com/dictionary/british/watch-mind-your-step',
     },
-  
   ],
 
-  JS: [
+  Javascript: [
     {
       id: '1',
       text: 'Mezi které HTML tagy vkládáme Javascript?',
@@ -1152,7 +1126,6 @@ export default {
         { text: 'hlavička <head>' },
         { text: 'tělo <body>' },
         { text: 'obojí <head> i <body>' },
-    
       ],
       ok: 2,
       link: '',
@@ -1164,7 +1137,6 @@ export default {
         { text: '<script href="soubor.js">' },
         { text: '<script src="soubor.js">' },
         { text: '<script name="soubor.js">' },
-    
       ],
       ok: 1,
       link: '',
@@ -1177,7 +1149,6 @@ export default {
         { text: 'alert="zpráva"' },
         { text: 'alerter("zpráva")' },
         { text: 'alert("zpráva")' },
-    
       ],
       ok: 3,
       link: '',
@@ -1190,7 +1161,6 @@ export default {
         { text: 'jmenoFunkce(argument) {definice funkce};' },
         { text: 'function (jmenoFunkce) {definice funkce};' },
         { text: 'jmenoFunkce {definice funkce};' },
-    
       ],
       ok: 0,
       link: '',
@@ -1202,8 +1172,6 @@ export default {
         { text: 'if (i == 5)' },
         { text: 'if (i = 5)' },
         { text: 'if {i = 5}' },
-        
-    
       ],
       ok: 0,
       link: '',
@@ -1216,7 +1184,6 @@ export default {
         { text: '//Toto je komentář...' },
         { text: '/ Toto je komentář...' },
         { text: '!Toto je komentář.../!' },
-    
       ],
       ok: 1,
       link: '',
@@ -1226,9 +1193,8 @@ export default {
       text: 'K čemu slouží příkaz while?',
       source: [
         { text: 'nastaví určitý počet opakování cyklu' },
-        { text: 'cyklus se neustále opakuje dokud platí stanovená podmínka'},
+        { text: 'cyklus se neustále opakuje dokud platí stanovená podmínka' },
         { text: 'cyklus se provede pouze jednou, je-li splněna podmínka' },
-      
       ],
       ok: 1,
       link: '',
@@ -1238,36 +1204,23 @@ export default {
       text: 'Jak se tvoří v Javascriptu pole?',
       source: [
         { text: 'var pole = new Array("jablko","banán","kiwi")' },
-        { text: 'var pole = ("jablko","banán","kiwi")'},
+        { text: 'var pole = ("jablko","banán","kiwi")' },
         { text: 'var pole = new Array([0]="jablko",[1]="banán",[2]="kiwi")' },
-      
       ],
       ok: 0,
       link: '',
     },
-    // {
-    //   id: '11',
-    //   text: 'Máme pole: var ovoce = new Array("jablko","hruška","meloun") a
-    //   necháme vypsat: document.write(ovoce[1]); Která hodnota bude vypsána?',
-
-    //   source: [
-    //     { text: 'jablko' },
-    //     { text: 'hruška   '},
-    //     { text: 'meloun' },
-      
-    //   ],
-    //   ok: 1,
-    //   link: '',
-    // },
+    {
+      id: '11',
+      text: 'Máme pole: var ovoce = new Array("jablko","hruška","meloun") a necháme vypsat: document.write(ovoce[1]); Která hodnota bude vypsána?',
+      source: [{ text: 'jablko' }, { text: 'hruška' }, { text: 'meloun' }],
+      ok: 1,
+      link: '',
+    },
     {
       id: '12',
       text: 'Jaký příkaz používáme pro přepínače?',
-      source: [
-        { text: 'switch' },
-        { text: 'selector'},
-        { text: 'tripper' },
-      
-      ],
+      source: [{ text: 'switch' }, { text: 'selector' }, { text: 'tripper' }],
       ok: 0,
       link: '',
     },
@@ -1276,10 +1229,9 @@ export default {
       text: '"Klikni na tento text" Jaká událost byla použita u tohoto příkladu?.',
       source: [
         { text: 'onDblClick' },
-        { text: 'onClick'},
+        { text: 'onClick' },
         { text: 'onMouseover' },
         { text: 'onBlur' },
-      
       ],
       ok: 1,
       link: '',
@@ -1287,15 +1239,9 @@ export default {
     {
       id: '14',
       text: 'Je možné pomocí JavaScriptu vypisovat HTML kódy?',
-      source: [
-        { text: 'ano' },
-        { text: 'ne'},
-       
-      
-      ],
+      source: [{ text: 'ano' }, { text: 'ne' }],
       ok: 0,
       link: '',
     },
-
   ],
 };
