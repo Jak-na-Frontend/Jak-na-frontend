@@ -13,7 +13,7 @@ const Result = ({ name, selectedAnswers, questions }) => {
       <header className="heading">
         <h1 className="heading__text">Výsledky testu z {name.toUpperCase()}</h1>
       </header>
-      <h3>
+      <h3 className="subheading">
         {result.filter((item) => item.isCorrect).length} / {result.length}
       </h3>
       {result.map((item, index) => (

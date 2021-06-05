@@ -30,7 +30,9 @@ const Question = ({
       <h4 className="question__title">
         Otázka č. {index} {heading}
       </h4>
-      {isResult && !userAnswer && <h3>Nezodpovězeno</h3>}
+      {isResult && !userAnswer && (
+        <h3 className="question--nonAnswered">Nezodpovězeno</h3>
+      )}
       {answers.map((item, index) => (
         <div key={index}>
           <input
@@ -53,7 +55,7 @@ const Question = ({
 
       <div className="question__action">
         <a className="question__link" href={link}>
-          Více infomací najdeš zde
+          Více infomací najdeš v odkazu.
         </a>
         {/* <button className="question__button" type="submit" value="Submit">
           Další otázka
