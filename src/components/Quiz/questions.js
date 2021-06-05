@@ -20,7 +20,7 @@ export default {
         { text: '</b>' },
         { text: '</b/>' },
       ],
-      ok: 3,
+      ok: 2,
       link: '',
     },
     {
@@ -482,7 +482,6 @@ export default {
       ok: 2,
       link: 'https://www.w3schools.com/html/html5_audio.asp',
     },
-  
 
     {
       id: '41',
@@ -562,7 +561,6 @@ export default {
       ok: 0,
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL',
     },
-   
   ],
 
   CSS: [
@@ -1301,4 +1299,3 @@ export default {
 
   ],
 };
-

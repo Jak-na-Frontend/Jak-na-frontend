@@ -78,6 +78,16 @@
 }
 .question__text {
   margin-left: var(--spacer);
+  padding: calc(var(--spacer) / 2);
+}
+
+.question__text--correct {
+  background-color: forestgreen;
+  border-radius: 10px;
+}
+.question__text--false {
+  background-color: rgb(196, 53, 53);
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {

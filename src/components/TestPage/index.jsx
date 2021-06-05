@@ -21,7 +21,7 @@ const TestPage = () => (
       </div>
       <div className="quiz__picture-wrapper">
         <img className="quiz__picture" src="assets/css.svg" alt="test z CSS" />
-        <Link to="/testy" className="quiz__text quiz__link">
+        <Link to="/testy/CSS" className="quiz__text quiz__link">
           <p className="quiz__button">Test z CSS</p>
         </Link>
       </div>
