@@ -6,13 +6,16 @@ const Question = () => {
     <div className="question">
       <h4 className="question__title">Otázka</h4>
 
-      <input type="checkbox" id="1"></input>
-      <label for="1">XXX</label>
+      <input className="question__checkbox" type="checkbox" id="1"></input>
+      <label className="question__text" for="1">
+        XXX
+      </label>
       <br />
-
-      <button type="submit" value="Submit">
-        Další otázka
-      </button>
+      <div className="question__action">
+        <button className="question__button" type="submit" value="Submit">
+          Další otázka
+        </button>
+      </div>
     </div>
   );
 };

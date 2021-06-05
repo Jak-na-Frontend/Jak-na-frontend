@@ -1,5 +1,36 @@
+.heading {
+  padding: 0 var(--spacer);
+  margin-top: var(--spacer);
+}
+
+.heading__text {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .heading__text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .heading {
+    margin-top: calc(var(--spacer) * 2);
+    margin-bottom: calc(var(--spacer) * 2);
+  }
+
+  .heading__text {
+    font-size: 3.5rem;
+  }
+}
+
 .question {
-  margin: calc(var(--spacer) * 4) auto;
+  margin: calc(var(--spacer) * 4) var(--spacer);
   padding-left: var(--spacer);
   padding-right: var(--spacer);
   max-width: 600px;
@@ -7,7 +38,44 @@
 
 @media screen and (min-width: 768px) {
   .question {
-    max-width: 1200px;
     margin: calc(var(--spacer) * 4) auto;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .question__title {
+    font-size: 1.5rem;
+  }
+}
+
+.question__button {
+  font-family: var(--font);
+  font-size: 1.1rem;
+  text-align: center;
+  border: 3px solid var(--color-button);
+  border-radius: 10px;
+  background-color: var(--color-button);
+  padding: calc(var(--spacer) / 2);
+  color: var(--color-font-light);
+  margin: var(--spacer);
+}
+
+.question__action {
+  text-align: right;
+}
+.question__text {
+  margin-left: var(--spacer);
+}
+
+@media screen and (min-width: 768px) {
+  .question__button {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .question__button,
+  .question__text {
+    font-size: 1.5rem;
   }
 }
