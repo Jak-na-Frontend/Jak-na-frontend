@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const Box = ({ name }) => {
+const Box = ({ name, text }) => {
   const [openBox, setOpenBox] = useState(false);
   const handleClick = () => {
     setOpenBox(!openBox);
@@ -26,11 +26,7 @@ const Box = ({ name }) => {
         }
       >
         <ul className="box__content">
-          <li>Sémantický web</li>
-          <li>Typografie</li>
-          <li>HTML elementů</li>
-          <li>Validita HTML kódu</li>
-          <li>Šablonovací nástroje</li>
+          <li>{text}</li>
         </ul>
       </div>
     </div>
