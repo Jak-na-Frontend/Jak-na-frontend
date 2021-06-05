@@ -224,10 +224,14 @@ export default {
       id: '21',
       text: 'Kdy se používá značka <link>?',
       source: [
-        { text: 'Při propojování souborů se styly, JavaScriptu a ikon pro mobilní aplikace' },
+        {
+          text: 'Při propojování souborů se styly, JavaScriptu a ikon pro mobilní aplikace',
+        },
         { text: 'Při propojování souborů se styly, faviconů a assets' },
         { text: 'Při propojování souborů se styly a faviconů' },
-        { text: 'Při propojování souborů se styly, externích adres URL a faviconů' },
+        {
+          text: 'Při propojování souborů se styly, externích adres URL a faviconů',
+        },
       ],
       ok: '',
       link: 'https://www.w3schools.com/tags/tag_link.asp',
@@ -258,7 +262,7 @@ export default {
     },
     // {
     //   id: '24',
-    //   text: 'Doplňte do mezer 
+    //   text: 'Doplňte do mezer
     //     <address ______ _____>
     //     <span itemprop="streetAddress">6410 Via Real</span><br />
     //     <span itemprop="addressLocality">Carpinteria</span>,
@@ -279,7 +283,9 @@ export default {
       text: 'Element aside se používá:',
       source: [
         { text: 'pro cokoli, co nepatří k hlavnímu tématu daného bloku' },
-        { text: 'pro cokoli, co chcete posunout na stranu ať už je to sidebar nebo obrázekobtékaný textem' },
+        {
+          text: 'pro cokoli, co chcete posunout na stranu ať už je to sidebar nebo obrázekobtékaný textem',
+        },
         { text: 'pro cokoli v závorkách' },
         { text: 'pro cokoli v sidebaru' },
       ],
@@ -292,7 +298,9 @@ export default {
       source: [
         { text: '<svg>, <picture>, <audio>, and <video>' },
         { text: '<picture>, <audio>, and <video>' },
-        { text: 'Protože je zaměnitelný s atributem src <source>, takže pro elementy, které používají src, můžeme použít <source>' },
+        {
+          text: 'Protože je zaměnitelný s atributem src <source>, takže pro elementy, které používají src, můžeme použít <source>',
+        },
         { text: '<audio> and <video>' },
       ],
       ok: '',
@@ -398,10 +406,16 @@ export default {
       id: '35',
       text: 'Které formáty obrázků zobrazuje většina webJaký je správný kód odkazu, který po kliknutí odešle e-mail na e-mail@example.com s předmětem „Dobrý den“?',
       source: [
-        { text: '<a href="mailto:email@example.com&subject=Hello">Click me</a>' },
+        {
+          text: '<a href="mailto:email@example.com&subject=Hello">Click me</a>',
+        },
         { text: '<a href="mailto:email@example.com">Hello</a>' },
-        { text: '<a href="mailto:email@example.com?subject=Hello">Click me</a>' },
-        { text: '<a href="mailto:email@example.com?&subject=Hello">Click me</a>' },
+        {
+          text: '<a href="mailto:email@example.com?subject=Hello">Click me</a>',
+        },
+        {
+          text: '<a href="mailto:email@example.com?&subject=Hello">Click me</a>',
+        },
       ],
       ok: '',
       link: 'https://www.w3schools.com/tags/tag_address.asp',
@@ -548,7 +562,9 @@ export default {
       id: '47',
       text: 'Co má na starosti tento kód <audio controls src="sound.mp3" type="audio/mpeg">When does this text display?</audio>?',
       source: [
-        { text: 'Text se zobrazí nad ovládacími prvky zvuku, pokud ho pomocí CSS neumístíme jinam.' },
+        {
+          text: 'Text se zobrazí nad ovládacími prvky zvuku, pokud ho pomocí CSS neumístíme jinam.',
+        },
         { text: 'Text se zobrazí pod ovládacími prvky zvuku.' },
         { text: 'Text se zobrazí, pokud prohlížeč nedokáže přehrát zvuk.' },
         { text: 'Text se nikdy nezobrazí.' },
@@ -556,190 +572,180 @@ export default {
       ok: '',
       link: 'https://www.w3schools.com/html/html5_audio.asp',
     },
-
   ],
-  
-};
 
-
-export default {
-  
   CSS: [
-  {
-    id: '1',
-    text: 'Co znamená zkratka CSS?',
-    source: [
-      { text: 'Creative Style Sheets' },
-      { text: 'Cascading Style Sheets' },
-      { text: 'Colorful Style Sheets' },
-      { text: 'Cascading Sheets Style' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '2',
-    text: 'Který HTML tag značí vestavěný CSS styl?',
-    source: [
-      { text: '<css>' },
-      { text: '<script>' },
-      { text: '<div>' },
-      { text: '<style>' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '3',
-    text: 'Jaká je správná forma odkazu na externí CSS styl?',
-    source: [
-      { text: '<style src="externi-soubor.css">' },
-      { text: '<link rel="stylesheet" type="text/css" href="externí-soubor.css"> ' },
-      { text: '<stylesheet>externi-soubor.css</stylesheet>' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '4',
-    text: 'Kde v HTML dokumentu je správné místo pro umístění odkazu na externí CSS styl?',
-    source: [
-      { text: '1. řádek dokumentu' },
-      { text: 'V sekci <body>' },
-      { text: 'Na konci dokumentu' },
-      { text: 'V sekci <head>' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '5',
-    text: 'Která z těchto možností má správný tvar pro CSS informaci?',
-    source: [
-      { text: '{body:color=blue(body)}' },
-      { text: 'body:color=blue' },
-      { text: 'body {color: blue;} ' },
-      { text: '{body;color:blue}' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '6',
-    text: 'Který atribut se používá pro změnu barvy na pozadí?',
-    source: [
-      { text: 'background-color:' },
-      { text: 'backcolor:' },
-      { text: 'color:' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '7',
-    text: 'Jak určíte barvu pro všechny nadpisy <h1>',
-    source: [
-      { text: 'all.h1 {color:red}' },
-      { text: 'h1.all {color:red}' },
-      { text: 'h1 {color:red}' },
-      { text: '#h1 {color:red}' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '8',
-    text: 'Pomocí kterého atributu určíte velikost textu?',
-    source: [
-      { text: 'text-size' },
-      { text: 'text-height' },
-      { text: 'font-size' },
-      { text: 'font-style' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '9',
-    text: 'Jak vytvoříte tučné písmo?',
-    source: [
-      { text: 'font-weight:bold' },
-      { text: 'font:b' },
-      { text: 'style:bold' },
-      { text: 'font-style:bold' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '10',
-    text: 'Jak vytvoříte podtrhnuté písmo?',
-    source: [
-      { text: 'text-decoration:no underline' },
-      { text: 'decoration:underline' },
-      { text: 'ext-decoration:underline' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '11',
-    text: 'Jak je správná forma zápisu CSS třídy?',
-    source: [
-      { text: '.jméno-třídy { atribut: hodnota; }' },
-      { text: '#jméno-třídy { atribut: hodnota; }' },
-      { text: '(jméno-třídy) { atribut: hodnota; }' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '12',
-    text: 'Který atribut slouží pro určení šířky?',
-    source: [
-      { text: 'height' },
-      { text: 'size' },
-      { text: 'width' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '13',
-    text: 'Pomocí kterého atributu určíte styl seznamu?',
-    source: [
-      { text: 'list-style:' },
-      { text: 'list-type:' },
-      { text: 'style:' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '14',
-    text: 'Jak uděláte, aby každé slovo v textu začínalo automaticky velkým písmenem?',
-    source: [
-      { text: 'text-transform:uppercase' },
-      { text: 'text-transform:capitalize' },
-      { text: 'text-transform:lowercase:' },
-      { text: 'nelze' },
-    ],
-    ok: '',
-    link: '',
-  },
-  {
-    id: '15',
-    text: 'Lze v CSS upravovat jednotlivé strany u rámečku?',
-    source: [
-      { text: 'ano' },
-      { text: 'ano, ale pouze levou a pravou stranu' },
-      { text: 'ano, ale pouze horní a dolní stranu' },
-      { text: 'nelze' },
-    ],
-    ok: '',
-    link: '',
-  },
-
-],
-  
+    {
+      id: '1',
+      text: 'Co znamená zkratka CSS?',
+      source: [
+        { text: 'Creative Style Sheets' },
+        { text: 'Cascading Style Sheets' },
+        { text: 'Colorful Style Sheets' },
+        { text: 'Cascading Sheets Style' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '2',
+      text: 'Který HTML tag značí vestavěný CSS styl?',
+      source: [
+        { text: '<css>' },
+        { text: '<script>' },
+        { text: '<div>' },
+        { text: '<style>' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '3',
+      text: 'Jaká je správná forma odkazu na externí CSS styl?',
+      source: [
+        { text: '<style src="externi-soubor.css">' },
+        {
+          text: '<link rel="stylesheet" type="text/css" href="externí-soubor.css"> ',
+        },
+        { text: '<stylesheet>externi-soubor.css</stylesheet>' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '4',
+      text: 'Kde v HTML dokumentu je správné místo pro umístění odkazu na externí CSS styl?',
+      source: [
+        { text: '1. řádek dokumentu' },
+        { text: 'V sekci <body>' },
+        { text: 'Na konci dokumentu' },
+        { text: 'V sekci <head>' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '5',
+      text: 'Která z těchto možností má správný tvar pro CSS informaci?',
+      source: [
+        { text: '{body:color=blue(body)}' },
+        { text: 'body:color=blue' },
+        { text: 'body {color: blue;} ' },
+        { text: '{body;color:blue}' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '6',
+      text: 'Který atribut se používá pro změnu barvy na pozadí?',
+      source: [
+        { text: 'background-color:' },
+        { text: 'backcolor:' },
+        { text: 'color:' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '7',
+      text: 'Jak určíte barvu pro všechny nadpisy <h1>',
+      source: [
+        { text: 'all.h1 {color:red}' },
+        { text: 'h1.all {color:red}' },
+        { text: 'h1 {color:red}' },
+        { text: '#h1 {color:red}' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '8',
+      text: 'Pomocí kterého atributu určíte velikost textu?',
+      source: [
+        { text: 'text-size' },
+        { text: 'text-height' },
+        { text: 'font-size' },
+        { text: 'font-style' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '9',
+      text: 'Jak vytvoříte tučné písmo?',
+      source: [
+        { text: 'font-weight:bold' },
+        { text: 'font:b' },
+        { text: 'style:bold' },
+        { text: 'font-style:bold' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '10',
+      text: 'Jak vytvoříte podtrhnuté písmo?',
+      source: [
+        { text: 'text-decoration:no underline' },
+        { text: 'decoration:underline' },
+        { text: 'ext-decoration:underline' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '11',
+      text: 'Jak je správná forma zápisu CSS třídy?',
+      source: [
+        { text: '.jméno-třídy { atribut: hodnota; }' },
+        { text: '#jméno-třídy { atribut: hodnota; }' },
+        { text: '(jméno-třídy) { atribut: hodnota; }' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '12',
+      text: 'Který atribut slouží pro určení šířky?',
+      source: [{ text: 'height' }, { text: 'size' }, { text: 'width' }],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '13',
+      text: 'Pomocí kterého atributu určíte styl seznamu?',
+      source: [
+        { text: 'list-style:' },
+        { text: 'list-type:' },
+        { text: 'style:' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '14',
+      text: 'Jak uděláte, aby každé slovo v textu začínalo automaticky velkým písmenem?',
+      source: [
+        { text: 'text-transform:uppercase' },
+        { text: 'text-transform:capitalize' },
+        { text: 'text-transform:lowercase:' },
+        { text: 'nelze' },
+      ],
+      ok: '',
+      link: '',
+    },
+    {
+      id: '15',
+      text: 'Lze v CSS upravovat jednotlivé strany u rámečku?',
+      source: [
+        { text: 'ano' },
+        { text: 'ano, ale pouze levou a pravou stranu' },
+        { text: 'ano, ale pouze horní a dolní stranu' },
+        { text: 'nelze' },
+      ],
+      ok: '',
+      link: '',
+    },
+  ],
 };
