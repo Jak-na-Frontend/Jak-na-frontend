@@ -8,7 +8,7 @@ export default {
         { text: 'Hyperlinks and Text Markup Language' },
         { text: 'Hyper Text Markup Language' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -20,7 +20,7 @@ export default {
         { text: '</b>' },
         { text: '</b/>' },
       ],
-      ok: ' ',
+      ok: 3,
       link: '',
     },
     {
@@ -32,14 +32,14 @@ export default {
         { text: '<head>' },
         { text: '<h1>' },
       ],
-      ok: '',
+      ok: 3,
       link: '',
     },
     {
       id: '4',
       text: 'Vyberte správný HTML tag pro odstavec.',
       source: [{ text: '<b>' }, { text: '<p>' }, { text: '<o>' }],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
@@ -51,7 +51,7 @@ export default {
         { text: '<italy>' },
         { text: '<italic>' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -63,7 +63,7 @@ export default {
         { text: '<a href="http://www.adresa.cz">adresa.cz</a>' },
         { text: '<a url="http://www.adresa.cz">adresa.cz</a>' },
       ],
-      ok: '',
+      ok: 2,
       link: '',
     },
     {
@@ -74,7 +74,7 @@ export default {
         { text: '<mail>postmaster@email.cz</mail>' },
         { text: '<a href="postmaster@email.cz">' },
       ],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
@@ -86,7 +86,7 @@ export default {
         { text: '<ul>' },
         { text: '<list>' },
       ],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
@@ -98,14 +98,14 @@ export default {
         { text: '<img>image.gif</img>' },
         { text: '<img href="image.gif>' },
       ],
-      ok: '',
+      ok: 1,
       link: '',
     },
     {
       id: '10',
       text: 'Jak vytvoříte vodorovnou čáru?',
       source: [{ text: '<hr>' }, { text: '</hr>' }, { text: '<br>' }],
-      ok: '',
+      ok: 0,
       link: '',
     },
     {
