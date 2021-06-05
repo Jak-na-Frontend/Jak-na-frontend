@@ -29,4 +29,10 @@
 
 .box__content {
   list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.box__content > li {
+  padding: calc(var(--spacer) / 2) var(--spacer);
 }

@@ -10,6 +10,7 @@ import RoadMap from './components/RoadMap';
 import TestPage from './components/TestPage';
 import Education from './components/Education';
 import About from './components/About';
+import Quiz from './components/Quiz';
 
 const App = () => (
   <Router>
@@ -22,6 +23,10 @@ const App = () => (
 
       <Route path="/road-mapa-weboveho-vyvoje">
         <RoadMap />
+      </Route>
+
+      <Route path="/testy/:name">
+        <Quiz />
       </Route>
 
       <Route path="/testy">

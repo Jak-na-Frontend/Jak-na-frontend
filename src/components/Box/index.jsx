@@ -26,7 +26,9 @@ const Box = ({ name, text }) => {
         }
       >
         <ul className="box__content">
-          <li>{text}</li>
+          {text.map((item) => (
+            <li>{item}</li>
+          ))}
         </ul>
       </div>
     </div>
