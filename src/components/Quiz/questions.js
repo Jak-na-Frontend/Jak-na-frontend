@@ -560,3 +560,186 @@ export default {
   ],
   
 };
+
+
+export default {
+  
+  CSS: [
+  {
+    id: '1',
+    text: 'Co znamená zkratka CSS?',
+    source: [
+      { text: 'Creative Style Sheets' },
+      { text: 'Cascading Style Sheets' },
+      { text: 'Colorful Style Sheets' },
+      { text: 'Cascading Sheets Style' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '2',
+    text: 'Který HTML tag značí vestavěný CSS styl?',
+    source: [
+      { text: '<css>' },
+      { text: '<script>' },
+      { text: '<div>' },
+      { text: '<style>' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '3',
+    text: 'Jaká je správná forma odkazu na externí CSS styl?',
+    source: [
+      { text: '<style src="externi-soubor.css">' },
+      { text: '<link rel="stylesheet" type="text/css" href="externí-soubor.css"> ' },
+      { text: '<stylesheet>externi-soubor.css</stylesheet>' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '4',
+    text: 'Kde v HTML dokumentu je správné místo pro umístění odkazu na externí CSS styl?',
+    source: [
+      { text: '1. řádek dokumentu' },
+      { text: 'V sekci <body>' },
+      { text: 'Na konci dokumentu' },
+      { text: 'V sekci <head>' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '5',
+    text: 'Která z těchto možností má správný tvar pro CSS informaci?',
+    source: [
+      { text: '{body:color=blue(body)}' },
+      { text: 'body:color=blue' },
+      { text: 'body {color: blue;} ' },
+      { text: '{body;color:blue}' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '6',
+    text: 'Který atribut se používá pro změnu barvy na pozadí?',
+    source: [
+      { text: 'background-color:' },
+      { text: 'backcolor:' },
+      { text: 'color:' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '7',
+    text: 'Jak určíte barvu pro všechny nadpisy <h1>',
+    source: [
+      { text: 'all.h1 {color:red}' },
+      { text: 'h1.all {color:red}' },
+      { text: 'h1 {color:red}' },
+      { text: '#h1 {color:red}' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '8',
+    text: 'Pomocí kterého atributu určíte velikost textu?',
+    source: [
+      { text: 'text-size' },
+      { text: 'text-height' },
+      { text: 'font-size' },
+      { text: 'font-style' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '9',
+    text: 'Jak vytvoříte tučné písmo?',
+    source: [
+      { text: 'font-weight:bold' },
+      { text: 'font:b' },
+      { text: 'style:bold' },
+      { text: 'font-style:bold' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '10',
+    text: 'Jak vytvoříte podtrhnuté písmo?',
+    source: [
+      { text: 'text-decoration:no underline' },
+      { text: 'decoration:underline' },
+      { text: 'ext-decoration:underline' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '11',
+    text: 'Jak je správná forma zápisu CSS třídy?',
+    source: [
+      { text: '.jméno-třídy { atribut: hodnota; }' },
+      { text: '#jméno-třídy { atribut: hodnota; }' },
+      { text: '(jméno-třídy) { atribut: hodnota; }' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '12',
+    text: 'Který atribut slouží pro určení šířky?',
+    source: [
+      { text: 'height' },
+      { text: 'size' },
+      { text: 'width' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '13',
+    text: 'Pomocí kterého atributu určíte styl seznamu?',
+    source: [
+      { text: 'list-style:' },
+      { text: 'list-type:' },
+      { text: 'style:' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '14',
+    text: 'Jak uděláte, aby každé slovo v textu začínalo automaticky velkým písmenem?',
+    source: [
+      { text: 'text-transform:uppercase' },
+      { text: 'text-transform:capitalize' },
+      { text: 'text-transform:lowercase:' },
+      { text: 'nelze' },
+    ],
+    ok: '',
+    link: '',
+  },
+  {
+    id: '15',
+    text: 'Lze v CSS upravovat jednotlivé strany u rámečku?',
+    source: [
+      { text: 'ano' },
+      { text: 'ano, ale pouze levou a pravou stranu' },
+      { text: 'ano, ale pouze horní a dolní stranu' },
+      { text: 'nelze' },
+    ],
+    ok: '',
+    link: '',
+  },
+
+],
+  
+};
