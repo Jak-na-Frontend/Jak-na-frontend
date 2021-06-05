@@ -1122,6 +1122,183 @@ export default {
     },
   
   ],
-  
+
+  JS: [
+    {
+      id: '1',
+      text: 'Mezi které HTML tagy vkládáme Javascript?',
+      source: [
+        { text: '<js> a </js>' },
+        { text: '<javascript> a </javascript>' },
+        { text: '<script> a </script>' },
+      ],
+      ok: 2,
+      link: '',
+    },
+    {
+      id: '2',
+      text: 'Která z těchto možností je správná pro vypsání textu: "Ahoj"?',
+      source: [
+        { text: '"Ahoj"' },
+        { text: 'write:"Ahoj"' },
+        { text: 'document.write("Ahoj")' },
+        { text: ' write.text("Ahoj") ' },
+      ],
+      ok: 2,
+      link: '',
+    },
+    {
+      id: '3',
+      text: 'Kde v HTML dokumentu je správné místo pro umístění Javascriptu',
+      source: [
+        { text: 'hlavička <head>' },
+        { text: 'tělo <body>' },
+        { text: 'obojí <head> i <body>' },
+    
+      ],
+      ok: 2,
+      link: '',
+    },
+    {
+      id: '4',
+      text: 'Vyberte správný tvar odkazu na externí Javascript.',
+      source: [
+        { text: '<script href="soubor.js">' },
+        { text: '<script src="soubor.js">' },
+        { text: '<script name="soubor.js">' },
+    
+      ],
+      ok: 1,
+      link: '',
+    },
+    {
+      id: '5',
+      text: 'Vyberte správnou možnost pro zobrazení varovné hlášky.',
+      source: [
+        { text: 'alertBox("zpráva")' },
+        { text: 'alert="zpráva"' },
+        { text: 'alerter("zpráva")' },
+        { text: 'alert("zpráva")' },
+    
+      ],
+      ok: 3,
+      link: '',
+    },
+    {
+      id: '6',
+      text: 'Jak zapisujeme fukce?',
+      source: [
+        { text: 'function jmenoFunkce(argument) {definice funkce};' },
+        { text: 'jmenoFunkce(argument) {definice funkce};' },
+        { text: 'function (jmenoFunkce) {definice funkce};' },
+        { text: 'jmenoFunkce {definice funkce};' },
+    
+      ],
+      ok: 0,
+      link: '',
+    },
+    {
+      id: '7',
+      text: 'Která z těchto podmínek je napsána ve správném tvaru?',
+      source: [
+        { text: 'if (i == 5)' },
+        { text: 'if (i = 5)' },
+        { text: 'if {i = 5}' },
+        
+    
+      ],
+      ok: 0,
+      link: '',
+    },
+    {
+      id: '8',
+      text: 'Jak se tvoří komentáře?',
+      source: [
+        { text: '<!-- Toto je komentář... -->' },
+        { text: '//Toto je komentář...' },
+        { text: '/ Toto je komentář...' },
+        { text: '!Toto je komentář.../!' },
+    
+      ],
+      ok: 1,
+      link: '',
+    },
+    {
+      id: '9',
+      text: 'K čemu slouží příkaz while?',
+      source: [
+        { text: 'nastaví určitý počet opakování cyklu' },
+        { text: 'cyklus se neustále opakuje dokud platí stanovená podmínka'},
+        { text: 'cyklus se provede pouze jednou, je-li splněna podmínka' },
+      
+      ],
+      ok: 1,
+      link: '',
+    },
+    {
+      id: '10',
+      text: 'Jak se tvoří v Javascriptu pole?',
+      source: [
+        { text: 'var pole = new Array("jablko","banán","kiwi")' },
+        { text: 'var pole = ("jablko","banán","kiwi")'},
+        { text: 'var pole = new Array([0]="jablko",[1]="banán",[2]="kiwi")' },
+      
+      ],
+      ok: 0,
+      link: '',
+    },
+    // {
+    //   id: '11',
+    //   text: 'Máme pole: var ovoce = new Array("jablko","hruška","meloun") a
+    //   necháme vypsat: document.write(ovoce[1]); Která hodnota bude vypsána?',
+
+    //   source: [
+    //     { text: 'jablko' },
+    //     { text: 'hruška   '},
+    //     { text: 'meloun' },
+      
+    //   ],
+    //   ok: 1,
+    //   link: '',
+    // },
+    {
+      id: '12',
+      text: 'Jaký příkaz používáme pro přepínače?',
+      source: [
+        { text: 'switch' },
+        { text: 'selector'},
+        { text: 'tripper' },
+      
+      ],
+      ok: 0,
+      link: '',
+    },
+    {
+      id: '13',
+      text: '"Klikni na tento text" Jaká událost byla použita u tohoto příkladu?.',
+      source: [
+        { text: 'onDblClick' },
+        { text: 'onClick'},
+        { text: 'onMouseover' },
+        { text: 'onBlur' },
+      
+      ],
+      ok: 1,
+      link: '',
+    },
+    {
+      id: '14',
+      text: 'Je možné pomocí JavaScriptu vypisovat HTML kódy?',
+      source: [
+        { text: 'ano' },
+        { text: 'ne'},
+       
+      
+      ],
+      ok: 0,
+      link: '',
+    },
+
+  ],
 };
 
