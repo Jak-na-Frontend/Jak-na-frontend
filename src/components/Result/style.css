@@ -1,6 +1,12 @@
-.subheading {
+.subheading,
+.subheading__time {
   font-size: 2rem;
   text-align: center;
+}
+.subheading__img {
+  margin: calc(var(--spacer) * 2) auto;
+  display: block;
+  width: 30%;
 }
 
 .quiz__link {

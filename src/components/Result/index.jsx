@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import Question from '../Question';
 import { Link } from 'react-router-dom';
+import Medal from '../../assets/medal.svg';
 
 const Result = ({ name, selectedAnswers, questions, time }) => {
   const result = questions.map((item) => {
@@ -17,17 +18,20 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
       <header className="heading">
         <h1 className="heading__text">Výsledky testu z {name.toUpperCase()}</h1>
       </header>
-      <h3 className="subheading__time">Zodpovězeno za {time} sekund</h3>
-      <img className="subheading__img" />
-      <h3 className="subheading">
-        Zodpovězeno otázek {result.filter((item) => item.isCorrect).length} /{' '}
-        {result.length}
-      </h3>
-      <h3 className="subheading">
-        Úspěšnost{' '}
-        {(result.filter((item) => item.isCorrect).length / result.length) * 100}{' '}
-        %
-      </h3>
+      <div className="result--data">
+        <img className="subheading__img" src={Medal} />
+        <h3 className="subheading__time">Zodpovězeno za {time} sekund</h3>
+        <h3 className="subheading">
+          Zodpovězeno otázek {result.filter((item) => item.isCorrect).length} /{' '}
+          {result.length}
+        </h3>
+        <h3 className="subheading">
+          Úspěšnost{' '}
+          {(result.filter((item) => item.isCorrect).length / result.length) *
+            100}{' '}
+          %
+        </h3>
+      </div>
       {result.map((item, index) => (
         <Question
           key={item.id}
