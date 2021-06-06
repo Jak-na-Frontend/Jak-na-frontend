@@ -1,14 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
 import Question from '../Question';
 import { useParams } from 'react-router';
 import questions from './questions';
 import Result from '../Result';
+import shuffle from 'lodash.shuffle';
 
 const Quiz = () => {
   const { name } = useParams();
-  const questionForQuiz = questions[name].slice(0, 10);
   const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [questionForQuiz, setQuestionForQuiz] = useState(questions[name]);
+  useEffect(() => {
+    setQuestionForQuiz(shuffle(questionForQuiz).slice(0, 10));
+  }, []);
+
   const [isSubmitted, setIsSubmitted] = useState(false);
   const onSelect = (questionId, answerIndex) => {
     console.log(questionId, answerIndex);

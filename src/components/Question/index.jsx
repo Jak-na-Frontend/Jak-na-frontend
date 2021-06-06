@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import Correct from '../../assets/check.svg';
+import Incorrect from '../../assets/close.svg';
 
 const Question = ({
   id,
@@ -24,11 +26,29 @@ const Question = ({
 
     return 'question__text';
   };
+  const styleIcon = () => {
+    if (isResult) {
+      if (correctAnswer === userAnswer) {
+        return 'question__icon question__icon--false';
+      }
+      if (correctAnswer === index) {
+        return 'question__icon question__icon--correct';
+      }
+    }
+
+    return 'question__icon';
+  };
 
   return (
     <div className="question">
       <h4 className="question__title">
-        Otázka č. {index} {heading}
+        {isResult && (
+          <img
+            className={styleIcon()}
+            src={correctAnswer === userAnswer ? Correct : Incorrect}
+          />
+        )}
+        Otázka č. {index} - {heading}
       </h4>
       {isResult && userAnswer === undefined && (
         <h3 className="question--nonAnswered">Nezodpovězeno</h3>
@@ -40,6 +60,7 @@ const Question = ({
             className="question__checkbox"
             disabled={!onSelect}
             type="radio"
+            checked={isResult && userAnswer === index}
             id={`answer-${id}-${index}`}
             onChange={() => {
               if (onSelect) {
