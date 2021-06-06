@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+.timestoper {
+  font-family: var(--font);
+  font-size: 1.1rem;
+  margin: var(--spacer) var(--spacer);
+  text-align: right;
+}
+
 .set__button {
   font-family: var(--font);
   font-size: 1.1rem;
@@ -15,6 +22,11 @@
   color: var(--color-font-light);
 }
 @media screen and (min-width: 768px) {
+  .timestoper {
+    margin: calc(var(--spacer) * 2) auto;
+    max-width: 600px;
+  }
+
   .set__button {
     display: inline-block;
   }
@@ -23,5 +35,8 @@
 @media screen and (min-width: 990px) {
   .set__button {
     font-size: 1.5rem;
+  }
+  .timestoper {
+    max-width: 1200px;
   }
 }

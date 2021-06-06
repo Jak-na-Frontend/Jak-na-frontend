@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+.question__number--set {
+  font-weight: normal;
+}
+
 @media screen and (min-width: 750px) {
   .heading__text {
     font-size: 3rem;
@@ -45,6 +49,9 @@
 @media screen and (min-width: 990px) {
   .question__title {
     font-size: 1.5rem;
+  }
+  .question__number--set {
+    font-size: 1.2rem;
   }
 
   .question {

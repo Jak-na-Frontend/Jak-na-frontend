@@ -48,7 +48,9 @@ const Question = ({
             src={correctAnswer === userAnswer ? Correct : Incorrect}
           />
         )}
-        <div className="question__number">Otázka č. {index} / 10 -</div>{' '}
+        <div className="question__number">
+          Otázka č. {index} <span className="question__number--set">/ 10</span>{' '}
+        </div>{' '}
         <div className="question__heading">{heading}</div>
       </h4>
       {isResult && userAnswer === undefined && (
