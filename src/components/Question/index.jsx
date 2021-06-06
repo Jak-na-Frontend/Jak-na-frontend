@@ -30,7 +30,7 @@ const Question = ({
       <h4 className="question__title">
         Otázka č. {index} {heading}
       </h4>
-      {isResult && !userAnswer && (
+      {isResult && userAnswer === undefined && (
         <h3 className="question--nonAnswered">Nezodpovězeno</h3>
       )}
       {answers.map((item, index) => (

@@ -64,11 +64,12 @@
 @media screen and (min-width: 768px) {
   .quiz {
     display: flex;
-
+    flex-wrap: wrap;
     align-items: flex-end;
   }
 
   .quiz__picture-wrapper {
+    width: calc(100% / 3);
     display: flex;
     flex-direction: column;
     align-items: center;
