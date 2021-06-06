@@ -78,7 +78,7 @@ const TestPage = () => {
             alt="test z Gitu"
           />
           <Link
-            to="/testy"
+            to="/testy/GIT"
             className="quiz__text quiz__link"
             onClick={handleclick}
           >

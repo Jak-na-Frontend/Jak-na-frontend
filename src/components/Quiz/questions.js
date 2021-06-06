@@ -160,7 +160,7 @@ export default {
       text: 'Je možné vložit do obrázku odkaz?',
       source: [{ text: 'ano' }, { text: 'ne' }],
       ok: 0,
-      link: '',
+      link: 'http://polopate.jakpsatweb.cz/index.php?page=odkazy2',
     },
     {
       id: '16',
@@ -568,7 +568,7 @@ export default {
         { text: 'Cascading Sheets Style' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://cs.wikipedia.org/wiki/Kask%C3%A1dov%C3%A9_styly',
     },
     {
       id: '2',
@@ -580,7 +580,7 @@ export default {
         { text: '<style>' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/css/css-prakticky.html',
     },
     {
       id: '3',
@@ -593,7 +593,7 @@ export default {
         { text: '<stylesheet>externi-soubor.css</stylesheet>' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/css/css-prakticky.html#externi',
     },
     {
       id: '4',
@@ -605,7 +605,7 @@ export default {
         { text: 'V sekci <head>' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started#adding_css_to_our_document',
     },
     {
       id: '5',
@@ -617,7 +617,7 @@ export default {
         { text: '{body;color:blue}' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started#styling_html_elements',
     },
     {
       id: '6',
@@ -628,7 +628,7 @@ export default {
         { text: 'color:' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_background-color.asp',
     },
     {
       id: '7',
@@ -640,7 +640,7 @@ export default {
         { text: '#h1 {color:red}' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_text_color.asp',
     },
     {
       id: '8',
@@ -652,7 +652,7 @@ export default {
         { text: 'font-style' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_font_font-size.asp',
     },
     {
       id: '9',
@@ -664,7 +664,7 @@ export default {
         { text: 'font-style:bold' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_font_weight.asp',
     },
     {
       id: '10',
@@ -672,10 +672,10 @@ export default {
       source: [
         { text: 'text-decoration:no underline' },
         { text: 'decoration:underline' },
-        { text: 'ext-decoration:underline' },
+        { text: 'text-decoration:underline' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp',
     },
     {
       id: '11',
@@ -686,13 +686,13 @@ export default {
         { text: '(jméno-třídy) { atribut: hodnota; }' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/sel_class.asp',
     },
     {
       id: '12',
       text: 'Který atribut slouží pro určení šířky?',
       source: [{ text: 'height' }, { text: 'size' }, { text: 'width' }],
-      ok: '',
+      ok: 'https://www.w3schools.com/cssref/pr_dim_width.asp',
       link: 2,
     },
     {
@@ -704,7 +704,7 @@ export default {
         { text: 'style:' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_list-style.asp',
     },
     {
       id: '14',
@@ -716,7 +716,7 @@ export default {
         { text: 'nelze' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_text_text-transform.asp',
     },
     {
       id: '15',
@@ -728,7 +728,7 @@ export default {
         { text: 'nelze' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_border.asp',
     },
   ],
 
