@@ -36,7 +36,7 @@ const Home = () => {
               onClick={handleSubmit()}
             />
           </Link>
-          <Link to="/testy/css">
+          <Link to="/testy/CSS">
             <p className="quiz__text"></p>
             <img
               className="quiz__picture"
@@ -45,7 +45,7 @@ const Home = () => {
               onClick={handleSubmit()}
             />
           </Link>
-          <Link to="/testy/javascript">
+          <Link to="/testy/Javascript">
             <p className="quiz__text"></p>
             <img
               className="quiz__picture"
