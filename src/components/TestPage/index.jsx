@@ -99,6 +99,20 @@ const TestPage = () => {
             <p className="quiz__button">Test z&nbsp;Bootstrapu</p>
           </Link>
         </div>
+        <div className="quiz__picture-wrapper">
+          <img
+            className="quiz__picture"
+            src="assets/english.svg"
+            alt="test z Angličtiny"
+          />
+          <Link
+            to="/testy/Angličtina"
+            className="quiz__text quiz__link"
+            onClick={handleclick}
+          >
+            <p className="quiz__button">Test z&nbsp;Angličtiny</p>
+          </Link>
+        </div>
       </section>
       <section className="education">
         <div className="education__picture-wrapper">
