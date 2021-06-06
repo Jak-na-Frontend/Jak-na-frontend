@@ -3,7 +3,7 @@ import './style.css';
 import Question from '../Question';
 import { Link } from 'react-router-dom';
 
-const Result = ({ name, selectedAnswers, questions }) => {
+const Result = ({ name, selectedAnswers, questions, time }) => {
   const result = questions.map((item) => {
     const answer = item.ok === selectedAnswers[item.id];
     return { ...item, isCorrect: answer };
@@ -17,8 +17,16 @@ const Result = ({ name, selectedAnswers, questions }) => {
       <header className="heading">
         <h1 className="heading__text">Výsledky testu z {name.toUpperCase()}</h1>
       </header>
+      <h3 className="subheading__time">Zodpovězeno za {time} sekund</h3>
+      <img className="subheading__img" />
       <h3 className="subheading">
-        {result.filter((item) => item.isCorrect).length} / {result.length}
+        Zodpovězeno otázek {result.filter((item) => item.isCorrect).length} /{' '}
+        {result.length}
+      </h3>
+      <h3 className="subheading">
+        Úspěšnost{' '}
+        {(result.filter((item) => item.isCorrect).length / result.length) * 100}{' '}
+        %
       </h3>
       {result.map((item, index) => (
         <Question
