@@ -60,7 +60,7 @@ const Quiz = () => {
       <header className="heading">
         <h1 className="heading__text">Test {name.toUpperCase()}</h1>
       </header>
-      <h3>{timeQuiz}</h3>
+      <h3 className="timestoper">{timeQuiz}</h3>
       <Question
         id={questionForQuiz[questionIndex].id}
         heading={questionForQuiz[questionIndex].text}

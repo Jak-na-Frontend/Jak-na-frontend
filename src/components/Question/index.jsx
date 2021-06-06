@@ -48,11 +48,13 @@ const Question = ({
             src={correctAnswer === userAnswer ? Correct : Incorrect}
           />
         )}
-        <div className="question__number">Otázka č. {index} -</div>{' '}
+        <div className="question__number">Otázka č. {index} / 10 -</div>{' '}
         <div className="question__heading">{heading}</div>
       </h4>
       {isResult && userAnswer === undefined && (
-        <h3 className="question--nonAnswered">Otázka nebyla zodpovězena</h3>
+        <h3 className="question--nonAnswered">
+          Otázka nebyla zodpovězena, správná odpověď je označena zeleně.
+        </h3>
       )}
       {answers.map((item, index) => (
         <div key={index}>
