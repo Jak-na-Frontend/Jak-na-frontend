@@ -10,6 +10,7 @@ const Quiz = () => {
   const { name } = useParams();
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [questionForQuiz, setQuestionForQuiz] = useState(questions[name]);
+  const [questionIndex, setquestionIndex] = useState(0);
   useEffect(() => {
     setQuestionForQuiz(shuffle(questionForQuiz).slice(0, 10));
   }, []);
@@ -22,8 +23,12 @@ const Quiz = () => {
   };
 
   const handleSubmit = () => {
-    setIsSubmitted(true);
-    window.scrollTo({ top: 0 });
+    if (questionIndex < questionForQuiz.length - 1) {
+      setquestionIndex(questionIndex + 1);
+    } else {
+      setIsSubmitted(true);
+      window.scrollTo({ top: 0 });
+    }
   };
   if (isSubmitted) {
     return (
@@ -40,17 +45,16 @@ const Quiz = () => {
       <header className="heading">
         <h1 className="heading__text">Test {name.toUpperCase()}</h1>
       </header>
-      {questionForQuiz.map((item, index) => (
-        <Question
-          key={item.id}
-          id={item.id}
-          heading={item.text}
-          answers={item.source}
-          link={item.link}
-          index={index + 1}
-          onSelect={onSelect}
-        />
-      ))}
+
+      <Question
+        id={questionForQuiz[questionIndex].id}
+        heading={questionForQuiz[questionIndex].text}
+        answers={questionForQuiz[questionIndex].source}
+        link={questionForQuiz[questionIndex].link}
+        index={questionIndex + 1}
+        onSelect={onSelect}
+      />
+
       <div className="quiz__footer">
         <button
           className="set__button"
@@ -58,7 +62,9 @@ const Quiz = () => {
           value="Submit"
           onClick={handleSubmit}
         >
-          Vyhodnotit test
+          {questionIndex < questionForQuiz.length - 1
+            ? 'Další otázka'
+            : 'Vyhodnotit test'}
         </button>
       </div>
     </>

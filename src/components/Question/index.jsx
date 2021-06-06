@@ -48,7 +48,8 @@ const Question = ({
             src={correctAnswer === userAnswer ? Correct : Incorrect}
           />
         )}
-        Otázka č. {index} - {heading}
+        <div className="question__number">Otázka č. {index} -</div>{' '}
+        <div className="question__heading">{heading}</div>
       </h4>
       {isResult && userAnswer === undefined && (
         <h3 className="question--nonAnswered">Nezodpovězeno</h3>
@@ -78,9 +79,6 @@ const Question = ({
         <a className="question__link" href={link}>
           Více infomací najdeš v odkazu.
         </a>
-        {/* <button className="question__button" type="submit" value="Submit">
-          Další otázka
-        </button> */}
       </div>
     </div>
   );
