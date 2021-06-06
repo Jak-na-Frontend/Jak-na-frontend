@@ -1,12 +1,16 @@
 import React from 'react';
 import './style.css';
 import Question from '../Question';
+import { Link } from 'react-router-dom';
 
 const Result = ({ name, selectedAnswers, questions }) => {
   const result = questions.map((item) => {
     const answer = item.ok === selectedAnswers[item.id];
     return { ...item, isCorrect: answer };
   });
+  const handleSubmit = () => {
+    window.scrollTo({ top: 0 });
+  };
 
   return (
     <>
@@ -30,6 +34,13 @@ const Result = ({ name, selectedAnswers, questions }) => {
           isResult
         />
       ))}
+      <div className="quiz__text">
+        <Link to="/testy" className="quiz__link">
+          <p className="quiz__button" onClick={handleSubmit}>
+            Zkus jiný test
+          </p>
+        </Link>
+      </div>
     </>
   );
 };

@@ -75,11 +75,13 @@ const Question = ({
         </div>
       ))}
 
-      <div className="question__action">
-        <a className="question__link" href={link}>
-          Více infomací najdeš v odkazu.
-        </a>
-      </div>
+      {isResult && (
+        <div className="question__action">
+          <a className="question__link" href={link}>
+            Více infomací najdeš v odkazu.
+          </a>
+        </div>
+      )}
     </div>
   );
 };
