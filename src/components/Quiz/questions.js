@@ -248,36 +248,30 @@ export default {
       ok: 3,
       link: 'https://www.w3schools.com/tags/att_input_value.asp',
     },
-    // {
-    //   id: '23',
-    //   text: 'K jakým značkám se pojí atribut value?',
-    //   source: [
-    //     { text: '<button><input><form>' },
-    //     { text: '<input><label><meter>' },
-    //     { text: '<input><option><textarea>' },
-    //     { text: '<li><input><option>' },
-    //   ],
-    //   ok: 3,
-    //   link: 'https://www.w3schools.com/tags/att_input_value.asp',
-    // },
-    // {
-    //   id: '24',
-    //   text: 'Doplňte do mezer
-    //     <address ______ _____>
-    //     <span itemprop="streetAddress">6410 Via Real</span><br />
-    //     <span itemprop="addressLocality">Carpinteria</span>,
-    //     <span itemprop="addressRegion">CA</span>
-    //     <span itemprop="addressCode">93013</span>
-    //   </address>',
-    //   source: [
-    //     { text: 'itemscope itemtype="http://schema.org/PostalAddress"' },
-    //     { text: 'itemsref="http://schema.org/PostalAddress" itemid="address"' },
-    //     { text: 'itemscope itemref="http://schema.org/PostalAddress"' },
-    //     { text: 'itemid="address" itemtype="http://schema.org/PostalAddress"' },
-    //   ],
-    //   ok: 0,
-    //   link: 'https://www.tutorialspoint.com/html5/html5_microdata.htm',
-    // },
+    {
+      id: '23',
+      text: 'K jakým značkám se pojí atribut value?',
+      source: [
+        { text: '<button><input><form>' },
+        { text: '<input><label><meter>' },
+        { text: '<input><option><textarea>' },
+        { text: '<li><input><option>' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/tags/att_input_value.asp',
+    },
+    {
+      id: '24',
+      text: 'Doplňte do mezer <address ______ _____> <span itemprop="streetAddress">6410 Via Real</span><br /> <span itemprop="addressLocality">Carpinteria</span>, <span itemprop="addressRegion">CA</span> <span itemprop="addressCode">93013</span> </address>',
+      source: [
+        { text: 'itemscope itemtype="http://schema.org/PostalAddress"' },
+        { text: 'itemsref="http://schema.org/PostalAddress" itemid="address"' },
+        { text: 'itemscope itemref="http://schema.org/PostalAddress"' },
+        { text: 'itemid="address" itemtype="http://schema.org/PostalAddress"' },
+      ],
+      ok: 0,
+      link: 'https://www.tutorialspoint.com/html5/html5_microdata.htm',
+    },
     {
       id: '25',
       text: 'Element aside se používá:',
@@ -1247,7 +1241,7 @@ export default {
       id: '15',
       text: 'Jak zmněníme obsah HTML elementu v v kódu <p id="demo">This is a demonstration.</p>?',
       source: [
-        { text: 'document.getElementByName("p").innerHTML = "Hello World!";' }, 
+        { text: 'document.getElementByName("p").innerHTML = "Hello World!";' },
         { text: '#demo.innerHTML = "Hello World!";' },
         { text: 'ndocument.getElement("p").innerHTML = "Hello World!";e' },
         { text: 'document.getElementById("demo").innerHTML = "Hello World!";' },
@@ -1286,7 +1280,6 @@ export default {
         { text: 'call function myFunction()' },
         { text: 'myFunction()  ' },
         { text: 'call myFunction()' },
-       
       ],
       ok: 1,
       link: 'https://www.w3schools.com/js/js_function_call.asp',
@@ -1298,7 +1291,6 @@ export default {
         { text: 'if (i != 5)' },
         { text: 'if (i <> 5)' },
         { text: 'if i <> 5' },
-       
       ],
       ok: 0,
       link: 'https://www.w3schools.com/js/js_comparisons.asp',
@@ -1311,7 +1303,6 @@ export default {
         { text: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")' },
         { text: 'var colors = "red", "green", "blue"' },
         { text: 'var colors = ["red", "green", "blue"]' },
-       
       ],
       ok: 3,
       link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array',
@@ -1324,7 +1315,6 @@ export default {
         { text: 'Math.round(7.25) ' },
         { text: 'rnd(7.25)' },
         { text: 'Math.rnd(7.25)' },
-       
       ],
       ok: 1,
       link: 'https://www.w3schools.com/jsref/jsref_round.asp',
@@ -1332,11 +1322,7 @@ export default {
     {
       id: '22',
       text: 'Javascript a Java je jedno a totéž:',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-        
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 1,
       link: 'https://towardsdatascience.com/java-vs-javascript-which-is-the-best-choice-for-2019-a41ee2d3f78d',
     },
@@ -1348,7 +1334,6 @@ export default {
         { text: 'onclick' },
         { text: 'onmouseover' },
         { text: 'onmouseclick' },
-        
       ],
       ok: 1,
       link: 'https://www.w3schools.com/jsref/event_onclick.asp',
@@ -1356,36 +1341,21 @@ export default {
     {
       id: '24',
       text: 'Kód Boolean(10 > 9) vrací:',
-      source: [
-        { text: 'true   ' },
-        { text: 'onfalseclick' },
-        { text: 'null' },
-        
-      ],
+      source: [{ text: 'true   ' }, { text: 'onfalseclick' }, { text: 'null' }],
       ok: 0,
       link: 'https://www.w3schools.com/js/js_booleans.asp',
     },
     {
       id: '25',
       text: 'Je JS tzv. case-sensitive?',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-  
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://www.tutorialspoint.com/Is-JavaScript-a-case-sensitive-language',
     },
     {
       id: '26',
       text: 'Který operátor vrátí true, pokud se dvě porovnávané hodnoty nerovnají?',
-      source: [
-        { text: '<>' },
-        { text: '~' },
-        { text: '==!' },
-        { text: '!==' },
-  
-      ],
+      source: [{ text: '<>' }, { text: '~' }, { text: '==!' }, { text: '!==' }],
       ok: 3,
       link: 'https://www.w3schools.com/js/js_operators.asp',
     },
@@ -1393,11 +1363,14 @@ export default {
       id: '27',
       text: 'Jak vytovoříme novou funkci s názvem discountPrice?',
       source: [
-        { text: 'let discountPrice = function(price) { return price * 0.85; };' },
+        {
+          text: 'let discountPrice = function(price) { return price * 0.85; };',
+        },
         { text: 'let discountPrice(price) { return price * 0.85; };' },
-        { text: 'let function = discountPrice(price) { return price * 0.85; };' },
+        {
+          text: 'let function = discountPrice(price) { return price * 0.85; };',
+        },
         { text: 'discountPrice = function(price) { return price * 0.85; };' },
-  
       ],
       ok: 0,
       link: 'https://www.w3schools.com/js/js_functions.asp',
@@ -1410,35 +1383,30 @@ export default {
         { text: 'JSON.parse() ' },
         { text: 'JSON.toObject()' },
         { text: 'JSON.stringify()  ' },
-  
       ],
       ok: 1,
       link: 'https://www.w3schools.com/js/js_json_parse.asp',
     },
     {
       id: '29',
-      text: 'Které klíčové slovo vytváři chybu?'
-      ,
+      text: 'Které klíčové slovo vytváři chybu?',
       source: [
         { text: 'throw' },
         { text: 'exception' },
         { text: 'catch' },
         { text: 'error' },
-  
       ],
       ok: 0,
       link: 'https://www.w3schools.com/js/js_errors.asp',
     },
     {
       id: '30',
-      text: 'Vyberte správně pojmenovanou proměnou:'
-      ,
+      text: 'Vyberte správně pojmenovanou proměnou:',
       source: [
         { text: '5thItem' },
         { text: 'firstName' },
         { text: 'grand total' },
         { text: 'function' },
-  
       ],
       ok: 1,
       link: 'https://www.dummies.com/web-design-development/javascript/naming-javascript-variables/',
