@@ -1105,7 +1105,7 @@ export default {
         { text: '<script> a </script>' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_whereto.asp',
     },
     {
       id: '2',
@@ -1117,7 +1117,7 @@ export default {
         { text: ' write.text("Ahoj") ' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/jsref/met_doc_write.asp',
     },
     {
       id: '3',
@@ -1128,7 +1128,7 @@ export default {
         { text: 'obojí <head> i <body>' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_whereto.asp',
     },
     {
       id: '4',
@@ -1139,7 +1139,7 @@ export default {
         { text: '<script name="soubor.js">' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.vzhurudolu.cz/prirucka/html-script',
     },
     {
       id: '5',
@@ -1151,7 +1151,7 @@ export default {
         { text: 'alert("zpráva")' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://www.w3schools.com/jsref/met_win_alert.asp',
     },
     {
       id: '6',
@@ -1163,7 +1163,7 @@ export default {
         { text: 'jmenoFunkce {definice funkce};' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_functions.asp',
     },
     {
       id: '7',
@@ -1174,7 +1174,7 @@ export default {
         { text: 'if {i = 5}' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_if_else.asp',
     },
     {
       id: '8',
@@ -1186,7 +1186,7 @@ export default {
         { text: '!Toto je komentář.../!' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_comments.asp',
     },
     {
       id: '9',
@@ -1197,7 +1197,7 @@ export default {
         { text: 'cyklus se provede pouze jednou, je-li splněna podmínka' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_loop_while.asp',
     },
     {
       id: '10',
@@ -1208,21 +1208,21 @@ export default {
         { text: 'var pole = new Array([0]="jablko",[1]="banán",[2]="kiwi")' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_arrays.asp',
     },
     {
       id: '11',
       text: 'Máme pole: var ovoce = new Array("jablko","hruška","meloun") a necháme vypsat: document.write(ovoce[1]); Která hodnota bude vypsána?',
       source: [{ text: 'jablko' }, { text: 'hruška' }, { text: 'meloun' }],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_arrays.asp',
     },
     {
       id: '12',
       text: 'Jaký příkaz používáme pro přepínače?',
       source: [{ text: 'switch' }, { text: 'selector' }, { text: 'tripper' }],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/js/js_switch.asp',
     },
     {
       id: '13',
@@ -1234,14 +1234,214 @@ export default {
         { text: 'onBlur' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/jsref/event_onclick.asp',
     },
     {
       id: '14',
       text: 'Je možné pomocí JavaScriptu vypisovat HTML kódy?',
       source: [{ text: 'ano' }, { text: 'ne' }],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/html/html_scripts.asp',
+    },
+    {
+      id: '15',
+      text: 'Jak zmněníme obsah HTML elementu v v kódu <p id="demo">This is a demonstration.</p>?',
+      source: [
+        { text: 'document.getElementByName("p").innerHTML = "Hello World!";' }, 
+        { text: '#demo.innerHTML = "Hello World!";' },
+        { text: 'ndocument.getElement("p").innerHTML = "Hello World!";e' },
+        { text: 'document.getElementById("demo").innerHTML = "Hello World!";' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/html/html_scripts.asp',
+    },
+    {
+      id: '16',
+      text: 'Proměná se v JS deklaruje pomocí slova',
+      source: [
+        { text: 'new' },
+        { text: 'int' },
+        { text: 'string' },
+        { text: 'var' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/js/js_variables.asp',
+    },
+    {
+      id: '17',
+      text: 'Která z následujících možností je v JS tzv. datový typ?',
+      source: [
+        { text: 'String' },
+        { text: 'Number' },
+        { text: 'Boolean' },
+        { text: 'vVšechny možnosti jsou správněar' },
+      ],
+      ok: 3,
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures',
+    },
+    {
+      id: '18',
+      text: 'Jak voláme funkci?',
+      source: [
+        { text: 'call function myFunction()' },
+        { text: 'myFunction()  ' },
+        { text: 'call myFunction()' },
+       
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/js/js_function_call.asp',
+    },
+    {
+      id: '19',
+      text: 'Jak napíšem podmínku, v níž i se nerovná 5?',
+      source: [
+        { text: 'if (i != 5)' },
+        { text: 'if (i <> 5)' },
+        { text: 'if i <> 5' },
+       
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/js/js_comparisons.asp',
+    },
+    {
+      id: '20',
+      text: 'Vyberte správně zapsané pole v JS:',
+      source: [
+        { text: 'var colors = (1:"red", 2:"green", 3:"blue")' },
+        { text: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")' },
+        { text: 'var colors = "red", "green", "blue"' },
+        { text: 'var colors = ["red", "green", "blue"]' },
+       
+      ],
+      ok: 3,
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array',
+    },
+    {
+      id: '21',
+      text: 'Jak se zaokrouhluje 7.25 na celé číslo?',
+      source: [
+        { text: 'round(7.25))' },
+        { text: 'Math.round(7.25) ' },
+        { text: 'rnd(7.25)' },
+        { text: 'Math.rnd(7.25)' },
+       
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/jsref/jsref_round.asp',
+    },
+    {
+      id: '22',
+      text: 'Javascript a Java je jedno a totéž:',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+        
+      ],
+      ok: 1,
+      link: 'https://towardsdatascience.com/java-vs-javascript-which-is-the-best-choice-for-2019-a41ee2d3f78d',
+    },
+    {
+      id: '23',
+      text: 'K jaké události dojde, když uživatel klikne na prvek HTML?',
+      source: [
+        { text: 'onchange' },
+        { text: 'onclick' },
+        { text: 'onmouseover' },
+        { text: 'onmouseclick' },
+        
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/jsref/event_onclick.asp',
+    },
+    {
+      id: '24',
+      text: 'Kód Boolean(10 > 9) vrací:',
+      source: [
+        { text: 'true   ' },
+        { text: 'onfalseclick' },
+        { text: 'null' },
+        
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/js/js_booleans.asp',
+    },
+    {
+      id: '25',
+      text: 'Je JS tzv. case-sensitive?',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+  
+      ],
+      ok: 0,
+      link: 'https://www.tutorialspoint.com/Is-JavaScript-a-case-sensitive-language',
+    },
+    {
+      id: '26',
+      text: 'Který operátor vrátí true, pokud se dvě porovnávané hodnoty nerovnají?',
+      source: [
+        { text: '<>' },
+        { text: '~' },
+        { text: '==!' },
+        { text: '!==' },
+  
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/js/js_operators.asp',
+    },
+    {
+      id: '27',
+      text: 'Jak vytovoříme novou funkci s názvem discountPrice?',
+      source: [
+        { text: 'let discountPrice = function(price) { return price * 0.85; };' },
+        { text: 'let discountPrice(price) { return price * 0.85; };' },
+        { text: 'let function = discountPrice(price) { return price * 0.85; };' },
+        { text: 'discountPrice = function(price) { return price * 0.85; };' },
+  
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/js/js_functions.asp',
+    },
+    {
+      id: '28',
+      text: 'Která metoda převádí JSON data na objekt v javascriptu?',
+      source: [
+        { text: 'JSON.fromString();' },
+        { text: 'JSON.parse() ' },
+        { text: 'JSON.toObject()' },
+        { text: 'JSON.stringify()  ' },
+  
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/js/js_json_parse.asp',
+    },
+    {
+      id: '29',
+      text: 'Které klíčové slovo vytváři chybu?'
+      ,
+      source: [
+        { text: 'throw' },
+        { text: 'exception' },
+        { text: 'catch' },
+        { text: 'error' },
+  
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/js/js_errors.asp',
+    },
+    {
+      id: '30',
+      text: 'Vyberte správně pojmenovanou proměnou:'
+      ,
+      source: [
+        { text: '5thItem' },
+        { text: 'firstName' },
+        { text: 'grand total' },
+        { text: 'function' },
+  
+      ],
+      ok: 1,
+      link: 'https://www.dummies.com/web-design-development/javascript/naming-javascript-variables/',
     },
   ],
 };
