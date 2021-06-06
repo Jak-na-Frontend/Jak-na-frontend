@@ -20,7 +20,7 @@ const Home = () => {
           Co je to webový vývoj
           <br />
           <Link to="/road-mapa-weboveho-vyvoje" className="introduction__link">
-            <p className="introduction__button" onClick={handleSubmit}>
+            <p className="introduction__button" onClick={handleSubmit()}>
               Zjistit víc
             </p>
           </Link>
@@ -28,27 +28,36 @@ const Home = () => {
       </section>
       <section className="quiz--home">
         <div className="quiz__picture-wrapper--home">
-          <img
-            className="quiz__picture"
-            src="assets/html.svg"
-            alt="test z HTML"
-          />
-          <p className="quiz__text"></p>
-          <img
-            className="quiz__picture"
-            src="assets/css.svg"
-            alt="test z CSS"
-          />
-          <p className="quiz__text"></p>
-          <img
-            className="quiz__picture"
-            src="assets/javascript.svg"
-            alt="test z Javascriptu"
-          />
+          <Link to="/testy/html">
+            <img
+              className="quiz__picture"
+              src="assets/html.svg"
+              alt="test z HTML"
+              onClick={handleSubmit()}
+            />
+          </Link>
+          <Link to="/testy/css">
+            <p className="quiz__text"></p>
+            <img
+              className="quiz__picture"
+              src="assets/css.svg"
+              alt="test z CSS"
+              onClick={handleSubmit()}
+            />
+          </Link>
+          <Link to="/testy/javascript">
+            <p className="quiz__text"></p>
+            <img
+              className="quiz__picture"
+              src="assets/javascript.svg"
+              alt="test z Javascriptu"
+              onClick={handleSubmit()}
+            />
+          </Link>
         </div>
         <div className="quiz__text">
           <Link to="/testy" className="quiz__link">
-            <p className="quiz__button" onClick={handleSubmit}>
+            <p className="quiz__button" onClick={handleSubmit()}>
               Otestuj se
             </p>
           </Link>

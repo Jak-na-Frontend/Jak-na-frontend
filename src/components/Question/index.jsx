@@ -52,7 +52,7 @@ const Question = ({
         <div className="question__heading">{heading}</div>
       </h4>
       {isResult && userAnswer === undefined && (
-        <h3 className="question--nonAnswered">Nezodpovězeno</h3>
+        <h3 className="question--nonAnswered">Otázka nebyla zodpovězena</h3>
       )}
       {answers.map((item, index) => (
         <div key={index}>
