@@ -2302,4 +2302,525 @@ export default {
       link: 'https://www.finance.cz/528593-obrazky-a-fotky-na-internetu/#Foto%20zdarma',
     },
   ],
+  Bootstrap: [
+    {
+      id: '1',
+      text: 'V Bootstrapu se uplatňuje tzv mobile-first přístup',
+      source: [
+        { text: 'Ano   ' },
+        { text: 'Ne' },
+  
+      ],
+      ok: 0,
+      link: 'https://getbootstrap.com/docs/4.1/extend/approach/',
+    },
+    {
+      id: '2',
+      text: 'Která třída zabírá v Bootstrapu pouze určitou šířku stránky ?',
+      source: [
+        { text: '.container ' },
+        { text: '.container-fixed' },
+        { text: '.container-fluid' },
+        { text: '.container-width' },
+      ],
+      ok: 0,
+      link: 'https://getbootstrap.com/docs/5.0/layout/containers/',
+    },
+    {
+      id: '3',
+      text: 'Která třída zabírá celou šířku stránky?',
+      source: [
+        { text: '.container-fixed ' },
+        { text: '..container-fluid ' },
+        { text: '.container' },
+        { text: '.container-width' },
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/bootstrap4/bootstrap_containers.asp',
+    },
+    {
+      id: '4',
+      text: 'Kolik sloupců má Bootstrap grid?',
+      source: [
+        { text: '3' },
+        { text: '12' },
+        { text: '6' },
+        { text: '9' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/layout/grid/',
+    },
+    {
+      id: '5',
+      text: 'Která třída nastyluje tabulku na tzv. zebra-stripes?',
+      source: [
+        { text: '.even and .odd' },
+        { text: '.table-striped' },
+        { text: '.table-zebra' },
+        { text: '.table-bordered' },
+      ],
+      ok: 1,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_ref_css_tables.asp',
+    },
+    {
+      id: '6',
+      text: 'Která třída nastyluje obrázek do kruhu?',
+      source: [
+        { text: '.img-rounded' },
+        { text: '.img-thumbnail' },
+        { text: '.img-round' },
+        { text: '.img-circle' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp',
+    },
+    {
+      id: '7',
+      text: 'Kterou třídou vytvoříme extra velké okno?',
+      source: [
+        { text: '.container' },
+        { text: '.jumbotron ' },
+        { text: '.bigbox' },
+        { text: '.flexbox' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/components/jumbotron/',
+    },
+    {
+      id: '8',
+      text: 'Kterou třídou vytvoříme veké tlačítko?',
+      source: [
+        { text: '.btn-lg' },
+        { text: '.btn-l' },
+        { text: '.btn-xl' },
+        { text: '.btn-large' },
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_buttons.asp',
+    },
+    {
+      id: '9',
+      text: 'Kterou třídou vytvoříme skupinu tlačítek?',
+      source: [
+        { text: '.group-button' },
+        { text: '.btn-group' },
+        { text: '.button-group' },
+        { text: '.group-btn' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/components/button-group/',
+    },
+    {
+      id: '10',
+      text: 'Jak vložíme ikonu pro vyhledávání?',
+      source: [
+        { text: '<span class="glyphicon glyphicon-search"></span>' },
+        { text: '<span class="glyph glyph-search"></span>' },
+        { text: '<span class="glyphicon search"></span>' },
+        { text: '<span class="glyphicon-search"></span>' },
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_glyphicons.asp',
+    },
+    {
+      id: '11',
+      text: 'Kterou třídou vytvoříme badge?',
+      source: [
+        { text: '.tag' },
+        { text: '.label' },
+        { text: '.badge ' },
+        { text: '.flag' },
+      ],
+      ok: 2,
+      link: 'https://getbootstrap.com/docs/4.0/components/badge/',
+    },
+    {
+      id: '12',
+      text: 'Jak vytvoříme stránkování?',
+      source: [
+        { text: '.pagination' },
+        { text: '.page' },
+        { text: '.pages' },
+        { text: '..navigation' },
+      ],
+      ok: 0,
+      link: 'https://www.w3schools.com/bootstrap4/bootstrap_pagination.asp',
+    },
+    {
+      id: '13',
+      text: 'Jak vytvoříme základní seznam?',
+      source: [
+        { text: '.group-list' },
+        { text: '.grouped-list' },
+        { text: '.list-group ' },
+        { text: '.list-groups ' },
+      ],
+      ok: 2,
+      link: 'https://getbootstrap.com/docs/4.0/components/list-group/',
+    },
+    {
+      id: '14',
+      text: 'Která třída přidá do panulu nadpis?',
+      source: [
+        { text: '.panel-header' },
+        { text: '.panel-head' },
+        { text: '.panel-footer' },
+        { text: '.panel-heading' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_panels.asp',
+    },
+    {
+      id: '15',
+      text: 'Jak vytvoříme dropdown menu?',
+      source: [
+        { text: '.dropdown ' },
+        { text: '.dropdown-list' },
+        { text: '.select' },
+        { text: '.dropup' },
+      ],
+      ok: 0,
+      link: 'https://getbootstrap.com/docs/4.0/components/dropdowns/',
+    },
+    {
+      id: '16',
+      text: 'Tlačítka pro navigaci vytvoříme pomocí:',
+      source: [
+        { text: '<ul class="nav nav-navbar">' },
+        { text: '<ul class="nav tabs">' },
+        { text: '.<ul class="navigation-tabs">' },
+        { text: '.<ul class="nav nav-tabs">' },
+      ],
+      ok: 3,
+      link: 'https://getbootstrap.com/docs/4.0/components/navs/',
+    },
+    {
+      id: '17',
+      text: 'Navigační lištu vytoříme pomocí:',
+      source: [
+        { text: '<nav class="nav navbar">' },
+        { text: '<nav class="navbar navbar-default"> ' },
+        { text: '<nav class="navigationbar navbar-default">' },
+        { text: '<nav class="navbar default-navbar">' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/components/navbar/',
+    },
+    {
+      id: '18',
+      text: 'Černou navigační lištu vytoříme pomocí:',
+      source: [
+        { text: '.navbar-black' },
+        { text: '.navbar-default' },
+        { text: '.navbar-inverse' },
+        { text: '.navbar-dark' },
+      ],
+      ok: 2,
+      link: 'https://www.w3schools.com/bootstrap/bootstrap_navbar.asp',
+    },
+    {
+      id: '19',
+      text: 'Který plugin používáme k vytvoření pohyblivých elementů, např. slideshow?',
+      source: [
+        { text: 'Orbit' },
+        { text: 'Slideshow' },
+        { text: 'Scrollspy' },
+        { text: 'Carousel' },
+      ],
+      ok: 3,
+      link: 'https://getbootstrap.com/docs/4.0/components/carousel/',
+    },
+    {
+      id: '20',
+      text: 'Dialogové okno vytvoříme pomocí:',
+      source: [
+        { text: 'Dialog Box' },
+        { text: 'Popup' },
+        { text: 'Window' },
+        { text: 'Modal    ' },
+      ],
+      ok: 3,
+      link: 'https://getbootstrap.com/docs/4.0/components/modal/',
+    },
+    {
+      id: '21',
+      text: 'Rychlou nápovědu získáme pomocí:',
+      source: [
+        { text: 'Dialog Box' },
+        { text: 'Tooltip' },
+        { text: 'Modal' },
+        { text: 'Popup' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/components/tooltips/',
+    },
+    {
+      id: '22',
+      text: 'Která kontextová třída označuje úspěšnou nebo pozitivní akci?',
+      source: [
+        { text: '.text-primary' },
+        { text: '.text-info' },
+        { text: '.text-success' },
+        { text: '.text-warning' },
+      ],
+      ok: 2,
+      link: 'https://www.tutorialspoint.com/Bootstrap-Contextual-classes',
+    },
+    {
+      id: '23',
+      text: 'Která kontextová třída naznačuje nebezpečnou nebo potenciálně negativní akci?',
+      source: [
+        { text: '.text-primary' },
+        { text: '.text-info' },
+        { text: '.text-warning' },
+        { text: '.text-danger' },
+      ],
+      ok: 3,
+      link: 'https://www.tutorialspoint.com/Bootstrap-Contextual-classes',
+    },
+    {
+      id: '24',
+      text: 'Která třída označuje text s velkými písmeny?',
+      source: [
+        { text: '.ucase' },
+        { text: '.text-uppercase' },
+        { text: '.text-capitalize' },
+        { text: '.uppercase' },
+      ],
+      ok: 1,
+      link: 'https://getbootstrap.com/docs/4.0/utilities/text/',
+    },
+    {
+      id: '25',
+      text: 'Bootstrap funguje na více zařízeních.',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+      
+      ],
+      ok: 0,
+      link: 'https://getbootstrap.com/docs/5.0/layout/breakpoints/',
+    },
+
+
+  ],
+
+  Sass: [
+    {
+      id: '1',
+      text: '________ definuje pravidla stylů pro různé typy médií.',
+      source: [
+        { text: '@media' },
+        { text: '@import' },
+        { text: '@rozšířit' },
+        { text: '@ladit' },
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/at-rules/css#media',
+    },
+    {
+      id: '2',
+      text: 'Pomocí @debug najdeme chyby a zobrazíme hodnoty SassScriptu.',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/at-rules/debug',
+    },
+    {
+      id: '3',
+      text: 'Pomocí které z možností můžeme sdílet css z jedonoho selektoru do druhého?',
+      source: [
+        { text: '@extend ' },
+        { text: '@media' },
+        { text: 'žádná z výše uvedených možností' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/at-rules/extend',
+    },
+    {
+      id: '4',
+      text: 'Sadu vnořených pravidel, které mohou vytvořit blok stylů v kořenovém adresáři dokumentu vytvoříme pomocí:',
+      source: [
+        { text: '@at-root ' },
+        { text: '@media' },
+        { text: '@extend' },
+        { text: 'žádná z výše uvedených možností' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/at-rules/at-root',
+    },
+    {
+      id: '5',
+      text: 'Chceme-li zobrazot chybu, použijeme:',
+      source: [
+        { text: '@error' },
+        { text: '@warn' },
+        { text: '@at-root' },
+        { text: 'žádnou z výše uvedených možností' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/at-rules/error',
+    },
+    {
+      id: '6',
+      text: 'Jak v Sassu definujeme proměnnou?',
+      source: [
+        { text: '@primary-color: #888;' },
+        { text: '%primary-color: #888;' },
+        { text: '#primary-color: #888;' },
+        { text: '$primary-color: #888;  ' },
+      
+  
+      ],
+      ok: 3,
+      link: 'https://sass-lang.com/documentation/modules/color',
+    },
+    {
+      id: '7',
+      text: 'Hodnoty ze SassScriptu se v mixinech jako hodnoty používají',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+      
+  
+      ],
+      ok: 0,
+      link: 'ttps://sass-lang.com/documentation/at-rules/mixin',
+    },
+    {
+      id: '8',
+      text: 'Proč se v Sass používá @include?',
+      source: [
+        { text: 'Chceme-li definovat mixin' },
+        { text: 'Chceme-li zahrnout mixin do dokumentu' },
+        { text: 'Vše výše uvedené' },
+        { text: 'Nic z výše uvedeného' },
+      
+  
+      ],
+      ok: 1,
+      link: 'https://sass-lang.com/documentation/at-rules/mixin',
+    },
+    {
+      id: '9',
+      text: 'Kterým heslem definujeme mixin?',
+      source: [
+        { text: '@include' },
+        { text: '@mixin ' },
+        { text: '@extend' },
+        { text: '@debug' },
+      
+  
+      ],
+      ok: 1,
+      link: 'https://sass-lang.com/documentation/at-rules/mixin',
+    },
+    {
+      id: '10',
+      text: 'Proč se v Sassu používá @return ?',
+      source: [
+        { text: 'Chceme-li definovat mixin' },
+        { text: 'Chceme-li zahrnout mixin do dokumentu ' },
+        { text: 'Chceme-li zuavolat mnávratovou hodnotu funkce' },
+        { text: 'Nic z výše uvedeného' },
+      
+  
+      ],
+      ok: 2,
+      link: 'https://sass-lang.com/documentation/at-rules/function#return',
+    },
+    {
+      id: '11',
+      text: 'Následující příkaz spustí kód Sass v příkazovém řádku: sass input.scss output.css',
+      source: [
+        { text: 'Ano' },
+        { text: 'Ne' },
+       
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/cli/dart-sass#one-to-one-mode',
+    },
+    {
+      id: '12',
+      text: 'Jaký je rozdím mezi Sass and SCSS?',
+      source: [
+        { text: 'Sass je CSS preprocesor s vylepšenou syntaxí a rozšířením CSS3.' },
+        { text: 'Sass má dvě syntaxe.' },
+        { text: 'První syntaxe je „SCSS“ a používá příponu .scss.' },
+        { text: ' Druhá syntaxe je odsazená syntaxe nebo jen „Sass“ a používá příponu .sass.' },
+        { text: 'Vše výše uvedené ' },
+      
+  
+      ],
+      ok: 4,
+      link: 'https://www.geeksforgeeks.org/what-is-the-difference-between-css-and-scss/',
+    },
+    {
+      id: '13',
+      text: '@IMPORT se v Sassu používá protože:',
+      source: [
+        { text: 'rozšiřuje pravidlo importu CSS a umožňuje importovat soubory SCSS a Sass' },
+        { text: 'všechny importované soubory jsou sloučeny do jednoho výstupního souboru CSS' },
+        { text: 'může spojovat soubory a jejich styly' },
+        { text: 'přijímá název souboru k importu' },
+        { text: 'Vše výše uvedené ' },
+      
+  
+      ],
+      ok: 4,
+      link: 'https://sass-lang.com/documentation/at-rules/import',
+    },
+    {
+      id: '14',
+      text: 'Které datové typy SassScript podporuje?',
+      source: [
+        { text: 'Čísla( eg; 1,5 ,10px)' },
+        { text: 'Textové řetězce ( g., "foo", "bar", etc.)' },
+        { text: 'Barvy(blue, #04a3f9)' },
+        { text: 'Pravdivostní hodnoty (true or false)' },
+        { text: 'Pravdivostní hodnoty (true or false) ' },
+      
+  
+      ],
+      ok: 4,
+      link: 'https://sass-lang.com/documentation/syntax/structure#literals',
+    },
+    {
+      id: '15',
+      text: 'Příkaz sass --watch input.scss:output.css slouží k:',
+      source: [
+        { text: 'ke sledování a aktualizaci CSS pokud v Sass souboru dojde ke změně  ' },
+        { text: 'ke sledování celé adresáře, pokud Sass obsahuje mnoho souborů.' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://sass-lang.com/documentation/cli/dart-sass',
+    },
+    {
+      id: '16',
+      text: 'K urychlení kompilace používáme:',
+      source: [
+        { text: ':cache ' },
+        { text: ':read_cache' },
+        { text: ':cache_store' },
+      
+  
+      ],
+      ok: 0,
+      link: 'https://rstudio.github.io/sass/reference/sass.html#caching',
+    },
+
+  ],
 };
