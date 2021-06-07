@@ -62,6 +62,7 @@ const Quiz = () => {
       </header>
       <h3 className="timestoper">{timeQuiz} sekund</h3>
       <Question
+        key={questionForQuiz[questionIndex]}
         id={questionForQuiz[questionIndex].id}
         heading={questionForQuiz[questionIndex].text}
         answers={questionForQuiz[questionIndex].source}

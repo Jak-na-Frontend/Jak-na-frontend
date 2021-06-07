@@ -6,7 +6,7 @@
 .subheading__img {
   margin: calc(var(--spacer) * 2) auto;
   display: block;
-  width: 30%;
+  width: 20%;
 }
 
 .quiz__link {

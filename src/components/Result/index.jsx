@@ -48,7 +48,7 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
       ))}
       <div className="quiz__text">
         <Link to="/testy" className="quiz__link">
-          <p className="quiz__button" onClick={handleSubmit}>
+          <p className="quiz__button" onClick={handleSubmit()}>
             Zkus jiný test
           </p>
         </Link>

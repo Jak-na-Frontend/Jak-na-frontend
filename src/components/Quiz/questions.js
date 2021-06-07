@@ -9,7 +9,7 @@ export default {
         { text: 'Hyper Text Markup Language' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://cs.wikipedia.org/wiki/Hypertext_Markup_Language',
     },
     {
       id: '2',
@@ -21,7 +21,7 @@ export default {
         { text: '</b/>' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://cs.khanacademy.org/computing/computer-programming/html-css/intro-to-html/a/quick-tip-html-tags',
     },
     {
       id: '3',
@@ -33,14 +33,14 @@ export default {
         { text: '<h1>' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://jecas.cz/nadpisy',
     },
     {
       id: '4',
       text: 'Vyberte správný HTML tag pro odstavec.',
       source: [{ text: '<b>' }, { text: '<p>' }, { text: '<o>' }],
       ok: 1,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/html/bloky.html',
     },
     {
       id: '5',
@@ -52,19 +52,19 @@ export default {
         { text: '<italic>' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/css/font-style.html',
     },
     {
       id: '6',
       text: 'Která z těchto možností má správný tvar pro HTML odkaz?',
       source: [
-        { text: 'a>http://www.klikzone.cz</a>' },
+        { text: 'a>http://www.adresa.cz</a>' },
         { text: '<a name="http://www.adresa.cz">adresa.cz</a>' },
         { text: '<a href="http://www.adresa.cz">adresa.cz</a>' },
         { text: '<a url="http://www.adresa.cz">adresa.cz</a>' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.jakdelatweby.cz/html/odkazy.php',
     },
     {
       id: '7',
@@ -75,7 +75,7 @@ export default {
         { text: '<a href="postmaster@email.cz">' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a',
     },
     {
       id: '8',
@@ -87,7 +87,7 @@ export default {
         { text: '<list>' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol',
     },
     {
       id: '9',
@@ -99,14 +99,14 @@ export default {
         { text: '<img href="image.gif>' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img',
     },
     {
       id: '10',
       text: 'Jak vytvoříte vodorovnou čáru?',
       source: [{ text: '<hr>' }, { text: '</hr>' }, { text: '<br>' }],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/tags/tag_hr.asp',
     },
     {
       id: '11',
@@ -118,7 +118,7 @@ export default {
         { text: '<!-- OBSAH ZAČÍNÁ ZDE -->' },
       ],
       ok: 3,
-      link: '',
+      link: 'http://htmlguru.cz/zaklady-komentare.html',
     },
     {
       id: '12',
@@ -130,7 +130,7 @@ export default {
         { text: 'nikam, metadata se vkládají do externího CSS souboru' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/meta-tagy.html',
     },
     {
       id: '13',
@@ -141,7 +141,7 @@ export default {
         { text: '<textfield>' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/html/formulare.html',
     },
     {
       id: '14',
@@ -153,14 +153,14 @@ export default {
         { text: '<table><head><tfoot>' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/html/tabulky.html#table',
     },
     {
       id: '15',
       text: 'Je možné vložit do obrázku odkaz?',
       source: [{ text: 'ano' }, { text: 'ne' }],
       ok: 0,
-      link: '',
+      link: 'http://polopate.jakpsatweb.cz/index.php?page=odkazy2',
     },
     {
       id: '16',
@@ -568,7 +568,7 @@ export default {
         { text: 'Cascading Sheets Style' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://cs.wikipedia.org/wiki/Kask%C3%A1dov%C3%A9_styly',
     },
     {
       id: '2',
@@ -580,7 +580,7 @@ export default {
         { text: '<style>' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/css/css-prakticky.html',
     },
     {
       id: '3',
@@ -593,7 +593,7 @@ export default {
         { text: '<stylesheet>externi-soubor.css</stylesheet>' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.jakpsatweb.cz/css/css-prakticky.html#externi',
     },
     {
       id: '4',
@@ -605,7 +605,7 @@ export default {
         { text: 'V sekci <head>' },
       ],
       ok: 3,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started#adding_css_to_our_document',
     },
     {
       id: '5',
@@ -617,7 +617,7 @@ export default {
         { text: '{body;color:blue}' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started#styling_html_elements',
     },
     {
       id: '6',
@@ -628,7 +628,7 @@ export default {
         { text: 'color:' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_background-color.asp',
     },
     {
       id: '7',
@@ -640,7 +640,7 @@ export default {
         { text: '#h1 {color:red}' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_text_color.asp',
     },
     {
       id: '8',
@@ -652,7 +652,7 @@ export default {
         { text: 'font-style' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_font_font-size.asp',
     },
     {
       id: '9',
@@ -664,7 +664,7 @@ export default {
         { text: 'font-style:bold' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_font_weight.asp',
     },
     {
       id: '10',
@@ -672,10 +672,10 @@ export default {
       source: [
         { text: 'text-decoration:no underline' },
         { text: 'decoration:underline' },
-        { text: 'ext-decoration:underline' },
+        { text: 'text-decoration:underline' },
       ],
       ok: 2,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp',
     },
     {
       id: '11',
@@ -686,13 +686,13 @@ export default {
         { text: '(jméno-třídy) { atribut: hodnota; }' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/sel_class.asp',
     },
     {
       id: '12',
       text: 'Který atribut slouží pro určení šířky?',
       source: [{ text: 'height' }, { text: 'size' }, { text: 'width' }],
-      ok: '',
+      ok: 'https://www.w3schools.com/cssref/pr_dim_width.asp',
       link: 2,
     },
     {
@@ -704,7 +704,7 @@ export default {
         { text: 'style:' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_list-style.asp',
     },
     {
       id: '14',
@@ -716,7 +716,7 @@ export default {
         { text: 'nelze' },
       ],
       ok: 1,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_text_text-transform.asp',
     },
     {
       id: '15',
@@ -728,7 +728,7 @@ export default {
         { text: 'nelze' },
       ],
       ok: 0,
-      link: '',
+      link: 'https://www.w3schools.com/cssref/pr_border.asp',
     },
   ],
 
@@ -1430,7 +1430,7 @@ export default {
       id: '2',
       text: '{useState} a {useEffect} jsou tzv.:',
       source: [
-        { text: 'React Hooks '},
+        { text: 'React Hooks ' },
         { text: 'DOM' },
         { text: 'JSX element' },
         { text: 'innerHTML' },
@@ -1442,7 +1442,7 @@ export default {
       id: '3',
       text: 'Jaká je nejznámější testovací knihovna pro React?',
       source: [
-        { text: 'Mocha'},
+        { text: 'Mocha' },
         { text: 'Chai' },
         { text: 'Sinon' },
         { text: 'iJest    ' },
@@ -1454,19 +1454,19 @@ export default {
       id: '4',
       text: 'Pomocí destrukturalaizace upravte následující kód tak, abyste získali první položku v poli:  const topics = ["cooking", "art", "history"];',
       source: [
-        { text: 'const first = ["cooking", "art", "history"]'},
+        { text: 'const first = ["cooking", "art", "history"]' },
         { text: 'const [] = ["cooking", "art", "history"]' },
         { text: 'const [, first]["cooking", "art", "history"]' },
         { text: 'const [first] = ["cooking", "art", "history"]' },
       ],
       ok: 3,
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment.io/docs/tutorial-react',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment',
     },
     {
       id: '5',
       text: 'Co se vypíše do konzole pop zadání tohot kódu: const [, , animal] = ["Horse", "Mouse", "Cat"];console.log(animal);?',
       source: [
-        { text: 'Horse'},
+        { text: 'Horse' },
         { text: 'Cat    ' },
         { text: 'Mouse' },
         { text: 'undefined' },
@@ -1478,7 +1478,7 @@ export default {
       id: '6',
       text: 'Jak se jmenuje nástroj, který přeměňuje JSX do vanilla Javascriptu?',
       source: [
-        { text: 'JSX Editor'},
+        { text: 'JSX Editor' },
         { text: 'ReactDOM' },
         { text: 'Browser Buddy' },
         { text: 'Babel' },
@@ -1490,7 +1490,7 @@ export default {
       id: '7',
       text: 'Jak se nazývá zpráva ve složených závorkách v následujícím kódu: const message = "Hi there";const element = <p>{message}</p>;?',
       source: [
-        { text: 'funkce'},
+        { text: 'funkce' },
         { text: 'element' },
         { text: 'props' },
         { text: 'výraz' },
@@ -1502,10 +1502,18 @@ export default {
       id: '8',
       text: 'Destrukturalizujte komponentu Dish: function Dish(props) {return (<h1>{props.name} {props.cookingTime}</h1>);}',
       source: [
-        { text: 'unction Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }'},
-        { text: 'function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; } ' },
-        { text: 'function Dish(props) { return <h1>{name} {cookingTime}</h1>; }' },
-        { text: 'function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }' },
+        {
+          text: 'unction Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }',
+        },
+        {
+          text: 'function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; } ',
+        },
+        {
+          text: 'function Dish(props) { return <h1>{name} {cookingTime}</h1>; }',
+        },
+        {
+          text: 'function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }',
+        },
       ],
       ok: 1,
       link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment',
@@ -1514,7 +1522,7 @@ export default {
       id: '9',
       text: 'Který atribut nahrazuje innerHTML v DOM?',
       source: [
-        { text: 'injectHTML'},
+        { text: 'injectHTML' },
         { text: 'dangerouslySetInnerHTML' },
         { text: 'weirdSetInnerHTML' },
         { text: 'strangeHTML' },
@@ -1526,7 +1534,7 @@ export default {
       id: '10',
       text: 'Jak se nazývá uživatelské rozhraní, které se ukládá do paměti a synchronizuje se se "skutečným" DOM?',
       source: [
-        { text: 'virtual DOM '},
+        { text: 'virtual DOM ' },
         { text: 'DOML' },
         { text: 'virtual elementsL' },
         { text: 'shadow DOM' },
@@ -1538,8 +1546,10 @@ export default {
       id: '11',
       text: 'V následujícím kódu se nic nevykresluje. Co s tím? const Heading = () => {<h1>Hello!</h1>;};',
       source: [
-        { text: 'Přidáme render funkce'},
-        { text: 'Složené závorky změníme na normální, nebo vložíme return před h1DOML' },
+        { text: 'Přidáme render funkce' },
+        {
+          text: 'Složené závorky změníme na normální, nebo vložíme return před h1DOML',
+        },
         { text: 'h1 přemístíme do jiné komponenety' },
         { text: 'h1 obalíme divem' },
       ],
@@ -1550,7 +1560,7 @@ export default {
       id: '12',
       text: 'onstantu vytvoříme pomocí:',
       source: [
-        { text: 'const  '},
+        { text: 'const  ' },
         { text: 'let' },
         { text: 'constant' },
         { text: 'var' },
@@ -1562,7 +1572,7 @@ export default {
       id: '13',
       text: 'Jak se nazývá komponeneta v Reactu, která vychytává javascriptové chyby v komponentě podřízené rodiči?',
       source: [
-        { text: 'error bosses'},
+        { text: 'error bosses' },
         { text: 'error catchers' },
         { text: 'error helpers' },
         { text: 'error boundaries ' },
@@ -1572,9 +1582,9 @@ export default {
     },
     {
       id: '14',
-      text:  'Jakou lifecycle metodou získáváme data z class komponent?',
+      text: 'Jakou lifecycle metodou získáváme data z class komponent?',
       source: [
-        { text: 'constructor'},
+        { text: 'constructor' },
         { text: 'componentDidMount   ' },
         { text: 'componentWillReceiveProps' },
         { text: 'componentWillMount ' },
@@ -1584,9 +1594,9 @@ export default {
     },
     {
       id: '15',
-      text:  'Proč se v Reactu používá ref?',
+      text: 'Proč se v Reactu používá ref?',
       source: [
-        { text: 'pro přímý přístup do DOM node'},
+        { text: 'pro přímý přístup do DOM node' },
         { text: 'pro odkaz an jiný JS soubor' },
         { text: 'pro zavolání funkce' },
         { text: 'pro provázání funkcí' },
@@ -1596,9 +1606,9 @@ export default {
     },
     {
       id: '16',
-      text:  'Jaký balíček obsahuje funkci render(), která vykresluje element z React do DOM?',
+      text: 'Jaký balíček obsahuje funkci render(), která vykresluje element z React do DOM?',
       source: [
-        { text: 'React'},
+        { text: 'React' },
         { text: 'ReactDOM' },
         { text: 'Render' },
         { text: 'DOM' },
@@ -1620,9 +1630,11 @@ export default {
     // },ˇ
     {
       id: '18',
-      text:  'V tomto kódu se handleClick volá místo toho, aby odkazoval. Jaký je správný zápis? <button onClick={this.handleClick()}>Click this</button>',
+      text: 'V tomto kódu se handleClick volá místo toho, aby odkazoval. Jaký je správný zápis? <button onClick={this.handleClick()}>Click this</button>',
       source: [
-        { text: '<button onClick={this.handleClick.bind(handleClick)}>Click this</button>'},
+        {
+          text: '<button onClick={this.handleClick.bind(handleClick)}>Click this</button>',
+        },
         { text: '<button onClick={handleClick()}>Click this</button>' },
         { text: '<button onClick={this.handleClick}>Click this</button> ' },
         { text: '<button onclick={this.handleClick}>Click this</button>' },
@@ -1632,9 +1644,9 @@ export default {
     },
     {
       id: '19',
-      text:  'Z jaké knihovny získáváme funkci fetch()?',
+      text: 'Z jaké knihovny získáváme funkci fetch()?',
       source: [
-        { text: 'FetchJS'},
+        { text: 'FetchJS' },
         { text: 'ReactDOM' },
         { text: 'Z žádné, fetch() se zobrazuje ve většině prohlížečů' },
         { text: 'React' },
@@ -1644,9 +1656,9 @@ export default {
     },
     {
       id: '20',
-      text:  'Máme kód const greeting = isLoggedIn ? <Hello /> : null; Kdy se zobrazí komponenta Hello?',
+      text: 'Máme kód const greeting = isLoggedIn ? <Hello /> : null; Kdy se zobrazí komponenta Hello?',
       source: [
-        { text: 'nikdy'},
+        { text: 'nikdy' },
         { text: 'když je isLoggedIn true' },
         { text: 'když se uživatel přihlásí' },
         { text: 'když zavoláme funkci Hello' },
@@ -1668,9 +1680,11 @@ export default {
     // },
     {
       id: '22',
-      text:  'V kódu const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>; jsme přidali style k h1, ale v konzoli se nám zobrazuje error, jak ho spravíme?',
+      text: 'V kódu const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>; jsme přidali style k h1, ale v konzoli se nám zobrazuje error, jak ho spravíme?',
       source: [
-        { text: 'const element = <h1 style="backgroundColor: "blue""}>Hi</h1>;'},
+        {
+          text: 'const element = <h1 style="backgroundColor: "blue""}>Hi</h1>;',
+        },
         { text: 'const element = <h1 style=>Hi</h1>;' },
         { text: 'const element = <h1 style={blue}>Hi</h1>;' },
         { text: 'const element = <h1 style="blue">Hi</h1>;' },
@@ -1680,9 +1694,9 @@ export default {
     },
     {
       id: '23',
-      text:  'Která funkce se používá k aktualizaci stavových proměnných v React komponentě?',
+      text: 'Která funkce se používá k aktualizaci stavových proměnných v React komponentě?',
       source: [
-        { text: 'replaceState'},
+        { text: 'replaceState' },
         { text: 'refreshState' },
         { text: 'updateState' },
         { text: 'setState   ' },
@@ -1692,9 +1706,9 @@ export default {
     },
     {
       id: '24',
-      text:  'Máme kód const Star = ({ selected = false }) => <Icon color={selected ? "red" : "grey"} />;. Jaká je defaultní barva pro star?',
+      text: 'Máme kód const Star = ({ selected = false }) => <Icon color={selected ? "red" : "grey"} />;. Jaká je defaultní barva pro star?',
       source: [
-        { text: 'black'},
+        { text: 'black' },
         { text: 'red' },
         { text: 'grey  ' },
         { text: 'white   ' },
@@ -1704,9 +1718,9 @@ export default {
     },
     {
       id: '25',
-      text:  ' React vytvoříme pomocí příkazu:',
+      text: ' React vytvoříme pomocí příkazu:',
       source: [
-        { text: 'px create-react-app <project-name>'},
+        { text: 'px create-react-app <project-name>' },
         { text: 'npx install-react-app <project-name>' },
         { text: 'npx run-react-app <project-name>' },
         { text: 'npx create-react-js-app <project-name>' },
@@ -1716,9 +1730,9 @@ export default {
     },
     {
       id: '26',
-      text:  'Události v Reactu jsou podobné:',
+      text: 'Události v Reactu jsou podobné:',
       source: [
-        { text: 'událostem u prvků DOM v JS'},
+        { text: 'událostem u prvků DOM v JS' },
         { text: 'funkcím v JS' },
         { text: 'proměnným v JS' },
         { text: 'cyklům v JS' },
@@ -1728,9 +1742,9 @@ export default {
     },
     {
       id: '27',
-      text:  'React byl vytvořen společností:',
+      text: 'React byl vytvořen společností:',
       source: [
-        { text: 'Seznam'},
+        { text: 'Seznam' },
         { text: 'Facebook  ' },
         { text: 'Google' },
         { text: 'IBM' },
@@ -1740,9 +1754,9 @@ export default {
     },
     {
       id: '28',
-      text:  'Události v Reactu se pojmenovávají stylem:',
+      text: 'Události v Reactu se pojmenovávají stylem:',
       source: [
-        { text: 'camelCase   '},
+        { text: 'camelCase   ' },
         { text: 'snake_case  ' },
         { text: 'kebab-case' },
         { text: 'studly caps' },
@@ -1752,9 +1766,9 @@ export default {
     },
     {
       id: '29',
-      text:  'Máme kód const name = "Rachel"; const age = 31; const person = { name, age }; console.log(person);. Co se nám vypíše do konzole?',
+      text: 'Máme kód const name = "Rachel"; const age = 31; const person = { name, age }; console.log(person);. Co se nám vypíše do konzole?',
       source: [
-        { text: ' `` '},
+        { text: ' `` ' },
         { text: '{name: "Rachel", age: 31} ' },
         { text: '{person: "Rachel", person: 31}}' },
         { text: '{person: {name: "Rachel", age: 31}}' },
@@ -1764,9 +1778,9 @@ export default {
     },
     {
       id: '30',
-      text:  'Mám kód pro tlačítko A (<button onClick={this.handleClick}>Click Me</button>) a kód pro tlačítko B (<button onClick={event => this.handleClick(event)}>Click Me</button>). Jaký je mezi nimi rozdíl?',
+      text: 'Mám kód pro tlačítko A (<button onClick={this.handleClick}>Click Me</button>) a kód pro tlačítko B (<button onClick={event => this.handleClick(event)}>Click Me</button>). Jaký je mezi nimi rozdíl?',
       source: [
-        { text: 'Po kliknutí nemá tlačítko A přístup k události'},
+        { text: 'Po kliknutí nemá tlačítko A přístup k události' },
         { text: 'Tlačítko B nespustí this.handleClick' },
         { text: 'Tlačítko A nespustí this.handleClick' },
         { text: 'Žádný  ' },
@@ -1774,15 +1788,14 @@ export default {
       ok: 3,
       link: 'https://reactjs.org/docs/handling-events.html',
     },
-
-  ],  
+  ],
 
   GIT: [
     {
       id: '1',
       text: 'Jak ověřite, že máte aktuální verzi GITu?',
       source: [
-        { text: 'git –v'},
+        { text: 'git –v' },
         { text: 'git –version' },
         { text: 'git –option' },
         { text: 'git –current' },
@@ -1794,7 +1807,7 @@ export default {
       id: '2',
       text: 'GIT je:',
       source: [
-        { text: 'distribuovaný systém správy verzí '},
+        { text: 'distribuovaný systém správy verzí ' },
         { text: 'framework' },
         { text: 'webový prohlížeč' },
         { text: 'programovací jazyk' },
@@ -1806,7 +1819,7 @@ export default {
       id: '3',
       text: 'Který z následujícich webů neposkytuje hostování zdrojových kódů v repozitářích postavených na GITu:',
       source: [
-        { text: 'GitHub'},
+        { text: 'GitHub' },
         { text: 'GitLab' },
         { text: 'Bitbucket' },
         { text: 'Facebook    ' },
@@ -1818,7 +1831,7 @@ export default {
       id: '4',
       text: 'V konzoli se po příkazu git remote -v ukáže:',
       source: [
-        { text: 'seznam vzdálených úložišť a jejich URL adres'},
+        { text: 'seznam vzdálených úložišť a jejich URL adres' },
         { text: 'aktuální verze gitu, kterou používáte' },
         { text: 'editor pro úpravy vzdálených úložišť' },
         { text: 'posledních 5 verzí gitu, které jste nainstalovali' },
@@ -1830,7 +1843,7 @@ export default {
       id: '5',
       text: 'Který příkaz použijete, chcete-li aby se byla aplikovaelná do celého git prostředí?',
       source: [
-        { text: '--all'},
+        { text: '--all' },
         { text: '--master' },
         { text: '--global' },
         { text: '--update' },
@@ -1842,7 +1855,7 @@ export default {
       id: '6',
       text: 'Kterým přikezem si stáhnete repozitář z GitHubu do počítače?',
       source: [
-        { text: 'git push'},
+        { text: 'git push' },
         { text: 'git fork' },
         { text: 'git clone' },
         { text: 'git commit' },
@@ -1854,7 +1867,7 @@ export default {
       id: '7',
       text: 'Jaký je opak příkazu git clone, který místo stahování kódu z GitHubu nahraje změny a kód zpět do GitHubu?',
       source: [
-        { text: 'git push'},
+        { text: 'git push' },
         { text: 'git add' },
         { text: 'git upload' },
         { text: 'git status' },
@@ -1866,7 +1879,7 @@ export default {
       id: '8',
       text: 'Jakým příkazen zkontrolujete stav repozitáře?',
       source: [
-        { text: 'git check'},
+        { text: 'git check' },
         { text: 'git status' },
         { text: 'git commit' },
         { text: 'git diff' },
@@ -1878,7 +1891,7 @@ export default {
       id: '9',
       text: 'Jakým príkazem připravíte soubor k zapsání?',
       source: [
-        { text: 'git stage'},
+        { text: 'git stage' },
         { text: 'git commit' },
         { text: 'git add  ' },
         { text: 'git reset' },
@@ -1890,7 +1903,7 @@ export default {
       id: '10',
       text: 'Jakým příkazem uložíte/zapíšete aktuální stav kódu do ovládacího prvku verze gitu?',
       source: [
-        { text: 'git commit'},
+        { text: 'git commit' },
         { text: 'git stage' },
         { text: 'git add' },
         { text: 'git init' },
@@ -1902,7 +1915,7 @@ export default {
       id: '11',
       text: 'Jak zapíšete zprávu do commitu?',
       source: [
-        { text: 'git message "First code"'},
+        { text: 'git message "First code"' },
         { text: 'git git add "First code"' },
         { text: 'git commit "First code"' },
         { text: 'git commit -m "First code"' },
@@ -1914,7 +1927,7 @@ export default {
       id: '12',
       text: 'Kterým příkazem inicializujeme nový git reppozitář?',
       source: [
-        { text: 'git new'},
+        { text: 'git new' },
         { text: 'git add' },
         { text: 'git init' },
         { text: 'git initialize' },
@@ -1926,7 +1939,7 @@ export default {
       id: '13',
       text: 'Který příkaz připraví nový soubor nebo přidá změny k zapsání?',
       source: [
-        { text: 'git stage'},
+        { text: 'git stage' },
         { text: 'git add' },
         { text: 'git filenamen' },
         { text: 'žádný' },
@@ -1938,7 +1951,7 @@ export default {
       id: '14',
       text: 'Jaký příkaz zapíše změny připravené k zapsání?',
       source: [
-        { text: 'git commit'},
+        { text: 'git commit' },
         { text: 'git comment' },
         { text: 'git lockdown' },
         { text: 'git push' },
@@ -1950,7 +1963,7 @@ export default {
       id: '15',
       text: ' Který příkaz připraví nový soubor .txt nebo přidá změny k zapsání',
       source: [
-        { text: 'git add *.txt'},
+        { text: 'git add *.txt' },
         { text: 'git add *.text' },
         { text: 'git add -a .txt' },
         { text: 'git add - *.txt' },
