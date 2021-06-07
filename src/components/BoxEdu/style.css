@@ -1,0 +1,38 @@
+.boxEdu {
+  box-shadow: 3px 1px 20px 5px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: var(--spacer);
+}
+
+.boxEdu__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: var(--spacer) auto 0 auto;
+}
+
+.boxEdu__img {
+  display: block;
+
+  height: 40px;
+  margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
+  transition: transform 0.5s;
+}
+
+.boxEdu__img--open {
+  transform: scaleY(-1);
+}
+
+.boxEdu__description--closed {
+  display: none;
+}
+
+.boxEdu__content {
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.boxEdu__content > li {
+  padding: calc(var(--spacer) / 2) var(--spacer);
+}
