@@ -15,8 +15,8 @@ const Education = () => (
             key={item.id}
             name={item.name}
             text={item.text}
-            tip={item.note}
             link={item.link}
+            // tip={item.note}
           />
         );
       })}

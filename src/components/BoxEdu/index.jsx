@@ -10,8 +10,15 @@ const BoxEdu = ({ name, text, note, link }) => {
   return (
     <div className="boxEdu">
       <div className="boxEdu__wrapper">
-        <img className="boxEdu__img" src={`assets/${name}.svg`} alt="{name}" />
+        <a className="boxEdu__link" href={link} target="_blank" alt={name}>
+          <img
+            className="boxEdu__img"
+            src={`assets/${name}.svg`}
+            alt="{name}"
+          />
+        </a>
         <h3 className="boxEdu__title">{name}</h3>
+
         <img
           src="assets/arrows.svg"
           alt="šipka"
