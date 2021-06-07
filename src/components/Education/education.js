@@ -20,7 +20,7 @@ export const education = [
   },
   {
     id: 3,
-    name: 'JuniorGuru',
+    name: 'Junior Guru',
     text: 'Užitečný web a klub pro každého juniora v IT.',
     link: 'https://junior.guru/',
     tips: [],
