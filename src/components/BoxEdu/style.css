@@ -13,7 +13,6 @@
 
 .boxEdu__img {
   display: block;
-
   height: 40px;
   margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
   transition: transform 0.5s;
