@@ -48,10 +48,13 @@ const Question = ({
             src={correctAnswer === userAnswer ? Correct : Incorrect}
           />
         )}
-        <div className="question__number">
-          Otázka č. {index} <span className="question__number--set">/ 10</span>{' '}
-        </div>{' '}
-        <div className="question__heading">{heading}</div>
+        <div className="question__header">
+          <div className="question__number">
+            Otázka č. {index}{' '}
+            <span className="question__number--set">/ 10</span>{' '}
+          </div>{' '}
+          <div className="question__heading">{heading}</div>
+        </div>
       </h4>
       {isResult && userAnswer === undefined && (
         <h3 className="question--nonAnswered">
@@ -60,20 +63,21 @@ const Question = ({
       )}
       {answers.map((item, index) => (
         <div key={index}>
-          <input
-            name={`answer-${id}`}
-            className="question__checkbox"
-            disabled={!onSelect}
-            type="radio"
-            checked={isResult && userAnswer === index}
-            id={`answer-${id}-${index}`}
-            onChange={() => {
-              if (onSelect) {
-                onSelect(id, index);
-              }
-            }}
-          ></input>
           <label className={calcStyle(index)} htmlFor={`answer-${id}-${index}`}>
+            <input
+              name={`answer-${id}`}
+              className="question__checkbox"
+              disabled={!onSelect}
+              type="radio"
+              checked={isResult && userAnswer === index}
+              id={`answer-${id}-${index}`}
+              onChange={() => {
+                if (onSelect) {
+                  onSelect(id, index);
+                }
+              }}
+            ></input>
+            <span className="checkmark"></span>
             {item.text}
           </label>
         </div>

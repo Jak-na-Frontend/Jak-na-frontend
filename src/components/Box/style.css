@@ -17,6 +17,7 @@
   height: 30px;
   margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .box__img--open {

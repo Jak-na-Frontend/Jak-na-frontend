@@ -1,7 +1,7 @@
 export const education = [
   {
     id: 1,
-    name: 'Youtube',
+    name: 'YouTube',
     text: 'Na Youtube je spouta zdrojů k poučení i zábavě',
     link: 'https://www.youtube.com/',
     tips: [
@@ -16,17 +16,20 @@ export const education = [
     name: 'Czechitas',
     text: '',
     link: 'https://www.czechitas.cz/',
+    tips: [],
   },
   {
     id: 3,
     name: 'JuniorGuru',
     text: 'Užitečný web a klub pro každého juniora v IT.',
     link: 'https://junior.guru/',
+    tips: [],
   },
   {
     id: 4,
     name: 'Frontend Mentor',
     text: 'Projekty na procvičení s komunitou, která vám poskytne radu i zpětnou vazbu.',
     link: 'https://www.frontendmentor.io/',
+    tips: [],
   },
 ];

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const BoxEdu = ({ name, text, note, link }) => {
+const BoxEdu = ({ name, text, tips, link }) => {
   const [openBox, setOpenBox] = useState(false);
   const handleClick = () => {
     setOpenBox(!openBox);
@@ -36,9 +36,15 @@ const BoxEdu = ({ name, text, note, link }) => {
         }
       >
         <p className="boxEdu__content">{text}</p>
-        <a className="boxEdu__content" href={link}>
-          {note}
-        </a>
+        <ul>
+          {tips.map((tip, index) => (
+            <li key={index}>
+              <a className="boxEdu__content" href={tip.link}>
+                {tip.note}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
