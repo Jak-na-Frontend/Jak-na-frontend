@@ -82,6 +82,9 @@ const Quiz = () => {
             ? 'Další otázka'
             : 'Vyhodnotit test'}
         </button>
+        <p className="quiz__note">
+          Našli jste chybu nebo překlep? Prosím napište nám.
+        </p>
       </div>
     </>
   );

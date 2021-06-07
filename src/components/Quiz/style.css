@@ -1,5 +1,5 @@
 .quiz__footer {
-  margin: calc(var(--spacer) * 4) var(--spacer);
+  margin: calc(var(--spacer) * 2) var(--spacer);
 
   text-align: center;
 }
@@ -20,7 +20,9 @@
   background-color: var(--color-button);
   padding: calc(var(--spacer) / 2);
   color: var(--color-font-light);
+  margin-bottom: calc(var(--spacer) / 2);
 }
+
 @media screen and (min-width: 768px) {
   .timestoper {
     margin: calc(var(--spacer) * 2) auto;
@@ -29,12 +31,14 @@
 
   .set__button {
     display: inline-block;
+    margin-bottom: calc(var(--spacer) / 2);
   }
 }
 
 @media screen and (min-width: 990px) {
   .set__button {
     font-size: 1.5rem;
+    margin-bottom: calc(var(--spacer) / 2);
   }
   .timestoper {
     max-width: 1200px;
