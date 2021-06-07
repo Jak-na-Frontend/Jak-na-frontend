@@ -13,6 +13,13 @@
   text-decoration: none;
 }
 
+.quiz__text {
+  margin: calc(var(--spacer) * 4) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+  max-width: 600px;
+}
+
 .quiz__button {
   display: block;
   font-family: var(--font);
