@@ -113,6 +113,20 @@ const TestPage = () => {
             <p className="quiz__button">Test z&nbsp;Angličtiny</p>
           </Link>
         </div>
+        <div className="quiz__picture-wrapper">
+          <img
+            className="quiz__picture"
+            src="assets/graphic.svg"
+            alt="test z Grafiky"
+          />
+          <Link
+            to="/testy/Grafika"
+            className="quiz__text quiz__link"
+            onClick={handleclick}
+          >
+            <p className="quiz__button">Test z&nbsp;Grafiky</p>
+          </Link>
+        </div>
       </section>
       <section className="education">
         <div className="education__picture-wrapper">
