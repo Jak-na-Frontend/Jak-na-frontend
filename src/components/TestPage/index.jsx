@@ -120,7 +120,7 @@ const TestPage = () => {
             alt="test z Grafiky"
           />
           <Link
-            to="/testy/Grafika"
+            to="/testy/grafika"
             className="quiz__text quiz__link"
             onClick={handleclick}
           >
