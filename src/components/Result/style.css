@@ -27,7 +27,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .quiz__button {
+  .quiz__button-result {
     display: inline-block;
     padding-left: var(--spacer);
     padding-right: var(--spacer);
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width: 990px) {
-  .quiz__button {
+  .quiz__button-result {
     font-size: 1.5rem;
   }
 }
