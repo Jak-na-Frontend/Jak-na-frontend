@@ -89,7 +89,7 @@
 
 .quiz__picture-wrapper--home {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   margin: var(--spacer) auto;
