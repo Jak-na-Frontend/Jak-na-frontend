@@ -2147,7 +2147,8 @@ export default {
       link: 'https://git-scm.com/book/cs/v2/Z%C3%A1klady-pr%C3%A1ce-se-syst%C3%A9mem-Git-Pou%C5%BE%C3%ADv%C3%A1n%C3%AD-zna%C4%8Dek',
     },
   ],
-  Grafika: [
+
+  grafika: [
     {
       id: '1',
       text: 'Bitmapová grafika se často používá pro:',
