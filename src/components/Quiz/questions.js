@@ -2150,7 +2150,162 @@ export default {
     ok: 2,
     link: 'https://git-scm.com/book/cs/v2/Z%C3%A1klady-pr%C3%A1ce-se-syst%C3%A9mem-Git-Pou%C5%BE%C3%ADv%C3%A1n%C3%AD-zna%C4%8Dek',
   },
+],
+
+  grafika: [
+    {
+      id: '1',
+      text: 'Bitmapová grafika se často používá pro:',
+      source: [
+        { text: 'Fotografie a web' },
+        { text: 'Výkresy' },
+        { text: 'Tvorbu loga' },
+        { text: 'Flash animace' },
+      ],
+      ok: 0,
+      link: 'https://cs.wikipedia.org/wiki/Rastrov%C3%A1_grafika',
+    },
+    {
+      id: '2',
+      text: 'Které z programů patří mezi bitmapové editory?',
+      source: [
+        { text: 'Inkscape a CorelDraw' },
+        { text: 'Illustrator a InDesign' },
+        { text: 'Photoshop a Gimp' },
+        { text: 'Scribus a Flash' },
+      ],
+      ok: 2,
+      link: 'https://cs.wikipedia.org/wiki/Bitmapov%C3%BD_grafick%C3%BD_editor',
+    },
+    {
+      id: '3',
+      text: 'Mezi nejčastější bitmapové formáty patří:',
+      source: [
+        { text: '.JPG .GIF .PNG' },
+        { text: '.CDR .AI .INDD' },
+        { text: '.EPS .SWF .SVG' },
+        { text: '.PDF .PS .DWG' },
+      ],
+      ok: 0,
+      link: 'https://cs.wikipedia.org/wiki/Bitmapov%C3%BD_grafick%C3%BD_editor',
+    },
+    {
+      id: '4',
+      text: 'V jakých jednotách zadáte velikost bitmapové obrazu pro web?',
+      source: [
+        { text: 'v centimetrech' },
+        { text: 'v procentech' },
+        { text: 'v pixelech' },
+        { text: 'v milimetrech' },
+      ],
+      ok: 2,
+      link: 'https://cs.wikipedia.org/wiki/BMP',
+    },
+    {
+      id: '5',
+      text: 'Jaké je v vhodné rozlišení obrazu pro web - pro monitor (PPI):',
+      source: [{ text: '300 ppi' }, { text: '150 ppi' }, { text: '72 ppi' }],
+      ok: 2,
+      link: 'https://www.webprezent.cz/navody/obrazky-pro-web-optimalni-formaty-velikosti-a-programy-pro-upravy/',
+    },
+    {
+      id: '6',
+      text: 'Co znamená zkratka PPI:',
+      source: [
+        { text: 'Pixels Per Inch' },
+        { text: 'Puntíků Pro Internet' },
+        { text: 'Points Per Image' },
+        { text: 'Pixels Per Image' },
+      ],
+      ok: 2,
+      link: 'https://tech-lib.eu/definition/ppi.html',
+    },
+    {
+      id: '7',
+      text: 'Jaké barvy (barevný model) je vhodné používat pro web:',
+      source: [
+        { text: 'RGB' },
+        { text: 'CMYK' },
+        { text: 'Pantone' },
+        { text: 'LAB' },
+      ],
+      ok: 0,
+      link: 'https://www.jakpsatweb.cz/barvy-zapis.html#rgb',
+    },
+    {
+      id: '8',
+      text: 'Rozlišení FULL HD odpovídá obrazu:',
+      source: [
+        { text: '800x600 px' },
+        { text: '1024x768 px' },
+        { text: '125x1024 px' },
+        { text: '1920x1080 px' },
+      ],
+      ok: 3,
+      link: 'https://www.vzhurudolu.cz/prirucka/rozliseni-displeje',
+    },
+    {
+      id: '9',
+      text: 'Kolik barev obsahuje 8 bitový obraz?',
+      source: [
+        { text: '256 barev' },
+        { text: '1,67 mil. barev' },
+        { text: '16 barev' },
+        { text: 'jiný počet ' },
+      ],
+      ok: 0,
+      link: 'https://helpx.adobe.com/cz/photoshop/using/bit-depth.html',
+    },
+    {
+      id: '10',
+      text: 'Z jakých barev je složen model CMYK?',
+      source: [
+        { text: 'azurová, purpurová, žlutá a černá' },
+        { text: 'červená, zelená a modrá' },
+        { text: 'červená, žlutá, modrá, černá' },
+        { text: 'jiné barvy' },
+      ],
+      ok: 0,
+      link: 'https://cs.wikipedia.org/wiki/CMYK',
+    },
+    {
+      id: '11',
+      text: 'Lze použít formát .PDF pro bitmapovou i vektorovou grafiku?',
+      source: [{ text: 'ano' }, { text: 'ne' }],
+      ok: 0,
+      link: 'https://acrobat.adobe.com/cz/cs/acrobat/about-adobe-pdf.html',
+    },
+    {
+      id: '12',
+      text: 'Které z uvedených programů jsou Opensource?',
+      source: [
+        { text: 'Inkscape - Gimp - Scribus' },
+        { text: 'Photoshop - Illustrator - InDesign ' },
+        { text: 'Corel Draw - Corel Photo-Paint' },
+      ],
+      ok: 0,
+      link: 'https://artster.cz/graficke-programy/',
+    },
+    {
+      id: '13',
+      text: 'Mohu si z internetu stáhnou libovolnou fotografii a použít jí např. na web?',
+      source: [{ text: 'ano' }, { text: 'ne' }],
+      ok: 1,
+      link: 'https://www.finance.cz/528593-obrazky-a-fotky-na-internetu/',
+    },
+    {
+      id: '14',
+      text: 'Co znamená licence Creative Commons (zkratka CC)?',
+      source: [
+        { text: 'soubor pravidel pro sdílení díla' },
+        { text: 'soubor grafických programů' },
+        { text: 'produkt firmy Adobe' },
+        { text: 'žádná taková licence neexistuje ' },
+      ],
+      ok: 2,
+      link: 'https://www.finance.cz/528593-obrazky-a-fotky-na-internetu/#Foto%20zdarma',
+    },
+  ]
 
 
-  ], 
 };
