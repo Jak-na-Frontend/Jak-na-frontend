@@ -57,6 +57,10 @@
     max-width: 1200px;
     justify-content: center;
   }
+  .result--text {
+    margin-left: calc(var(--spacer) * 2);
+  }
+
   .quiz__button-result {
     font-size: 1.5rem;
   }
