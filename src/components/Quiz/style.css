@@ -23,15 +23,32 @@
   margin-bottom: calc(var(--spacer) / 2);
 }
 
+.quiz__note {
+  margin-top: var(--spacer);
+  display: block;
+  color: var(--color-font);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.quiz__note:hover,
+.quiz__note:active,
+.quiz__note:focus {
+  color: var(--color-font);
+  font-family: var(--font);
+
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 @media screen and (min-width: 768px) {
   .timestoper {
-    margin: calc(var(--spacer) * 2) auto;
+    margin: var(--spacer) auto;
     max-width: 600px;
   }
 
   .set__button {
     display: inline-block;
-    margin-bottom: calc(var(--spacer) / 2);
   }
 }
 

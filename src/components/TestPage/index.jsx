@@ -155,7 +155,7 @@ const TestPage = () => {
           <Link
             to="/vzdelavani"
             className="education__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="education__button">Pojď se učit</p>
           </Link>

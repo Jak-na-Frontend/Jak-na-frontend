@@ -74,7 +74,7 @@ const Home = () => {
         <div className="education__text">
           Kde se vzdělávat
           <Link to="/vzdelavani" className="education__link">
-            <p className="education__button" onClick={handleSubmit()}>
+            <p className="education__button" onClick={handleSubmit}>
               Pojď se učit
             </p>
           </Link>

@@ -23,9 +23,6 @@ const About = () => (
       </p>
       <p className="text"></p>
     </section>
-    <a href="https://www.freepik.com/vectors/business">
-      Business vector created by vectorjuice - www.freepik.com
-    </a>
   </>
 );
 

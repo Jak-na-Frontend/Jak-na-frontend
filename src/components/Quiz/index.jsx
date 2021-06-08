@@ -5,6 +5,7 @@ import { useParams } from 'react-router';
 import questions from './questions';
 import Result from '../Result';
 import shuffle from 'lodash.shuffle';
+import { Link } from 'react-router-dom';
 
 let timer = null;
 
@@ -14,6 +15,10 @@ const Quiz = () => {
   const [questionForQuiz, setQuestionForQuiz] = useState(questions[name]);
   const [questionIndex, setquestionIndex] = useState(0);
   const [timeQuiz, setTimeQuiz] = useState(0);
+  const handleclick = () => {
+    window.scrollTo({ top: 0 });
+  };
+
   useEffect(() => {
     setQuestionForQuiz(shuffle(questionForQuiz).slice(0, 10));
   }, []);
@@ -82,9 +87,9 @@ const Quiz = () => {
             ? 'Další otázka'
             : 'Vyhodnotit test'}
         </button>
-        <p className="quiz__note">
+        <Link to="/About" className="quiz__note" onClick={handleclick}>
           Našli jste chybu nebo překlep? Prosím napište nám.
-        </p>
+        </Link>
       </div>
     </>
   );
