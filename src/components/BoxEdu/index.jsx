@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const BoxEdu = ({ name, text, tips, link }) => {
+const BoxEdu = ({ name, text, tips, link, img }) => {
   const [openBox, setOpenBox] = useState(false);
   const handleClick = () => {
     setOpenBox(!openBox);
@@ -11,11 +11,7 @@ const BoxEdu = ({ name, text, tips, link }) => {
     <div className="boxEdu">
       <div className="boxEdu__wrapper">
         <a className="boxEdu__link" href={link} target="_blank" alt={name}>
-          <img
-            className="boxEdu__img"
-            src={`assets/${name}.svg`}
-            alt="{name}"
-          />
+          <img className="boxEdu__img" src={img} alt={name} />
         </a>
         <h3 className="boxEdu__title">{name}</h3>
 

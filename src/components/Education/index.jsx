@@ -16,6 +16,7 @@ const Education = () => (
             name={item.name}
             text={item.text}
             link={item.link}
+            img={item.img}
             tips={item.tips}
           />
         );
