@@ -8,7 +8,7 @@ const Education = () => (
     <header className="heading">
       <h1 className="heading__text">Vzdělávání</h1>
     </header>
-    <div className="roadMap__content">
+    <div className="education__content">
       {education.map((item) => {
         return (
           <BoxEdu

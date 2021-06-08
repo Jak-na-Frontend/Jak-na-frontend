@@ -8,15 +8,27 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  margin: var(--spacer) auto 0 auto;
+  margin: 0 auto 0 auto;
+}
+.boxEdu__img--logo {
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
 }
 
 .boxEdu__img {
   display: block;
-  height: 50px;
+  width: 50px;
+  height: 30px;
   margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
   transition: transform 0.5s;
   cursor: pointer;
+}
+
+.boxEdu__description {
+  text-align: center;
+  padding: var(--spacer);
 }
 
 .boxEdu__img--open {
@@ -33,6 +45,57 @@
   padding-inline-start: 0;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 .boxEdu__content > li {
+  padding: calc(var(--spacer) / 2) 0;
+  text-decoration: none;
+}
+
+.boxEdu__tip {
+  text-decoration: none;
+}
+
+.boxEdu__tip:hover,
+.boxEdu__tip:active,
+.boxEdu__tip:focus {
+  color: var(--color-font);
+  font-family: var(--font);
+  font-size: 1em;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.education__content {
+  margin: calc(var(--spacer) * 4) auto;
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxEdu__content {
+  text-align: center;
+}
+
+.boxEdu__description > ul > li {
+  padding-inline-start: 0;
+  list-style-type: none;
   padding: calc(var(--spacer) / 2) var(--spacer);
+}
+
+@media screen and (min-width: 768px) {
+  .education__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: calc(var(--spacer) * 4) auto;
+    justify-content: space-around;
+  }
 }

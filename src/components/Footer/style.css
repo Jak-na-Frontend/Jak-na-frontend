@@ -24,7 +24,7 @@
 .footer__about {
   color: var(--color-font);
   font-family: var(--font);
-  font-size: 1rem;
+  font-size: 1em;
   text-decoration: none;
 }
 

@@ -25,7 +25,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z HTML</p>
+            <p className="quiz__button">Test HTML</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -39,7 +39,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z CSS</p>
+            <p className="quiz__button">Test CSS</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -53,7 +53,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z JS</p>
+            <p className="quiz__button">Test JS</p>
           </Link>
         </div>
 
@@ -68,7 +68,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z Reactu</p>
+            <p className="quiz__button">Test Reactu</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -82,7 +82,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z Gitu</p>
+            <p className="quiz__button">Test Git</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -96,7 +96,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z&nbsp;Bootstrapu</p>
+            <p className="quiz__button">Test Bootstrap</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -110,7 +110,7 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z&nbsp;Angličtiny</p>
+            <p className="quiz__button">Test Angličtina</p>
           </Link>
         </div>
         <div className="quiz__picture-wrapper">
@@ -124,7 +124,21 @@ const TestPage = () => {
             className="quiz__text quiz__link"
             onClick={handleclick()}
           >
-            <p className="quiz__button">Test z&nbsp;Grafiky</p>
+            <p className="quiz__button">Test Grafika</p>
+          </Link>
+        </div>
+        <div className="quiz__picture-wrapper">
+          <img
+            className="quiz__picture"
+            src="assets/sass.svg"
+            alt="test z Sass"
+          />
+          <Link
+            to="/testy/Sass"
+            className="quiz__text quiz__link"
+            onClick={handleclick()}
+          >
+            <p className="quiz__button">Test&nbsp;Sass</p>
           </Link>
         </div>
       </section>

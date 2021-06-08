@@ -53,7 +53,7 @@ export const education = [
     name: 'Czechitas',
     text: '',
     link: 'https://www.czechitas.cz/',
-    img: '/assets/Czechitas.png',
+    img: '/assets/Czechitas.svg',
     tips: [
       {
         note: 'V kalendáři si každý něco najde',

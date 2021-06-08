@@ -11,7 +11,7 @@ const BoxEdu = ({ name, text, tips, link, img }) => {
     <div className="boxEdu">
       <div className="boxEdu__wrapper">
         <a className="boxEdu__link" href={link} target="_blank" alt={name}>
-          <img className="boxEdu__img" src={img} alt={name} />
+          <img className="boxEdu__img--logo" src={img} alt={name} />
         </a>
 
         <img
@@ -35,7 +35,7 @@ const BoxEdu = ({ name, text, tips, link, img }) => {
         <ul>
           {tips.map((tip, index) => (
             <li key={index}>
-              <a className="boxEdu__content" href={tip.link}>
+              <a className="boxEdu__tip" href={tip.link}>
                 {tip.note}
               </a>
             </li>
