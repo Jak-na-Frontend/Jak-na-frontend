@@ -20,17 +20,19 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
       </header>
       <div className="result--data">
         <img className="subheading__img" src={Medal} />
-        <h3 className="subheading__time">Zodpovězeno za {time} sekund</h3>
-        <h3 className="subheading">
-          Zodpovězeno otázek {result.filter((item) => item.isCorrect).length} /{' '}
-          {result.length}
-        </h3>
-        <h3 className="subheading">
-          Úspěšnost{' '}
-          {(result.filter((item) => item.isCorrect).length / result.length) *
-            100}{' '}
-          %
-        </h3>
+        <div className="result--text">
+          <h3 className="subheading__time">Zodpovězeno za {time} sekund</h3>
+          <h3 className="subheading">
+            Zodpovězeno otázek {result.filter((item) => item.isCorrect).length}{' '}
+            / {result.length}
+          </h3>
+          <h3 className="subheading">
+            Úspěšnost{' '}
+            {(result.filter((item) => item.isCorrect).length / result.length) *
+              100}{' '}
+            %
+          </h3>
+        </div>
       </div>
       {result.map((item, index) => (
         <Question

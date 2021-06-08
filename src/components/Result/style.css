@@ -1,10 +1,10 @@
 .subheading,
 .subheading__time {
-  font-size: 2rem;
+  font-size: 2em;
   text-align: center;
 }
 .subheading__img {
-  margin: calc(var(--spacer) * 2) auto;
+  margin: var(--spacer) auto;
   display: block;
   width: 20%;
 }
@@ -27,6 +27,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .subheading__img {
+    margin: calc(var(--spacer) / 2) var(--spacer);
+  }
+  .result--data {
+    display: flex;
+    margin: var(--spacer) var(--spacer);
+    max-width: 1200px;
+    justify-content: space-evenly;
+  }
+
   .quiz__button-result {
     display: inline-block;
     padding-left: var(--spacer);
@@ -37,6 +47,12 @@
 }
 
 @media screen and (min-width: 990px) {
+  .result--data {
+    display: flex;
+    margin: calc(var(--spacer) * 2) auto;
+    max-width: 1200px;
+    justify-content: center;
+  }
   .quiz__button-result {
     font-size: 1.5rem;
   }

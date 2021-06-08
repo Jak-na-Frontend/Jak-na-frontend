@@ -86,7 +86,7 @@ const Question = ({
       {isResult && (
         <div className="question__action">
           <a className="question__link" href={link} target="_blank">
-            Více infomací najdeš v odkazu.
+            Více v odkazu.
           </a>
         </div>
       )}
