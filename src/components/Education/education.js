@@ -53,7 +53,7 @@ export const education = [
     name: 'Czechitas',
     text: '',
     link: 'https://www.czechitas.cz/',
-    img: '/assets/Czechitas.svg',
+    img: '/assets/Czechitas.png',
     tips: [
       {
         note: 'V kalendáři si každý něco najde',
@@ -91,6 +91,19 @@ export const education = [
       {
         note: 'Facebooková skupina Holky z IT mají Slack kanál kde si radí s projekty z FM',
         link: 'https://www.facebook.com/groups/holkyzit/permalink/1563238557207182',
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: 'Codecademy',
+    text: 'Academie programování',
+    link: 'https://www.codecademy.com/',
+    img: '/assets/Codecademy.svg',
+    tips: [
+      {
+        note: 'Youtube kanál',
+        link: 'https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ',
       },
     ],
   },

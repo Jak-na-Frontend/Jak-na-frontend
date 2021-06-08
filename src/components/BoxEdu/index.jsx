@@ -13,7 +13,6 @@ const BoxEdu = ({ name, text, tips, link, img }) => {
         <a className="boxEdu__link" href={link} target="_blank" alt={name}>
           <img className="boxEdu__img" src={img} alt={name} />
         </a>
-        <h3 className="boxEdu__title">{name}</h3>
 
         <img
           src="assets/arrows.svg"
@@ -31,6 +30,7 @@ const BoxEdu = ({ name, text, tips, link, img }) => {
             : 'boxEdu__description boxEdu__description--closed'
         }
       >
+        <h3 className="boxEdu__title">{name}</h3>
         <p className="boxEdu__content">{text}</p>
         <ul>
           {tips.map((tip, index) => (
