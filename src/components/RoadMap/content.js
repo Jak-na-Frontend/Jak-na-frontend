@@ -20,7 +20,7 @@ export const content = [
       'Architektúra stylů (BEM aj.)',
       'UI knihovny (Bootstrap, Material UI)',
       'Lintovací nástroje',
-      'Custom properties (CSS variables',
+      'Custom properties (CSS variables)',
     ],
   },
   {
