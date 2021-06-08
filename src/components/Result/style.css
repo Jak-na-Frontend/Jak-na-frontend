@@ -13,6 +13,10 @@
   text-decoration: none;
 }
 
+.result--data {
+  margin: calc(var(--spacer) * 4) auto;
+}
+
 .quiz__button-result {
   display: block;
   font-family: var(--font);

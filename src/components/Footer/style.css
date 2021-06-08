@@ -4,7 +4,7 @@
   margin: calc(var(--spacer) * 2);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .footer__link {
     display: flex;
     align-items: center;

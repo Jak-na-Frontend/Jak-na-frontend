@@ -34,7 +34,7 @@
 }
 
 .question {
-  margin: calc(var(--spacer) * 4) var(--spacer);
+  margin: calc(var(--spacer) * 2) var(--spacer);
   padding-left: var(--spacer);
   padding-right: var(--spacer);
   max-width: 600px;
