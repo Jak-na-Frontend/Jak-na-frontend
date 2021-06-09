@@ -20,7 +20,7 @@ const Home = () => {
           Co je to webový vývoj
           <br />
           <Link to="/road-mapa-weboveho-vyvoje" className="introduction__link">
-            <p className="introduction__button" onClick={handleSubmit()}>
+            <p className="introduction__button" onClick={handleSubmit}>
               Zjistit víc
             </p>
           </Link>
@@ -33,7 +33,7 @@ const Home = () => {
               className="quiz__picture"
               src="assets/html.svg"
               alt="test z HTML"
-              onClick={handleSubmit()}
+              onClick={handleSubmit}
             />
           </Link>
           <Link to="/testy/CSS">
@@ -42,7 +42,7 @@ const Home = () => {
               className="quiz__picture"
               src="assets/Css.svg"
               alt="test z CSS"
-              onClick={handleSubmit()}
+              onClick={handleSubmit}
             />
           </Link>
           <Link to="/testy/Javascript">
@@ -51,13 +51,13 @@ const Home = () => {
               className="quiz__picture"
               src="assets/javascript.svg"
               alt="test z Javascriptu"
-              onClick={handleSubmit()}
+              onClick={handleSubmit}
             />
           </Link>
         </div>
         <div className="quiz__text">
           <Link to="/testy" className="quiz__link">
-            <p className="quiz__button" onClick={handleSubmit()}>
+            <p className="quiz__button" onClick={handleSubmit}>
               Otestuj se
             </p>
           </Link>

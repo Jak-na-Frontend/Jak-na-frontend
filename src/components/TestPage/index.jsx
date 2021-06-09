@@ -80,7 +80,7 @@ const TestPage = () => {
           <Link
             to="/testy/GIT"
             className="quiz__text quiz__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="quiz__button">Test Git</p>
           </Link>
@@ -94,7 +94,7 @@ const TestPage = () => {
           <Link
             to="/testy/Bootstrap"
             className="quiz__text quiz__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="quiz__button">Test Bootstrap</p>
           </Link>
@@ -108,7 +108,7 @@ const TestPage = () => {
           <Link
             to="/testy/Angličtina"
             className="quiz__text quiz__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="quiz__button">Test Angličtina</p>
           </Link>
@@ -122,7 +122,7 @@ const TestPage = () => {
           <Link
             to="/testy/grafika"
             className="quiz__text quiz__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="quiz__button">Test Grafika</p>
           </Link>
@@ -136,7 +136,7 @@ const TestPage = () => {
           <Link
             to="/testy/Sass"
             className="quiz__text quiz__link"
-            onClick={handleclick()}
+            onClick={handleclick}
           >
             <p className="quiz__button">Test&nbsp;Sass</p>
           </Link>

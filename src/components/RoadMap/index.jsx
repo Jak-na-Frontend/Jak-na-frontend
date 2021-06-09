@@ -31,7 +31,7 @@ const RoadMap = () => {
           <Link
             to="/testy"
             className="quizRoadMap__link"
-            onClick={handleSubmit()}
+            onClick={handleSubmit}
           >
             <p className="quizRoadMap__button">Otestuj se</p>
           </Link>
