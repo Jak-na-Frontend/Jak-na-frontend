@@ -22,7 +22,7 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
         <img className="subheading__img" src={Medal} />
         <div className="result--text">
           <h3 className="subheading__time">
-            {Math.floor(time / 60)} minut a {time % 60} sekund
+            Dokončeno za {Math.floor(time / 60)} minut a {time % 60} sekund
           </h3>
           <h3 className="subheading">
             Zodpovězeno otázek {result.filter((item) => item.isCorrect).length}{' '}
