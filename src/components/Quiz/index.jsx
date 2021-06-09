@@ -26,7 +26,7 @@ const Quiz = () => {
   useEffect(() => {
     timer = setInterval(() => {
       setTimeQuiz(timeQuiz + 1);
-    }, 100);
+    }, 1000);
 
     return () => {
       clearInterval(timer);
