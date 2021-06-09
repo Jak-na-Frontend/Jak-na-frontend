@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="99.333"
+   height="99.331"
+   viewBox="0 0 99.333 99.331"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="in.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview5"
+     showgrid="false"
+     inkscape:zoom="5.6949534"
+     inkscape:cx="56.407572"
+     inkscape:cy="55.117113"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     id="Icon_awesome-linkedin-in"
+     data-name="Icon awesome-linkedin-in"
+     d="M22.235,99.332H1.641V33.014H22.235ZM11.927,23.967a11.983,11.983,0,1,1,11.927-12.04A12.027,12.027,0,0,1,11.927,23.967ZM99.311,99.332H78.762V67.048c0-7.694-.155-17.561-10.707-17.561-10.707,0-12.348,8.359-12.348,17.006V99.332H35.135V33.014H54.886V42.06h.288c2.749-5.211,9.465-10.709,19.485-10.709,20.842,0,24.674,13.725,24.674,31.552v36.43Z"
+     transform="translate(0 -0.001)"
+     style="fill:#808080" />
+</svg>

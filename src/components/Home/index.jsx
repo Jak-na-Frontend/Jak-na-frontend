@@ -40,7 +40,7 @@ const Home = () => {
             <p className="quiz__text"></p>
             <img
               className="quiz__picture"
-              src="assets/css.svg"
+              src="assets/Css.svg"
               alt="test z CSS"
               onClick={handleSubmit()}
             />

@@ -141,7 +141,7 @@ export const education = [
         link: 'https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ',
       },
       {
-        note: 'Webová typografie',
+        note: 'Video o webové typografii',
         link: 'https://www.youtube.com/watch?v=agbh1wbfJt8&t=178s',
       },
     ],
