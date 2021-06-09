@@ -26,7 +26,7 @@ const Quiz = () => {
   useEffect(() => {
     timer = setInterval(() => {
       setTimeQuiz(timeQuiz + 1);
-    }, 1000);
+    }, 100);
 
     return () => {
       clearInterval(timer);
@@ -65,9 +65,11 @@ const Quiz = () => {
       <header className="heading">
         <h1 className="heading__text">Test {name.toUpperCase()}</h1>
       </header>
-      <h3 className="timestoper">{timeQuiz} sekund</h3>
+      <h3 className="timestoper">
+        {Math.floor(timeQuiz / 60)} minut a {timeQuiz % 60} sekund
+      </h3>
       <Question
-        key={questionForQuiz[questionIndex]}
+        key={questionForQuiz[questionIndex].id}
         id={questionForQuiz[questionIndex].id}
         heading={questionForQuiz[questionIndex].text}
         answers={questionForQuiz[questionIndex].source}
@@ -87,9 +89,13 @@ const Quiz = () => {
             ? 'Další otázka'
             : 'Vyhodnotit test'}
         </button>
-        <Link to="/About" className="quiz__note" onClick={handleclick}>
+        <a
+          className="quiz__note"
+          onClick={handleclick}
+          href={`mailto:lenka.barica@gmail.com?subject=Chyba v otázce: ${questionForQuiz[questionIndex].text}`}
+        >
           Našli jste chybu nebo překlep? Prosím napište nám.
-        </Link>
+        </a>
       </div>
     </>
   );
