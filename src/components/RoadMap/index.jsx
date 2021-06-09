@@ -11,6 +11,21 @@ const RoadMap = () => {
 
   return (
     <>
+      <div>
+        <p className="text">
+          <strong>
+            Webový vývoj je tvorba kódu pro uživatelské rozhraní webové stránky.
+          </strong>
+        </p>
+        <p className="text">
+          Stará se funkčnost, intuitivnost a&nbsp;jednoduchou ovladatelnost
+          vizuálního prostředí stránky.
+        </p>
+        <p className="text">
+          Co vše by měl webový vývojář(ka) znát a&nbsp;jakých tématech se
+          orintovat, napovídá Road mapa.
+        </p>
+      </div>
       <header className="heading">
         <h1 className="heading__text">Road mapa webového vývoje</h1>
       </header>
