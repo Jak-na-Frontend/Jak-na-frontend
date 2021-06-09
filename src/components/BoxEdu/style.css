@@ -12,7 +12,7 @@
 }
 .boxEdu__img--logo {
   display: block;
-  height: 50px;
+  height: 40px;
   cursor: pointer;
   margin: var(--spacer) auto calc(var(--spacer) / 2) auto;
 }

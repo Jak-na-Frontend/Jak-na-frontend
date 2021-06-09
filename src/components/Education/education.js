@@ -27,10 +27,6 @@ export const education = [
         link: 'https://www.youtube.com/user/chandraja2010/featured',
       },
       {
-        note: 'freeCodeCamp',
-        link: 'https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ',
-      },
-      {
         note: 'Web Dev Simplified',
         link: 'https://www.youtube.com/c/WebDevSimplified/featured',
       },
@@ -53,7 +49,7 @@ export const education = [
     name: 'Czechitas',
     text: '',
     link: 'https://www.czechitas.cz/',
-    img: '/assets/Czechitas.svg',
+    img: '/assets/Czechitas.png',
     tips: [
       {
         note: 'V kalendáři si každý něco najde',
@@ -76,10 +72,19 @@ export const education = [
   {
     id: 4,
     name: 'Vzhůru Dolů',
-    text: '',
+    text: 'Webová kodéřina ze všech stran',
     link: 'https://www.vzhurudolu.cz/',
     img: '/assets/Vzhuru.svg',
-    tips: [],
+    tips: [
+      {
+        note: 'Checklist před spuštěním webu',
+        link: 'https://www.vzhurudolu.cz/prirucka/checklist',
+      },
+      {
+        note: 'Nástroje webového vývoje',
+        link: 'https://www.vzhurudolu.cz/nastroje',
+      },
+    ],
   },
   {
     id: 5,
@@ -104,6 +109,65 @@ export const education = [
       {
         note: 'Youtube kanál',
         link: 'https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ',
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: 'FreeCodeCamp',
+    text: '',
+    link: 'https://www.freecodecamp.org/',
+    img: '/assets/freecodecamp.svg',
+    tips: [
+      {
+        note: 'Youtube kanál',
+        link: 'https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ',
+      },
+      {
+        note: 'Webová typografie',
+        link: 'https://www.youtube.com/watch?v=agbh1wbfJt8&t=178s',
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: 'MDN Web Docs',
+    text: 'Repozitár dokumentace pro vývojáře',
+    link: 'https://developer.mozilla.org/en-US/',
+    img: '/assets/MDN.svg',
+    tips: [],
+  },
+  {
+    id: 9,
+    name: 'Frontend Masters',
+    text: '',
+    link: 'https://frontendmasters.com/',
+    img: '/assets/FrontendMastersLogo.png',
+    tips: [
+      {
+        note: 'Front end developer Handbook',
+        link: 'https://frontendmasters.com/books/front-end-handbook/2019/',
+      },
+      {
+        note: 'Frontend Roadmap',
+        link: 'https://frontendmasters.com/guides/learning-roadmap/',
+      },
+    ],
+  },
+  {
+    id: 10,
+    name: 'Google Developers',
+    text: '',
+    link: 'https://developers.google.com/',
+    img: '/assets/GoogleDev.svg',
+    tips: [
+      {
+        note: 'YouTube kanál',
+        link: 'https://m.youtube.com/user/ChromeDevelopers',
+      },
+      {
+        note: 'Kurz CSS od Googlu',
+        link: 'https://web.dev/learn/css/',
       },
     ],
   },
