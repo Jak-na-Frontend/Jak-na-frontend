@@ -31,7 +31,7 @@ const TestPage = () => {
         <div className="quiz__picture-wrapper">
           <img
             className="quiz__picture"
-            src="assets/css.svg"
+            src="assets/Css.svg"
             alt="test z CSS"
           />
           <Link
