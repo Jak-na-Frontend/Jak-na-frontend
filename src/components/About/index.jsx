@@ -61,7 +61,18 @@ const About = () => (
         </div>
       </header>
 
-      <p className="text"></p>
+      <p className="text">
+        Vystudovala jsem překladatelství a&nbsp;francouzsko-českou veřejnou
+        správu. Nyní pracuji v&nbsp;oddělení financí v&nbsp;mezinárodní firmě.
+        Protože je to disciplína plná předem daných pravidel a&nbsp;mnohdy
+        monotónních úkonů, začala jsem se poohlížet po něčem kreativnějším
+        a&nbsp;flexibilnějším. Inspirovaly mě články o&nbsp;technologických
+        firmách a&nbsp;jejich přístupu k&nbsp;práci a&nbsp;zaměstnancům, které
+        jsem překládala pro jeden známý pracovní portál.
+      </p>
+      <p className="text">
+        S Czechitas jsem absolvovala kurzy Staň se kodérkou a&nbsp;Bootstrap.
+      </p>
 
       <header className="heading">
         <h1 className="heading__text">Lenka Silná</h1>
@@ -100,7 +111,19 @@ const About = () => (
         </div>
       </header>
 
-      <p className="text"></p>
+      <p className="text">
+        Na začátku mojí cesty k forontendu stála Luďkova "Adéla na cestách",
+        on-line kurz HTML a&nbsp;CSS. Díky tomu jsem objevila Czechitas
+        a&nbsp;další jejich kurzy. Prošla jsem základy programování
+        v&nbsp;Phytonu, Bootstrap, Datovou analýzu, testování, kurz "Staň se
+        kodérkou" mě nadchl a&nbsp;inspiroval pro změnu kariéry do webového
+        vývoje.
+      </p>
+      <p className="text">
+        Jsem vystudovaná grafička a&nbsp;historik umění. Celý život mě provázelo
+        nadšení pro IT. Ve frontendu jsem našla univerzální propojení designu,
+        techniky a&nbsp;testování.
+      </p>
     </section>
   </>
 );
