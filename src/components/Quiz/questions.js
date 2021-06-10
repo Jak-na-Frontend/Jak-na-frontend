@@ -147,10 +147,10 @@ export default {
       id: '14',
       text: 'Vyberte možnost pro kterou platí, že všechny tagy patří do tabulky.',
       source: [
-        { text: '<html><head><body>' },
-        { text: '<table><tt><tr>' },
-        { text: '<table><td><tr>' },
-        { text: '<table><head><tfoot>' },
+        { text: '<html> <head> <body>' },
+        { text: '<table> <tt> <tr>' },
+        { text: '<table> <td> <tr>' },
+        { text: '<table> <head> <tfoot>' },
       ],
       ok: 2,
       link: 'https://www.jakpsatweb.cz/html/tabulky.html#table',
@@ -240,10 +240,10 @@ export default {
       id: '22',
       text: 'K jakým značkám se pojí atribut value?',
       source: [
-        { text: '<button><input><form>' },
-        { text: '<input><label><meter>' },
-        { text: '<input><option><textarea>' },
-        { text: '<li><input><option>' },
+        { text: '<button> <input> <form>' },
+        { text: '<input> <label> <meter>' },
+        { text: '<input> <option> <textarea>' },
+        { text: '<li> <input> <option>' },
       ],
       ok: 3,
       link: 'https://www.w3schools.com/tags/att_input_value.asp',
@@ -252,17 +252,17 @@ export default {
       id: '23',
       text: 'K jakým značkám se pojí atribut value?',
       source: [
-        { text: '<button><input><form>' },
-        { text: '<input><label><meter>' },
-        { text: '<input><option><textarea>' },
-        { text: '<li><input><option>' },
+        { text: '<button> <input> <form>' },
+        { text: '<input> <label> <meter>' },
+        { text: '<input> <option> <textarea>' },
+        { text: '<li> <input> <option>' },
       ],
       ok: 3,
       link: 'https://www.w3schools.com/tags/att_input_value.asp',
     },
     {
       id: '24',
-      text: 'Doplňte do mezer <address ______ _____> <span itemprop="streetAddress">6410 Via Real</span><br /> <span itemprop="addressLocality">Carpinteria</span>, <span itemprop="addressRegion">CA</span> <span itemprop="addressCode">93013</span> </address>',
+      text: 'Doplňte do mezer <address ______ _____> <span itemprop="streetAddress">6410 Via Real</span> <br /> <span itemprop="addressLocality">Carpinteria</span>, <span itemprop="addressRegion">CA</span> <span itemprop="addressCode">93013</span> </address>',
       source: [
         { text: 'itemscope itemtype="http://schema.org/PostalAddress"' },
         { text: 'itemsref="http://schema.org/PostalAddress" itemid="address"' },
@@ -1729,7 +1729,7 @@ export default {
       source: [
         { text: 'Přidáme render funkce' },
         {
-          text: 'Složené závorky změníme na normální, nebo vložíme return před h1DOML',
+          text: 'Složené závorky změníme na normální, nebo vložíme return před h1DOM',
         },
         { text: 'h1 přemístíme do jiné komponenety' },
         { text: 'h1 obalíme divem' },
@@ -1739,9 +1739,9 @@ export default {
     },
     {
       id: '12',
-      text: 'onstantu vytvoříme pomocí:',
+      text: 'Konstantu vytvoříme pomocí:',
       source: [
-        { text: 'const  ' },
+        { text: 'const' },
         { text: 'let' },
         { text: 'constant' },
         { text: 'var' },
@@ -1847,18 +1847,18 @@ export default {
       ok: 1,
       link: 'https://www.w3schools.com/react/react_components.asp',
     },
-    // {
-    //   id: '21',
-    //   text:  'Máme kód ReactDOM.render(<Message orderNumber="16" />, document.getElementById('root'));. Jaký datový typ je orderNumber?',
-    //   source: [
-    //     { text: 'string  '},
-    //     { text: 'boolean' },
-    //     { text: 'object' },
-    //     { text: 'number' },
-    //   ],
-    //   ok: 0,
-    //   link: 'https://jsx.github.io/doc/typeref.html',
-    // },
+    {
+      id: '21',
+      text: 'Máme kód ReactDOM.render(<Message orderNumber="16" />, document.getElementById("root"));. Jaký datový typ je orderNumber?',
+      source: [
+        { text: 'string' },
+        { text: 'boolean' },
+        { text: 'object' },
+        { text: 'number' },
+      ],
+      ok: 0,
+      link: 'https://jsx.github.io/doc/typeref.html',
+    },
     {
       id: '22',
       text: 'V kódu const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>; jsme přidali style k h1, ale v konzoli se nám zobrazuje error, jak ho spravíme?',
@@ -1880,28 +1880,28 @@ export default {
         { text: 'replaceState' },
         { text: 'refreshState' },
         { text: 'updateState' },
-        { text: 'setState   ' },
+        { text: 'setState' },
       ],
       ok: 3,
       link: 'https://www.w3schools.com/react/react_state.asp',
     },
     {
       id: '24',
-      text: 'Máme kód const Star = ({ selected = false }) => <Icon color={selected ? "red" : "grey"} />;. Jaká je defaultní barva pro star?',
+      text: 'Máme kód const Star = ({ selected = false }) => <Icon color={selected ? "red" : "grey"} />;. Jaká bude defaultní barva pro star?',
       source: [
         { text: 'black' },
         { text: 'red' },
-        { text: 'grey  ' },
-        { text: 'white   ' },
+        { text: 'grey' },
+        { text: 'white' },
       ],
       ok: 2,
       link: 'https://www.w3schools.com/react/react_css.asp',
     },
     {
       id: '25',
-      text: ' React vytvoříme pomocí příkazu:',
+      text: 'React app vytvoříme pomocí příkazu:',
       source: [
-        { text: 'px create-react-app <project-name>' },
+        { text: 'npx create-react-app <project-name>' },
         { text: 'npx install-react-app <project-name>' },
         { text: 'npx run-react-app <project-name>' },
         { text: 'npx create-react-js-app <project-name>' },
@@ -1926,7 +1926,7 @@ export default {
       text: 'React byl vytvořen společností:',
       source: [
         { text: 'Seznam' },
-        { text: 'Facebook  ' },
+        { text: 'Facebook' },
         { text: 'Google' },
         { text: 'IBM' },
       ],
@@ -1937,8 +1937,8 @@ export default {
       id: '28',
       text: 'Události v Reactu se pojmenovávají stylem:',
       source: [
-        { text: 'camelCase   ' },
-        { text: 'snake_case  ' },
+        { text: 'camelCase' },
+        { text: 'snake_case' },
         { text: 'kebab-case' },
         { text: 'studly caps' },
       ],
@@ -1947,7 +1947,7 @@ export default {
     },
     {
       id: '29',
-      text: 'Máme kód const name = "Rachel"; const age = 31; const person = { name, age }; console.log(person);. Co se nám vypíše do konzole?',
+      text: 'Máme kód const name = "Rachel"; const age = 31; const person = { name, age }; console.log(person);. Co se vypíše do konzole?',
       source: [
         { text: ' `` ' },
         { text: '{name: "Rachel", age: 31} ' },
@@ -1964,7 +1964,7 @@ export default {
         { text: 'Po kliknutí nemá tlačítko A přístup k události' },
         { text: 'Tlačítko B nespustí this.handleClick' },
         { text: 'Tlačítko A nespustí this.handleClick' },
-        { text: 'Žádný  ' },
+        { text: 'Žádný' },
       ],
       ok: 3,
       link: 'https://reactjs.org/docs/handling-events.html',
@@ -1974,7 +1974,7 @@ export default {
   GIT: [
     {
       id: '1',
-      text: 'Jak ověřite, že máte aktuální verzi GITu?',
+      text: 'Jak ověříte, aktuální verzi GITu?',
       source: [
         { text: 'git –v' },
         { text: 'git –version' },
@@ -2003,7 +2003,7 @@ export default {
         { text: 'GitHub' },
         { text: 'GitLab' },
         { text: 'Bitbucket' },
-        { text: 'Facebook    ' },
+        { text: 'Facebook' },
       ],
       ok: 3,
       link: 'https://en.wikipedia.org/wiki/Git',
@@ -2022,7 +2022,7 @@ export default {
     },
     {
       id: '5',
-      text: 'Který příkaz použijete, chcete-li aby se byla aplikovaelná do celého git prostředí?',
+      text: 'Který příkaz použijete, chcete-li aby byl aplikován do celého GIT prostředí?',
       source: [
         { text: '--all' },
         { text: '--master' },
@@ -2074,7 +2074,7 @@ export default {
       source: [
         { text: 'git stage' },
         { text: 'git commit' },
-        { text: 'git add  ' },
+        { text: 'git add' },
         { text: 'git reset' },
       ],
       ok: 2,
@@ -2082,7 +2082,7 @@ export default {
     },
     {
       id: '10',
-      text: 'Jakým příkazem uložíte/zapíšete aktuální stav kódu do ovládacího prvku verze gitu?',
+      text: 'Jakým příkazem uložíte/zapíšete aktuální stav kódu do GITu?',
       source: [
         { text: 'git commit' },
         { text: 'git stage' },
@@ -2094,7 +2094,7 @@ export default {
     },
     {
       id: '11',
-      text: 'Jak zapíšete zprávu do commitu?',
+      text: 'Jak zapíšete zprávu commitu?',
       source: [
         { text: 'git message "First code"' },
         { text: 'git git add "First code"' },
@@ -2106,7 +2106,7 @@ export default {
     },
     {
       id: '12',
-      text: 'Kterým příkazem inicializujeme nový git reppozitář?',
+      text: 'Kterým příkazem inicializujeme nový GIT reppozitář?',
       source: [
         { text: 'git new' },
         { text: 'git add' },
@@ -2130,7 +2130,7 @@ export default {
     },
     {
       id: '14',
-      text: 'Jaký příkaz zapíše změny připravené k zapsání?',
+      text: 'Který příkaz zapíše změny připravené k zapsání?',
       source: [
         { text: 'git commit' },
         { text: 'git comment' },
@@ -2142,7 +2142,7 @@ export default {
     },
     {
       id: '15',
-      text: ' Který příkaz připraví nový soubor .txt nebo přidá změny k zapsání',
+      text: 'Který příkaz připraví nový soubor .txt nebo přidá změny k zapsání?',
       source: [
         { text: 'git add *.txt' },
         { text: 'git add *.text' },
@@ -2154,7 +2154,7 @@ export default {
     },
     {
       id: '16',
-      text: 'K vytvoření nové větve použijeme příkaz',
+      text: 'Jaký příkaz použijeme pro vytvoření nové větve?',
       source: [
         { text: 'git branch' },
         { text: 'git -b' },
@@ -2166,7 +2166,7 @@ export default {
     },
     {
       id: '17',
-      text: 'Abychom si udělali přehled o historii kódu, použijeme',
+      text: 'Pro zobrazení historie kódu, použijeme:',
       source: [
         { text: 'git log --oneline' },
         { text: 'git reset --hard' },
@@ -2190,11 +2190,11 @@ export default {
     },
     {
       id: '19',
-      text: 'Který příkaz stahuje všechny objekty a odkazy z daného repozitáře?',
+      text: 'Který příkaz stáhne všechny objekty a odkazy z daného repozitáře?',
       source: [
         { text: 'git config --list' },
         { text: 'git help' },
-        { text: 'git fetch  ' },
+        { text: 'git fetch' },
         { text: 'git log -n' },
       ],
       ok: 2,
@@ -2214,7 +2214,7 @@ export default {
     },
     {
       id: '21',
-      text: 'Který příkaz přjmenovává konkrétní větev?',
+      text: 'Který příkaz přejmenovává konkrétní větev?',
       source: [
         { text: 'git remote rm' },
         { text: 'git branch -m ' },
@@ -2230,7 +2230,7 @@ export default {
       source: [
         { text: 'git branch' },
         { text: 'git remote -v' },
-        { text: ' git log -p  ' },
+        { text: 'git log -p' },
         { text: 'git log' },
       ],
       ok: 2,
@@ -2240,24 +2240,24 @@ export default {
       id: '23',
       text: 'Který z následujícíh příkazových řádků se používá pro komnikaci s GITem?',
       source: [
-        { text: ' Git Bash ' },
-        { text: ' GitHub' },
-        { text: ' Git Boot' },
-        { text: ' Git Lab' },
+        { text: 'Git Bash' },
+        { text: 'GitHub' },
+        { text: 'Git Boot' },
+        { text: 'Git Lab' },
       ],
       ok: 0,
       link: 'https://www.atlassian.com/git/tutorials/git-bash',
     },
     {
       id: '24',
-      text: 'Chcete-li, aby se změny ve vzdáleném repozitáři promítly i v lokálním repoziráři, zvolíte příkaz git pull:',
+      text: 'Pro zobrazení změny ve vzdáleném repozitáři do lokálního repozitáře, zvolíte příkaz GIT pull?',
       source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://github.com/git-guides/git-pull',
     },
     {
       id: '25',
-      text: 'Pracujete-li na projektu v temu a nechcete, aby se vámi provede změny dotkly kódu vašich kolegů, zvolíte příkaz:',
+      text: 'Pracujete-li na projektu v týmu a nechcete, aby se vaše změny dotkly kódu vašich kolegů, zvolíte příkaz:',
       source: [
         { text: 'the root ' },
         { text: 'a tag' },
@@ -2284,7 +2284,7 @@ export default {
       text: ' GIT je systém ___ generace verzovací správy.',
       source: [
         { text: 'druhé' },
-        { text: 'třetí   ' },
+        { text: 'třetí' },
         { text: 'páté' },
         { text: 'šesté' },
       ],
@@ -2321,7 +2321,7 @@ export default {
       source: [
         { text: 'git checkout [branch name]' },
         { text: 'git show [commit]' },
-        { text: 'git tag [commitID]  ' },
+        { text: 'git tag [commitID]' },
         { text: 'git rm [file]' },
       ],
       ok: 2,
@@ -2551,7 +2551,7 @@ export default {
       text: 'Kterou třídou vytvoříme extra velké okno?',
       source: [
         { text: '.container' },
-        { text: '.jumbotron ' },
+        { text: '.jumbotron' },
         { text: '.bigbox' },
         { text: '.flexbox' },
       ],
