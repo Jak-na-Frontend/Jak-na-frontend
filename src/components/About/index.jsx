@@ -19,7 +19,7 @@ const About = () => (
       </p>
       <p className="text">
         Sekce o vzdělávání nabízí naše tipy kde najít materiály, kurzy či jiné
-        vzdělávácí akce pro rozvoj.
+        vzdělávácí akce pro osobní rozvoj.
       </p>
       <p className="text"></p>
     </section>
