@@ -12,14 +12,14 @@ const Footer = () => {
         <Link
           to="/"
           className="footer__home footer__link"
-          onClick={handleSubmit()}
+          onClick={handleSubmit}
         >
           Domů
         </Link>
         <Link
           to="/About"
           className="footer__about footer__link"
-          onClick={handleSubmit()}
+          onClick={handleSubmit}
         >
           O projektu &amp; kontakt
         </Link>
