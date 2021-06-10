@@ -5,6 +5,20 @@ const About = () => (
   <>
     <header className="heading">
       <h1 className="heading__text">O projektu</h1>
+      <div className="heading__icon">
+        <a
+          className="a-social"
+          href="https://github.com/Jak-na-Frontend"
+          target="_blank"
+        >
+          <img
+            className="github"
+            src="/assets/gh.svg"
+            alt="github"
+            width="31"
+          />
+        </a>
+      </div>
     </header>
     <section className="text">
       <p className="text">
