@@ -120,9 +120,9 @@ const About = () => (
         vývoje.
       </p>
       <p className="text">
-        Jsem vystudovaná grafička a&nbsp;historik umění. Celý život mě provázelo
-        nadšení pro IT. Ve frontendu jsem našla univerzální propojení designu,
-        techniky a&nbsp;testování. Plus je to nekončíci studium ❤.
+        Jsem vystudovaná grafička a&nbsp;historička umění. Celý život mě
+        provázelo nadšení pro IT. Ve frontendu jsem našla univerzální propojení
+        designu, techniky a&nbsp;testování. Plus je to nekončící studium ❤.
       </p>
     </section>
   </>
