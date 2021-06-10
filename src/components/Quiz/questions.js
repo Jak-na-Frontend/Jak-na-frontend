@@ -278,7 +278,7 @@ export default {
       source: [
         { text: 'pro cokoli, co nepatří k hlavnímu tématu daného bloku' },
         {
-          text: 'pro cokoli, co chcete posunout na stranu ať už je to sidebar nebo obrázekobtékaný textem',
+          text: 'pro cokoli, co chcete posunout na stranu ať už je to sidebar nebo obrázek obtékaný textem',
         },
         { text: 'pro cokoli v závorkách' },
         { text: 'pro cokoli v sidebaru' },
