@@ -8,9 +8,9 @@ const About = () => (
     </header>
     <section className="text">
       <p className="text">
-        Projekt je průvodce
-        <strong> roadmapa pro začínající frontend vývojáře/ky</strong>, kteří
-        chtějí vědět, jaké technologie a znalosti jsou pro tento obor potřeba.
+        <strong>Jak na frontend</strong> je průvodce
+        <strong> pro začínající frontend vývojáře/ky</strong>, kteří chtějí
+        vědět, jaké technologie a znalosti jsou pro tento obor potřeba.
       </p>
       <p className="text">
         Pro kontrolu a ujištění se ve znalostech jsme vytvořili
@@ -19,7 +19,7 @@ const About = () => (
       </p>
       <p className="text">
         Sekce o vzdělávání nabízí naše tipy kde najít materiály, kurzy či jiné
-        vzdělávácí akce.
+        vzdělávácí akce pro rozvoj.
       </p>
       <p className="text"></p>
     </section>
