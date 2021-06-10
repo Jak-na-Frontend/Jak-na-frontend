@@ -158,7 +158,7 @@ export default {
     {
       id: '15',
       text: 'Je možné vložit do obrázku odkaz?',
-      source: [{ text: 'ano' }, { text: 'ne' }],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'http://polopate.jakpsatweb.cz/index.php?page=odkazy2',
     },
@@ -722,9 +722,9 @@ export default {
       id: '15',
       text: 'Lze v CSS upravovat jednotlivé strany u rámečku?',
       source: [
-        { text: 'ano' },
-        { text: 'ano, ale pouze levou a pravou stranu' },
-        { text: 'ano, ale pouze horní a dolní stranu' },
+        { text: 'Ano' },
+        { text: 'Ano, ale pouze levou a pravou stranu' },
+        { text: 'Ano, ale pouze horní a dolní stranu' },
         { text: 'nelze' },
       ],
       ok: 0,
@@ -1414,7 +1414,7 @@ export default {
     {
       id: '14',
       text: 'Je možné pomocí JavaScriptu vypisovat HTML kódy?',
-      source: [{ text: 'ano' }, { text: 'ne' }],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://www.w3schools.com/html/html_scripts.asp',
     },
@@ -1432,7 +1432,7 @@ export default {
     },
     {
       id: '16',
-      text: 'Proměná se v JS deklaruje pomocí slova',
+      text: 'Proměná se v Javascriptu deklaruje pomocí slova',
       source: [
         { text: 'new' },
         { text: 'int' },
@@ -1444,12 +1444,12 @@ export default {
     },
     {
       id: '17',
-      text: 'Která z následujících možností je v JS tzv. datový typ?',
+      text: 'Která z následujících možností je v Javascriptu tzv. datový typ?',
       source: [
         { text: 'String' },
         { text: 'Number' },
         { text: 'Boolean' },
-        { text: 'vVšechny možnosti jsou správněar' },
+        { text: 'Všechny možnosti jsou správně' },
       ],
       ok: 3,
       link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures',
@@ -1459,7 +1459,7 @@ export default {
       text: 'Jak voláme funkci?',
       source: [
         { text: 'call function myFunction()' },
-        { text: 'myFunction()  ' },
+        { text: 'myFunction()' },
         { text: 'call myFunction()' },
       ],
       ok: 1,
@@ -1478,7 +1478,7 @@ export default {
     },
     {
       id: '20',
-      text: 'Vyberte správně zapsané pole v JS:',
+      text: 'Vyberte správně zapsané pole v Javascriptu:',
       source: [
         { text: 'var colors = (1:"red", 2:"green", 3:"blue")' },
         { text: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")' },
@@ -1493,7 +1493,7 @@ export default {
       text: 'Jak se zaokrouhluje 7.25 na celé číslo?',
       source: [
         { text: 'round(7.25))' },
-        { text: 'Math.round(7.25) ' },
+        { text: 'Math.round(7.25)' },
         { text: 'rnd(7.25)' },
         { text: 'Math.rnd(7.25)' },
       ],
@@ -1521,14 +1521,14 @@ export default {
     },
     {
       id: '24',
-      text: 'Kód Boolean(10 > 9) vrací:',
-      source: [{ text: 'true   ' }, { text: 'onfalseclick' }, { text: 'null' }],
+      text: 'Kód Boolean (10 > 9) vrací:',
+      source: [{ text: 'true' }, { text: 'onfalseclick' }, { text: 'null' }],
       ok: 0,
       link: 'https://www.w3schools.com/js/js_booleans.asp',
     },
     {
       id: '25',
-      text: 'Je JS tzv. case-sensitive?',
+      text: 'Je Javascript tzv. case-sensitive?',
       source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://www.tutorialspoint.com/Is-JavaScript-a-case-sensitive-language',
@@ -1542,7 +1542,7 @@ export default {
     },
     {
       id: '27',
-      text: 'Jak vytovoříme novou funkci s názvem discountPrice?',
+      text: 'Jak vytvoříme novou funkci s názvem discountPrice?',
       source: [
         {
           text: 'let discountPrice = function(price) { return price * 0.85; };',
@@ -1595,18 +1595,18 @@ export default {
   ],
 
   React: [
-    // {
-    //   id: '1',
-    //   text: 'Pro importovanání komponenety z knihovny React použijete:',
-    //   source: [
-    //     { text: 'import React.Component from 'react' '},
-    //     { text: 'import [ Component ] from 'react' ' },
-    //     { text: 'import Component from 'react' ' },
-    //     { text: 'import { Component } from 'react' ' },
-    //   ],
-    //   ok: 3,
-    //   link: 'https://www.w3schools.com/react/react_components.asp',
-    // },
+    {
+      id: '1',
+      text: 'Pro importovanání komponenety z knihovny React použijete:',
+      source: [
+        { text: 'import React.Component from "react" ' },
+        { text: 'import [ Component ] from "react" ' },
+        { text: 'import Component from "react" ' },
+        { text: 'import { Component } from "react" ' },
+      ],
+      ok: 3,
+      link: 'https://www.w3schools.com/react/react_components.asp',
+    },
     {
       id: '2',
       text: '{useState} a {useEffect} jsou tzv.:',
@@ -1626,14 +1626,14 @@ export default {
         { text: 'Mocha' },
         { text: 'Chai' },
         { text: 'Sinon' },
-        { text: 'iJest    ' },
+        { text: 'iJest' },
       ],
       ok: 3,
       link: 'https://jestjs.io/docs/tutorial-react',
     },
     {
       id: '4',
-      text: 'Pomocí destrukturalaizace upravte následující kód tak, abyste získali první položku v poli:  const topics = ["cooking", "art", "history"];',
+      text: 'Pomocí destrukturalizace upravte následující kód tak, abyste získali první položku v poli: const topics = ["cooking", "art", "history"];',
       source: [
         { text: 'const first = ["cooking", "art", "history"]' },
         { text: 'const [] = ["cooking", "art", "history"]' },
@@ -1645,10 +1645,10 @@ export default {
     },
     {
       id: '5',
-      text: 'Co se vypíše do konzole pop zadání tohot kódu: const [, , animal] = ["Horse", "Mouse", "Cat"];console.log(animal);?',
+      text: 'Co se vypíše do konzole po zadání tohoto kódu: const [, , animal] = ["Horse", "Mouse", "Cat"];console.log(animal);?',
       source: [
         { text: 'Horse' },
-        { text: 'Cat    ' },
+        { text: 'Cat' },
         { text: 'Mouse' },
         { text: 'undefined' },
       ],
@@ -1657,7 +1657,7 @@ export default {
     },
     {
       id: '6',
-      text: 'Jak se jmenuje nástroj, který přeměňuje JSX do vanilla Javascriptu?',
+      text: 'Jak se jmenuje nástroj, který mění JSX do vanilla Javascriptu?',
       source: [
         { text: 'JSX Editor' },
         { text: 'ReactDOM' },
@@ -2448,7 +2448,7 @@ export default {
     {
       id: '11',
       text: 'Lze použít formát .PDF pro bitmapovou i vektorovou grafiku?',
-      source: [{ text: 'ano' }, { text: 'ne' }],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://acrobat.adobe.com/cz/cs/acrobat/about-adobe-pdf.html',
     },
@@ -2465,8 +2465,8 @@ export default {
     },
     {
       id: '13',
-      text: 'Mohu si z internetu stáhnou libovolnou fotografii a použít jí např. na web?',
-      source: [{ text: 'ano' }, { text: 'ne' }],
+      text: 'Mohu si z internetu stáhnout libovolnou fotografii a použít jí např. na web?',
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 1,
       link: 'https://www.finance.cz/528593-obrazky-a-fotky-na-internetu/',
     },
@@ -2487,7 +2487,7 @@ export default {
     {
       id: '1',
       text: 'V Bootstrapu se uplatňuje tzv mobile-first přístup',
-      source: [{ text: 'Ano   ' }, { text: 'Ne' }],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://getbootstrap.com/docs/4.1/extend/approach/',
     },
@@ -2840,7 +2840,7 @@ export default {
     },
     {
       id: '7',
-      text: 'Hodnoty ze SassScriptu se v mixinech jako hodnoty používají',
+      text: 'Používají se hodnoty ze SassScriptu v mixinech jako hodnoty?',
       source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'ttps://sass-lang.com/documentation/at-rules/mixin',
