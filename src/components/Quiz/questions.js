@@ -621,7 +621,7 @@ export default {
     },
     {
       id: '6',
-      text: 'Který atribut se používá pro změnu barvy na pozadí?',
+      text: 'Která vlastnost se používá pro změnu barvy na pozadí?',
       source: [
         { text: 'background-color:' },
         { text: 'backcolor:' },
@@ -644,7 +644,7 @@ export default {
     },
     {
       id: '8',
-      text: 'Pomocí kterého atributu určíte velikost textu?',
+      text: 'Pomocí které vlastnosti určíte velikost textu?',
       source: [
         { text: 'text-size' },
         { text: 'text-height' },
@@ -681,23 +681,23 @@ export default {
       id: '11',
       text: 'Jak je správná forma zápisu CSS třídy?',
       source: [
-        { text: '.jméno-třídy { atribut: hodnota; }' },
-        { text: '#jméno-třídy { atribut: hodnota; }' },
-        { text: '(jméno-třídy) { atribut: hodnota; }' },
+        { text: '.jméno-třídy { vlastnost: hodnota; }' },
+        { text: '#jméno-třídy { vlastnost: hodnota; }' },
+        { text: '(jméno-třídy) { vlastnost: hodnota; }' },
       ],
       ok: 0,
       link: 'https://www.w3schools.com/cssref/sel_class.asp',
     },
     {
       id: '12',
-      text: 'Který atribut slouží pro určení šířky?',
+      text: 'Která vlastnost slouží pro určení šířky?',
       source: [{ text: 'height' }, { text: 'size' }, { text: 'width' }],
       ok: 'https://www.w3schools.com/cssref/pr_dim_width.asp',
       link: 2,
     },
     {
       id: '13',
-      text: 'Pomocí kterého atributu určíte styl seznamu?',
+      text: 'Pomocí které vlastnosti určíte styl seznamu?',
       source: [
         { text: 'list-style:' },
         { text: 'list-type:' },
@@ -742,7 +742,7 @@ export default {
       ok: 0,
       link: 'https://www.w3schools.com/cssref/sel_firstletter.asp',
     },
-   
+
     {
       id: '17',
       text: 'Jak zaoblíme rohy v blokovém prvku?',
@@ -901,7 +901,7 @@ export default {
     },
     {
       id: '30',
-      text: 'Chcete-li změnit kurzor s šipky na ruku s ukozaváčkem, použijete:',
+      text: 'Chcete-li změnit kurzor z šipky na ruku s ukazováčkem, použijete:',
       source: [
         { text: '.element {cursor: pointer;} ' },
         { text: '.element {cursor: hand;}' },
@@ -911,9 +911,6 @@ export default {
       ok: 0,
       link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/cursor',
     },
-
-
-
   ],
 
   Angličtina: [
@@ -2371,7 +2368,7 @@ export default {
     },
     {
       id: '4',
-      text: 'V jakých jednotách zadáte velikost bitmapové obrazu pro web?',
+      text: 'V jakých jednotkách zadáte velikost bitmapového obrazu pro web?',
       source: [
         { text: 'v centimetrech' },
         { text: 'v procentech' },
@@ -2490,11 +2487,7 @@ export default {
     {
       id: '1',
       text: 'V Bootstrapu se uplatňuje tzv mobile-first přístup',
-      source: [
-        { text: 'Ano   ' },
-        { text: 'Ne' },
-  
-      ],
+      source: [{ text: 'Ano   ' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://getbootstrap.com/docs/4.1/extend/approach/',
     },
@@ -2525,12 +2518,7 @@ export default {
     {
       id: '4',
       text: 'Kolik sloupců má Bootstrap grid?',
-      source: [
-        { text: '3' },
-        { text: '12' },
-        { text: '6' },
-        { text: '9' },
-      ],
+      source: [{ text: '3' }, { text: '12' }, { text: '6' }, { text: '9' }],
       ok: 1,
       link: 'https://getbootstrap.com/docs/4.0/layout/grid/',
     },
@@ -2644,7 +2632,7 @@ export default {
     },
     {
       id: '14',
-      text: 'Která třída přidá do panulu nadpis?',
+      text: 'Která třída přidá do panelu nadpis?',
       source: [
         { text: '.panel-header' },
         { text: '.panel-head' },
@@ -2777,16 +2765,10 @@ export default {
     {
       id: '25',
       text: 'Bootstrap funguje na více zařízeních.',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-      
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://getbootstrap.com/docs/5.0/layout/breakpoints/',
     },
-
-
   ],
 
   Sass: [
@@ -2798,7 +2780,6 @@ export default {
         { text: '@import' },
         { text: '@rozšířit' },
         { text: '@ladit' },
-  
       ],
       ok: 0,
       link: 'https://sass-lang.com/documentation/at-rules/css#media',
@@ -2806,12 +2787,7 @@ export default {
     {
       id: '2',
       text: 'Pomocí @debug najdeme chyby a zobrazíme hodnoty SassScriptu.',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-      
-  
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://sass-lang.com/documentation/at-rules/debug',
     },
@@ -2822,8 +2798,6 @@ export default {
         { text: '@extend ' },
         { text: '@media' },
         { text: 'žádná z výše uvedených možností' },
-      
-  
       ],
       ok: 0,
       link: 'https://sass-lang.com/documentation/at-rules/extend',
@@ -2836,22 +2810,18 @@ export default {
         { text: '@media' },
         { text: '@extend' },
         { text: 'žádná z výše uvedených možností' },
-      
-  
       ],
       ok: 0,
       link: 'https://sass-lang.com/documentation/at-rules/at-root',
     },
     {
       id: '5',
-      text: 'Chceme-li zobrazot chybu, použijeme:',
+      text: 'Chceme-li zobrazit chybu, použijeme:',
       source: [
         { text: '@error' },
         { text: '@warn' },
         { text: '@at-root' },
         { text: 'žádnou z výše uvedených možností' },
-      
-  
       ],
       ok: 0,
       link: 'https://sass-lang.com/documentation/at-rules/error',
@@ -2863,9 +2833,7 @@ export default {
         { text: '@primary-color: #888;' },
         { text: '%primary-color: #888;' },
         { text: '#primary-color: #888;' },
-        { text: '$primary-color: #888;  ' },
-      
-  
+        { text: '$primary-color: #888;' },
       ],
       ok: 3,
       link: 'https://sass-lang.com/documentation/modules/color',
@@ -2873,12 +2841,7 @@ export default {
     {
       id: '7',
       text: 'Hodnoty ze SassScriptu se v mixinech jako hodnoty používají',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-      
-  
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'ttps://sass-lang.com/documentation/at-rules/mixin',
     },
@@ -2890,22 +2853,18 @@ export default {
         { text: 'Chceme-li zahrnout mixin do dokumentu' },
         { text: 'Vše výše uvedené' },
         { text: 'Nic z výše uvedeného' },
-      
-  
       ],
       ok: 1,
       link: 'https://sass-lang.com/documentation/at-rules/mixin',
     },
     {
       id: '9',
-      text: 'Kterým heslem definujeme mixin?',
+      text: 'Jak se definuje mixin',
       source: [
         { text: '@include' },
         { text: '@mixin ' },
         { text: '@extend' },
         { text: '@debug' },
-      
-  
       ],
       ok: 1,
       link: 'https://sass-lang.com/documentation/at-rules/mixin',
@@ -2916,10 +2875,8 @@ export default {
       source: [
         { text: 'Chceme-li definovat mixin' },
         { text: 'Chceme-li zahrnout mixin do dokumentu ' },
-        { text: 'Chceme-li zuavolat mnávratovou hodnotu funkce' },
+        { text: 'Chceme-li zavolat návratovou hodnotu funkce' },
         { text: 'Nic z výše uvedeného' },
-      
-  
       ],
       ok: 2,
       link: 'https://sass-lang.com/documentation/at-rules/function#return',
@@ -2927,11 +2884,7 @@ export default {
     {
       id: '11',
       text: 'Následující příkaz spustí kód Sass v příkazovém řádku: sass input.scss output.css',
-      source: [
-        { text: 'Ano' },
-        { text: 'Ne' },
-       
-      ],
+      source: [{ text: 'Ano' }, { text: 'Ne' }],
       ok: 0,
       link: 'https://sass-lang.com/documentation/cli/dart-sass#one-to-one-mode',
     },
@@ -2939,13 +2892,15 @@ export default {
       id: '12',
       text: 'Jaký je rozdím mezi Sass and SCSS?',
       source: [
-        { text: 'Sass je CSS preprocesor s vylepšenou syntaxí a rozšířením CSS3.' },
+        {
+          text: 'Sass je CSS preprocesor s vylepšenou syntaxí a rozšířením CSS3.',
+        },
         { text: 'Sass má dvě syntaxe.' },
         { text: 'První syntaxe je „SCSS“ a používá příponu .scss.' },
-        { text: ' Druhá syntaxe je odsazená syntaxe nebo jen „Sass“ a používá příponu .sass.' },
+        {
+          text: ' Druhá syntaxe je odsazená syntaxe nebo jen „Sass“ a používá příponu .sass.',
+        },
         { text: 'Vše výše uvedené ' },
-      
-  
       ],
       ok: 4,
       link: 'https://www.geeksforgeeks.org/what-is-the-difference-between-css-and-scss/',
@@ -2954,13 +2909,15 @@ export default {
       id: '13',
       text: '@IMPORT se v Sassu používá protože:',
       source: [
-        { text: 'rozšiřuje pravidlo importu CSS a umožňuje importovat soubory SCSS a Sass' },
-        { text: 'všechny importované soubory jsou sloučeny do jednoho výstupního souboru CSS' },
+        {
+          text: 'rozšiřuje pravidlo importu CSS a umožňuje importovat soubory SCSS a Sass',
+        },
+        {
+          text: 'všechny importované soubory jsou sloučeny do jednoho výstupního souboru CSS',
+        },
         { text: 'může spojovat soubory a jejich styly' },
         { text: 'přijímá název souboru k importu' },
         { text: 'Vše výše uvedené ' },
-      
-  
       ],
       ok: 4,
       link: 'https://sass-lang.com/documentation/at-rules/import',
@@ -2974,8 +2931,6 @@ export default {
         { text: 'Barvy(blue, #04a3f9)' },
         { text: 'Pravdivostní hodnoty (true or false)' },
         { text: 'Pravdivostní hodnoty (true or false) ' },
-      
-  
       ],
       ok: 4,
       link: 'https://sass-lang.com/documentation/syntax/structure#literals',
@@ -2984,10 +2939,12 @@ export default {
       id: '15',
       text: 'Příkaz sass --watch input.scss:output.css slouží k:',
       source: [
-        { text: 'ke sledování a aktualizaci CSS pokud v Sass souboru dojde ke změně  ' },
-        { text: 'ke sledování celé adresáře, pokud Sass obsahuje mnoho souborů.' },
-      
-  
+        {
+          text: 'ke sledování a aktualizaci CSS pokud v Sass souboru dojde ke změně  ',
+        },
+        {
+          text: 'ke sledování celé adresáře, pokud Sass obsahuje mnoho souborů.',
+        },
       ],
       ok: 0,
       link: 'https://sass-lang.com/documentation/cli/dart-sass',
@@ -2999,12 +2956,9 @@ export default {
         { text: ':cache ' },
         { text: ':read_cache' },
         { text: ':cache_store' },
-      
-  
       ],
       ok: 0,
       link: 'https://rstudio.github.io/sass/reference/sass.html#caching',
     },
-
   ],
 };
