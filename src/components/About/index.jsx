@@ -122,7 +122,7 @@ const About = () => (
       <p className="text">
         Jsem vystudovaná grafička a&nbsp;historik umění. Celý život mě provázelo
         nadšení pro IT. Ve frontendu jsem našla univerzální propojení designu,
-        techniky a&nbsp;testování.
+        techniky a&nbsp;testování. Plus je to nekončíci studium ❤.
       </p>
     </section>
   </>
