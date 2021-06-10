@@ -28,31 +28,36 @@ const About = () => (
         <h1 className="heading__text">Iva Kubíčková</h1>
         <div className="heading__icon">
           <a
-            class="a-social"
+            className="a-social"
             href="https://github.com/Ivakubickova"
             target="_blank"
           >
-            <img class="github" src="/assets/gh.svg" alt="github" width="31" />
+            <img
+              className="github"
+              src="/assets/gh.svg"
+              alt="github"
+              width="31"
+            />
           </a>
           <a
-            class="a-social"
+            className="a-social"
             href="mailto:ivakubickova55@gmail.com"
             target="_blank"
           >
             <img
-              class="mailbox"
+              className="mailbox"
               src="/assets/mailbox.svg"
               alt="mailbox"
               width="29"
             />
           </a>
           <a
-            class="a-social"
+            className="a-social"
             href="https://www.linkedin.com/in/iva-kub%C3%AD%C4%8Dkov%C3%A1-589873106"
             target="_blank"
           >
             <img
-              class="linkedin"
+              className="linkedin"
               src="/assets/in.svg"
               alt="linkedin"
               width="29"
@@ -78,31 +83,36 @@ const About = () => (
         <h1 className="heading__text">Lenka Silná</h1>
         <div className="heading__icon">
           <a
-            class="a-social"
+            className="a-social"
             href="https://github.com/LenkaSilna"
             target="_blank"
           >
-            <img class="github" src="/assets/gh.svg" alt="github" width="31" />
+            <img
+              className="github"
+              src="/assets/gh.svg"
+              alt="github"
+              width="31"
+            />
           </a>
           <a
-            class="a-social"
+            className="a-social"
             href="mailto:lenka.barica@gmail.com"
             target="_blank"
           >
             <img
-              class="mailbox"
+              className="mailbox"
               src="/assets/mailbox.svg"
               alt="mailbox"
               width="29"
             />
           </a>
           <a
-            class="a-social"
+            className="a-social"
             href="https://www.linkedin.com/in/lenka-silna8488b8108"
             target="_blank"
           >
             <img
-              class="linkedin"
+              className="linkedin"
               src="/assets/in.svg"
               alt="linkedin"
               width="29"
