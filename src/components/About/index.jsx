@@ -112,7 +112,7 @@ const About = () => (
       </header>
 
       <p className="text">
-        Na začátku mojí cesty k forontendu stála Luďkova "Adéla na cestách",
+        Na začátku mojí cesty k frontendu stála Luďkova "Adéla na cestách",
         on-line kurz HTML a&nbsp;CSS. Díky tomu jsem objevila Czechitas
         a&nbsp;další jejich kurzy. Prošla jsem základy programování
         v&nbsp;Phytonu, Bootstrap, Datovou analýzu, testování, kurz "Staň se
