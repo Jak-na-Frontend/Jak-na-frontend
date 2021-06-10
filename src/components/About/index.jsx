@@ -10,16 +10,16 @@ const About = () => (
       <p className="text">
         <strong>Jak na frontend</strong> je průvodce
         <strong> pro začínající frontend vývojáře/ky</strong>, kteří chtějí
-        vědět, jaké technologie a znalosti jsou pro tento obor potřeba.
+        vědět, jaké technologie a&nbsp;znalosti jsou pro tento obor potřeba.
       </p>
       <p className="text">
-        Pro kontrolu a ujištění se ve znalostech jsme vytvořili
+        Pro kontrolu a&nbsp;ujištění se ve znalostech jsme vytvořili
         <strong> testy s&nbsp;možností kontroly správných odpovědí</strong>{' '}
         a&nbsp;odkazy na zdroje v&nbsp;dokumentaci.
       </p>
       <p className="text">
-        Sekce o vzdělávání nabízí naše tipy kde najít materiály, kurzy či jiné
-        vzdělávácí akce pro osobní rozvoj.
+        Sekce o&nbsp;vzdělávání nabízí naše tipy kde najít materiály, kurzy či
+        jiné vzdělávácí akce pro další osobní rozvoj.
       </p>
       <p className="text"></p>
     </section>
@@ -112,8 +112,14 @@ const About = () => (
       </header>
 
       <p className="text">
-        Na začátku mojí cesty k frontendu stála Luďkova "Adéla na cestách",
-        on-line kurz HTML a&nbsp;CSS. Díky tomu jsem objevila Czechitas
+        Na začátku mojí cesty k frontendu stála{' '}
+        <a
+          className="link"
+          href="https://www.czechitas.cz/online-kurzy-zdarma/html-css-online"
+        >
+          Luďkova "Adéla na cestách"
+        </a>
+        , on-line kurz HTML a&nbsp;CSS. Díky tomu jsem objevila Czechitas
         a&nbsp;další jejich kurzy. Prošla jsem základy programování
         v&nbsp;Phytonu, Bootstrap, Datovou analýzu, testování, kurz "Staň se
         kodérkou" mě nadchl a&nbsp;inspiroval pro změnu kariéry do webového
@@ -123,6 +129,15 @@ const About = () => (
         Jsem vystudovaná grafička a&nbsp;historička umění. Celý život mě
         provázelo nadšení pro IT. Ve frontendu jsem našla univerzální propojení
         designu, techniky a&nbsp;testování. Plus je to nekončící studium ❤.
+      </p>
+      <p className="text">
+        <a
+          className="link"
+          href="https://xd.adobe.com/view/d76d0470-b974-461e-ae26-1fc62faaba3b-823e/?fullscreen&hints=off"
+        >
+          Pro tento projekt jsem navrhla prototyp v Adobe XD pro uživatelské
+          testování.
+        </a>
       </p>
     </section>
   </>
