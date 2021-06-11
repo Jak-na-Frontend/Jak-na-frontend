@@ -9,6 +9,17 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
     const answer = item.ok === selectedAnswers[item.id];
     return { ...item, isCorrect: answer };
   });
+
+  const inflectionMins = (time) => {
+    if (time === 0) {
+      return ' minut';
+    } else if (time === 1) {
+      return ' minutu';
+    } else if (time >= 2 && time <= 4) {
+      return ' minuty';
+    } else return ' minut';
+  };
+
   const handleSubmit = () => {
     window.scrollTo({ top: 0 });
   };
@@ -22,7 +33,8 @@ const Result = ({ name, selectedAnswers, questions, time }) => {
         <img className="subheading__img" src={Medal} />
         <div className="result--text">
           <h3 className="subheading__time">
-            Dokončeno za {Math.floor(time / 60)} minut a {time % 60} sekund
+            Dokončeno za {Math.floor(time / 60)}{' '}
+            {inflectionMins(Math.floor(time / 60))} a {time % 60} sekund
           </h3>
           <h3 className="subheading">
             Zodpovězeno otázek {result.filter((item) => item.isCorrect).length}{' '}
