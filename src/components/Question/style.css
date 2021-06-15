@@ -72,11 +72,15 @@
   .question {
     margin: calc(var(--spacer) * 2) auto;
   }
+  .question__title {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 990px) {
   .question__title {
     font-size: 1.5rem;
+    flex-wrap: nowrap;
   }
   .question__number--set {
     font-size: 1.2rem;
