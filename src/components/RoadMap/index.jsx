@@ -23,7 +23,7 @@ const RoadMap = () => {
         </p>
         <p className="text">
           Co vše by měl webový vývojář(ka) znát a&nbsp;jakých tématech se
-          orintovat, napovídá Road mapa.
+          orientovat, napovídá Road mapa.
         </p>
       </div>
       <header className="heading">
